@@ -14,6 +14,8 @@
   <img src="https://img.shields.io/badge/React-19-20232a?logo=react&logoColor=61DAFB" alt="React 19">
 </p>
 
+<h3 align="center">A UI for TradingAgents and other LLM trading frameworks</h3>
+
 <p align="center">
   <b>Watch AI trading agents think.</b><br>
   Run open-source multi-agent trading frameworks on a real stock, follow every agent live, keep every run in a database, and send the decision to a paper broker account.
