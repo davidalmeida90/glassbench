@@ -19,7 +19,7 @@ class FakeRuns:
         self.pool = ThreadPoolExecutor(max_workers=2)
         self.submitted: list[tuple[str, str]] = []
 
-    def submit(self, ticker, trade_date, analysts, depth, deep_model, quick_model, purpose="live", backtest_id=None, memory="shared", variant=""):
+    def submit(self, ticker, trade_date, analysts, depth, deep_model, quick_model, purpose="live", backtest_id=None, memory="shared", variant="", provider="deepseek"):
         run_id = f"run-{len(self.submitted)}-{ticker}-{trade_date}"
         status = self.outcomes.pop(0) if self.outcomes else "finished"
         self.store.create_run({

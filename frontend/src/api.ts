@@ -16,6 +16,7 @@ export type Meta = {
   agents: AgentMeta[];
   analysts: string[];
   models: { quick: string[]; deep: string[] };
+  providers: { id: string; label: string; key: string | null; present: boolean; quick: string[]; deep: string[] }[];
   pricing: Record<string, { input: number; output: number }>;
   default_trade_date: string;
   engine_version?: string;
@@ -217,7 +218,7 @@ export const api = {
   run: (id: string) => fetch(`/api/runs/${id}`).then((r) => json<Run>(r)),
   files: (id: string) => fetch(`/api/runs/${id}/files`).then((r) => json<{ files: RunFile[] }>(r)).then((d) => d.files),
   cancel: (id: string) => fetch(`/api/runs/${id}/cancel`, { method: "POST" }).then((r) => json<unknown>(r)),
-  start: (body: { tickers: string[]; trade_date: string; analysts: string[]; depth: number; deep_model: string; quick_model: string }) =>
+  start: (body: { tickers: string[]; trade_date: string; analysts: string[]; depth: number; deep_model: string; quick_model: string; provider: string }) =>
     fetch("/api/runs", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }).then((r) =>
       json<{ run_ids: string[] }>(r),
     ),

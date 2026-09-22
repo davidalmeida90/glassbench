@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 32 32" fill="none" role="img" aria-label="Glassbench">
+  <!-- the pane -->
+  <rect x="6.5" y="3.5" width="19" height="17.5" rx="3.2" fill="#1f2a4d" stroke="#F4EDE4" stroke-width="2.2"/>
+  <!-- the trace seen through it -->
+  <path d="M10.5 16 L14 12.2 L17.2 14.6 L21.5 8.8" stroke="#2e4bc9" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="21.5" cy="8.8" r="1.7" fill="#2e4bc9"/>
+  <!-- the bench -->
+  <path d="M2.8 25 H29.2" stroke="#F4EDE4" stroke-width="2.6" stroke-linecap="round"/>
+  <path d="M7.5 25 V29.2 M24.5 25 V29.2" stroke="#F4EDE4" stroke-width="2.2" stroke-linecap="round"/>
+</svg>

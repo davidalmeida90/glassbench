@@ -226,8 +226,17 @@ function NewRunDialog({ meta, onClose, onStarted }: { meta: Meta; onClose: () =>
   const [date, setDate] = useState(meta.default_trade_date);
   const [analysts, setAnalysts] = useState<string[]>(meta.analysts);
   const [depth, setDepth] = useState(1);
-  const [quick, setQuick] = useState(meta.models.quick[0]);
-  const [deep, setDeep] = useState(meta.models.deep[0]);
+  const providers = meta.providers ?? [{ id: "deepseek", label: "DeepSeek", key: "DEEPSEEK_API_KEY", present: true, quick: meta.models.quick, deep: meta.models.deep }];
+  const [provider, setProvider] = useState(providers[0].id);
+  const prov = providers.find((p) => p.id === provider) ?? providers[0];
+  const [quick, setQuick] = useState(prov.quick[0] ?? "");
+  const [deep, setDeep] = useState(prov.deep[0] ?? "");
+  const pickProvider = (id: string) => {
+    const p = providers.find((x) => x.id === id) ?? providers[0];
+    setProvider(p.id);
+    setQuick(p.quick[0] ?? "");
+    setDeep(p.deep[0] ?? "");
+  };
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string>();
 
@@ -244,7 +253,7 @@ function NewRunDialog({ meta, onClose, onStarted }: { meta: Meta; onClose: () =>
     setBusy(true);
     setError(undefined);
     try {
-      const res = await api.start({ tickers: list, trade_date: date, analysts, depth, quick_model: quick, deep_model: deep });
+      const res = await api.start({ tickers: list, trade_date: date, analysts, depth, quick_model: quick.trim(), deep_model: deep.trim(), provider });
       onStarted(res.run_ids);
     } catch (e: any) {
       setError(String(e.message || e));
@@ -299,23 +308,28 @@ function NewRunDialog({ meta, onClose, onStarted }: { meta: Meta; onClose: () =>
             </div>
           </div>
           <div className="field">
+            <label htmlFor="provider">Provider</label>
+            <select id="provider" className="select" value={provider} onChange={(e) => pickProvider(e.target.value)}>
+              {providers.map((p) => <option key={p.id} value={p.id}>{p.label}{p.key && !p.present ? " (no key)" : ""}</option>)}
+            </select>
+          </div>
+          <div className="field">
             <label htmlFor="quick-model">Models · quick / deep</label>
             <div style={{ display: "flex", gap: 8 }}>
-              <select id="quick-model" className="select" value={quick} onChange={(e) => setQuick(e.target.value)} style={{ flex: 1, minWidth: 0 }}>
-                {meta.models.quick.map((m) => <option key={m} value={m}>{m.replace("deepseek-", "")}</option>)}
-              </select>
-              <select id="deep-model" className="select" aria-label="Deep model" value={deep} onChange={(e) => setDeep(e.target.value)} style={{ flex: 1, minWidth: 0 }}>
-                {meta.models.deep.map((m) => <option key={m} value={m}>{m.replace("deepseek-", "")}</option>)}
-              </select>
+              <input id="quick-model" className="input" list="quick-model-ids" value={quick} onChange={(e) => setQuick(e.target.value)} placeholder="quick model id" style={{ flex: 1, minWidth: 0 }} />
+              <datalist id="quick-model-ids">{prov.quick.map((m) => <option key={m} value={m} />)}</datalist>
+              <input id="deep-model" className="input" list="deep-model-ids" aria-label="Deep model" value={deep} onChange={(e) => setDeep(e.target.value)} placeholder="deep model id" style={{ flex: 1, minWidth: 0 }} />
+              <datalist id="deep-model-ids">{prov.deep.map((m) => <option key={m} value={m} />)}</datalist>
             </div>
+            <p className="muted" style={{ fontSize: 11.5, marginTop: 4 }}>Any model id your provider serves. The quick model reads and debates, the deep model is called by the two managers.</p>
           </div>
         </div>
         {error && <div className="error">{error}</div>}
         <div className="dialog-foot">
-          <span className="muted" style={{ fontSize: 12 }}>DeepSeek · paper only · no orders are placed</span>
+          <span className="muted" style={{ fontSize: 12 }}>{prov.label}{prov.key && !prov.present ? ` · ${prov.key} not loaded` : ""} · paper only · no orders are placed</span>
           <div style={{ display: "flex", gap: 8 }}>
             <button className="btn btn-ghost" onClick={onClose}>Cancel</button>
-            <button className="btn btn-primary" disabled={busy || !list.length || !analysts.length} onClick={submit}>
+            <button className="btn btn-primary" disabled={busy || !list.length || !analysts.length || !quick.trim() || !deep.trim() || (!!prov.key && !prov.present)} onClick={submit}>
               {busy ? "Starting…" : list.length > 1 ? `Start ${list.length} runs` : "Start run"}
             </button>
           </div>

@@ -38,18 +38,19 @@ class RunManager:
         install_variants()
 
     def submit(self, ticker: str, trade_date: str, analysts: list[str], depth: int, deep_model: str, quick_model: str,
-               purpose: str = "live", backtest_id: str | None = None, memory: str = "shared", variant: str = "") -> str:
+               purpose: str = "live", backtest_id: str | None = None, memory: str = "shared", variant: str = "",
+               provider: str = "deepseek") -> str:
         ensure_available(variant)
         run_id = time.strftime("%Y%m%d-%H%M%S") + "-" + ticker.replace("/", "_").upper() + "-" + uuid.uuid4().hex[:4]
         self.store.create_run({
             "id": run_id, "ticker": ticker.upper(), "trade_date": trade_date, "analysts": analysts, "depth": depth,
             "deep_model": deep_model, "quick_model": quick_model, "status": "queued", "created_at": time.time(),
-            "engine": "tradingagents", "engine_version": engine_version(), "provider": "deepseek",
+            "engine": "tradingagents", "engine_version": engine_version(), "provider": provider,
             "purpose": purpose, "backtest_id": backtest_id, "memory": memory, "variant": variant,
         })
         self._cancel[run_id] = threading.Event()
         self.bus.emit(run_id, "run.queued", None, ticker=ticker.upper(), trade_date=trade_date, analysts=analysts,
-                      depth=depth, deep_model=deep_model, quick_model=quick_model, purpose=purpose, backtest_id=backtest_id, memory=memory, variant=variant,
+                      depth=depth, deep_model=deep_model, quick_model=quick_model, purpose=purpose, backtest_id=backtest_id, memory=memory, variant=variant, provider=provider,
                       agents=[a["id"] for a in adapter.agents_for(analysts)])
         self.pool.submit(self._execute, run_id)
         return run_id
@@ -94,7 +95,7 @@ class RunManager:
             # date can reach this decision and the shared live log stays untouched.
             isolated_log = None if shared_memory else BACKTESTS_DIR / (run.get("backtest_id") or "adhoc") / "memory_unused.md"
             config = engine_config(run["depth"], run["deep_model"], run["quick_model"], memory_log_path=isolated_log,
-                                   variant=run.get("variant") or "")
+                                   variant=run.get("variant") or "", provider=run.get("provider") or "deepseek")
             # The engine's data config is process-wide; this run must read its own (see runconfig.py).
             install_run_config()
             config_token = CURRENT_CONFIG.set(config)

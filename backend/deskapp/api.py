@@ -2,6 +2,8 @@
 
 from __future__ import annotations
 
+import os
+
 import asyncio
 import csv
 import io
@@ -24,7 +26,7 @@ from .backtest import BacktestManager, sample_evenly, weekly_dates
 from .runner import RunManager
 from .frameworks import frameworks as framework_sheets
 from .variants import VARIANTS
-from .settings import ANALYST_KEYS, DB_PATH, FRONTEND_DIST, MODELS, PRICING, RUNS_DIR, default_trade_date, engine_build, engine_version
+from .settings import ANALYST_KEYS, DB_PATH, FRONTEND_DIST, MODELS, PRICING, PROVIDERS, RUNS_DIR, default_trade_date, engine_build, engine_version
 from .store import TERMINAL_STATUSES, Store
 
 store = Store(DB_PATH)
@@ -56,6 +58,7 @@ class RunRequest(BaseModel):
     depth: int = Field(default=1, ge=1, le=5)
     deep_model: str = "deepseek-v4-pro"
     quick_model: str = "deepseek-v4-flash"
+    provider: str = "deepseek"
 
     @field_validator("tickers")
     @classmethod
@@ -87,6 +90,8 @@ def meta():
         "agents": [{k: a[k] for k in ("id", "label", "name", "stage", "role", "reads")} | {"analyst_key": a.get("analyst_key")} for a in adapter.AGENTS],
         "analysts": list(ANALYST_KEYS),
         "models": MODELS,
+        "providers": [{"id": pid, "label": p["label"], "key": p["key"], "present": bool(os.environ.get(p["key"])) if p["key"] else True,
+                       "quick": p["quick"], "deep": p["deep"]} for pid, p in PROVIDERS.items()],
         "pricing": {m: {"input": p[0], "output": p[1]} for m, p in PRICING.items()},
         "default_trade_date": default_trade_date(),
         "engine_version": engine_version(),
@@ -108,9 +113,15 @@ def list_frameworks():
 # --- runs -------------------------------------------------------------------
 @app.post("/api/runs")
 def create_runs(req: RunRequest):
-    if not any(k["name"] == "DEEPSEEK_API_KEY" and k["present"] for k in key_status()):
-        raise HTTPException(400, "DEEPSEEK_API_KEY is missing. Put it in .env at the repository root, then restart Glassbench.")
-    ids = [manager.submit(t, req.trade_date, req.analysts, req.depth, req.deep_model, req.quick_model) for t in req.tickers]
+    provider = PROVIDERS.get(req.provider)
+    if provider is None:
+        raise HTTPException(400, f"Unknown provider {req.provider!r}. Choose one of: {', '.join(PROVIDERS)}.")
+    if provider["key"] and not os.environ.get(provider["key"]):
+        raise HTTPException(400, f"{provider['key']} is missing. Put it in .env at the repository root, then restart Glassbench.")
+    if not req.deep_model.strip() or not req.quick_model.strip():
+        raise HTTPException(400, "Both model ids are required: the quick model reads and debates, the deep model decides.")
+    ids = [manager.submit(t, req.trade_date, req.analysts, req.depth, req.deep_model.strip(), req.quick_model.strip(), provider=req.provider)
+           for t in req.tickers]
     return {"run_ids": ids}
 
 
