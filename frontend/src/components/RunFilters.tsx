@@ -24,7 +24,7 @@ export const EMPTY_FILTERS: Filters = { query: "", rating: "all", status: "all",
 
 export const VARIANT_LABELS: Record<string, string> = { prompt_pre1196: "Decisive wording", pit_valuation: "+ EDGAR as filed", edgar_statements: "EDGAR statements", edgar_valuation: "EDGAR statements + valuation" };
 
-// Which engine commits are the framework as released and which carry Desk's own changes. Filled from /api/meta.
+// Which engine commits are the framework as released and which carry Glassbench's own changes. Filled from /api/meta.
 let ENGINE_BUILDS: Record<string, EngineBuild> = {};
 
 export function setEngineBuilds(builds: Record<string, EngineBuild> | undefined) {

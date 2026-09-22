@@ -1,4 +1,4 @@
-"""Broker choice and connection checks. Desk's own code: no broker SDKs, paper endpoints only.
+"""Broker choice and connection checks. Glassbench's own code: no broker SDKs, paper endpoints only.
 
 Orders are not placed yet (phase 4). This module records where they will go and
 proves the connection works, so the choice is settled before strategy code exists.
@@ -69,7 +69,7 @@ def _check_alpaca() -> dict:
     if not key or not secret:
         return {"ok": False, "summary": "Alpaca keys missing", "details": ["Add ALPACA_API_KEY and ALPACA_SECRET_KEY to .env, then restart Glassbench."]}
     if not key.startswith("PK"):
-        return {"ok": False, "summary": "These look like live keys", "details": ["Paper keys start with PK. Desk only connects to paper accounts."]}
+        return {"ok": False, "summary": "These look like live keys", "details": ["Paper keys start with PK. Glassbench only connects to paper accounts."]}
     try:
         res = httpx.get(ALPACA_PAPER_URL, headers={"APCA-API-KEY-ID": key, "APCA-API-SECRET-KEY": secret}, timeout=8)
     except httpx.HTTPError as exc:
@@ -93,7 +93,7 @@ def _check_alpaca() -> dict:
 
 def _check_ibkr(host: str, port: int) -> dict:
     if port in IBKR_LIVE_PORTS:
-        return {"ok": False, "summary": f"Port {port} is {IBKR_LIVE_PORTS[port]}", "details": ["Desk only connects to paper: use 4002 (IB Gateway) or 7497 (TWS)."]}
+        return {"ok": False, "summary": f"Port {port} is {IBKR_LIVE_PORTS[port]}", "details": ["Glassbench only connects to paper: use 4002 (IB Gateway) or 7497 (TWS)."]}
     if host not in ("127.0.0.1", "localhost"):
         return {"ok": False, "summary": "Only a gateway on this PC is allowed", "details": ["Use host 127.0.0.1."]}
     try:
