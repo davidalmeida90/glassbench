@@ -1,0 +1,68 @@
+## Verified market data snapshot for AAPL
+
+- Requested analysis date: 2025-09-12
+- Latest trading row used: 2025-09-12
+- Rows after the requested analysis date are excluded before verification.
+
+### Latest verified OHLCV row
+
+| Field | Value |
+|---|---:|
+| Open | 228.38 |
+| High | 233.65 |
+| Low | 228.18 |
+| Close | 233.21 |
+| Volume | 55824200 |
+
+### Verified technical indicators (latest row)
+
+| Indicator | Value |
+|---|---:|
+| close_10_ema | 232.00 |
+| close_50_sma | 220.19 |
+| close_200_sma | 220.25 |
+| rsi | 57.22 |
+| boll | 230.85 |
+| boll_ub | 239.78 |
+| boll_lb | 221.93 |
+| macd | 3.61 |
+| macds | 4.54 |
+| macdh | -0.93 |
+| atr | 4.72 |
+
+### Recent verified closes (last 30 rows)
+
+| Date | Close |
+|---|---:|
+| 2025-08-01 | 201.41 |
+| 2025-08-04 | 202.37 |
+| 2025-08-05 | 201.94 |
+| 2025-08-06 | 212.22 |
+| 2025-08-07 | 218.97 |
+| 2025-08-08 | 228.25 |
+| 2025-08-11 | 226.34 |
+| 2025-08-12 | 228.80 |
+| 2025-08-13 | 232.47 |
+| 2025-08-14 | 231.92 |
+| 2025-08-15 | 230.74 |
+| 2025-08-18 | 230.04 |
+| 2025-08-19 | 229.71 |
+| 2025-08-20 | 225.18 |
+| 2025-08-21 | 224.07 |
+| 2025-08-22 | 226.92 |
+| 2025-08-25 | 226.32 |
+| 2025-08-26 | 228.47 |
+| 2025-08-27 | 229.64 |
+| 2025-08-28 | 231.70 |
+| 2025-08-29 | 231.29 |
+| 2025-09-02 | 228.87 |
+| 2025-09-03 | 237.59 |
+| 2025-09-04 | 238.90 |
+| 2025-09-05 | 238.81 |
+| 2025-09-08 | 237.00 |
+| 2025-09-09 | 233.49 |
+| 2025-09-10 | 225.96 |
+| 2025-09-11 | 229.18 |
+| 2025-09-12 | 233.21 |
+
+Use this snapshot as the source of truth for exact OHLCV, price-level, and indicator-value claims. If another tool output conflicts with it, flag the discrepancy rather than inventing a reconciled number. Do not claim historical validation, support/resistance bounces, or exact percentage moves unless directly supported by tool output with concrete dates and prices.

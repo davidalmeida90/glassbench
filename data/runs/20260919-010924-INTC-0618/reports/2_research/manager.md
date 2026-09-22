@@ -1,0 +1,11 @@
+**Recommendation**: Underweight
+
+**Rationale**: The bear case is the stronger tradable and fundamental argument for **INTC** at $46.79. The bull correctly identifies a long-term moving-average uptrend and a large FY2025 improvement from crisis levels, but the most recent evidence undercuts the “inflection” claim: Q4 FY2025 derived net loss of ~$591M reversed Q3’s profit; FY2025 operating income was still −$2,214M; FCF remained −$4,949M; and revenue stayed flat at ~$52.9B. The balance-sheet repair was heavily supported by ~$22.7B net financing/dilution, not organic earnings. Technically, the tape looks more like distribution than clean consolidation: the heaviest-volume session in the dataset was a 17% breakdown, price is below the 10 EMA/VWMA/Bollinger mid cluster ($47.83/$48.05/$48.20), and MACD is bearish with an expanding negative histogram. The foundry/AI optionality is not yet evident in the point-in-time data, and the 39% capex cut weakens the leading-edge foundry argument. No valuation multiples are available to support the current price after a run from ~$19 to $54. **INTC** is Underweight rather than Sell because the primary trend remains above rising 50/200 SMAs and solvency/liquidity has materially improved from the 2024 crisis.
+
+**Strategic Actions**:
+- If long **INTC**, reduce to below normal weight; e.g., if standard allocation is 2%, trim to 0.5–1.0%. Use strength into $48.05–$48.20 and $53.95–$54.32 to trim.
+- Do not initiate a new full long at $46.79. A tactical starter is only justified after a daily close above $48.20 with volume expansion; full bull re-evaluation requires a reclaim of $54.32.
+- Set downside alerts at $43.30 (50 SMA) and $42.44 (Bollinger lower). A close below $43.30 opens $40 and below; a close below $42.44 would confirm the distribution thesis and argue for full exit/Sell.
+- Size for volatility: ATR is $3.16, about 6.8% of price. Cap portfolio risk on any **INTC** position to 0.5–1.0%; a 1.5×ATR stop is roughly $4.75/share.
+- Aggressive traders only: tactical short rallies toward $52–$54 with a stop above $54.32 and downside targets at $43.30 then $42.44. This is not the core recommendation.
+- Reassess on sustained positive FCF, visible foundry/AI revenue ramp, or a daily close above $54.32—any of which would invalidate the Underweight stance.

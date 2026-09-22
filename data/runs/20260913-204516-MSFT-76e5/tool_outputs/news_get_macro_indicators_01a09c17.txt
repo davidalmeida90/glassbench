@@ -1,0 +1,1 @@
+DATA_UNAVAILABLE: optional macro_data could not be retrieved (FRED request failed: Bad Request.  The series does not exist.). Proceed without it; do not fabricate values.

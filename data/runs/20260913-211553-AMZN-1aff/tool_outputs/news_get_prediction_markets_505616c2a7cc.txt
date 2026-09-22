@@ -1,0 +1,4 @@
+## Polymarket prediction markets: "AI bubble"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+- **AI bubble burst in 2026?** — Yes 13% ($2,368,521 volume, resolves 2027-01-01, 1-week +1.8pp)

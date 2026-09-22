@@ -1,0 +1,46 @@
+# Income Statement data for NVDA (quarterly)
+# Data retrieved on: 2026-09-13 23:05:38
+
+,2025-07-31
+Tax Effect Of Unusual Items,343791000.0
+Tax Rate For Calcs,0.153304
+Normalized EBITDA,29690000000.0
+Total Unusual Items,2247000000.0
+Total Unusual Items Excluding Goodwill,2247000000.0
+Net Income From Continuing Operation Net Minority Interest,26422000000.0
+Reconciled Depreciation,669000000.0
+Reconciled Cost Of Revenue,12890000000.0
+EBITDA,31937000000.0
+EBIT,31268000000.0
+Net Interest Income,530000000.0
+Interest Expense,62000000.0
+Interest Income,592000000.0
+Normalized Income,24518791000.0
+Net Income From Continuing And Discontinued Operation,26422000000.0
+Total Expenses,18303000000.0
+Total Operating Income As Reported,28440000000.0
+Diluted Average Shares,24532000000.0
+Basic Average Shares,24366000000.0
+Diluted EPS,1.08
+Basic EPS,1.08
+Diluted NI Availto Com Stockholders,26422000000.0
+Net Income Common Stockholders,26422000000.0
+Net Income,26422000000.0
+Net Income Including Noncontrolling Interests,26422000000.0
+Net Income Continuous Operations,26422000000.0
+Tax Provision,4784000000.0
+Pretax Income,31206000000.0
+Other Income Expense,2236000000.0
+Other Non Operating Income Expenses,-11000000.0
+Gain On Sale Of Security,2247000000.0
+Net Non Operating Interest Income Expense,530000000.0
+Interest Expense Non Operating,62000000.0
+Interest Income Non Operating,592000000.0
+Operating Income,28440000000.0
+Operating Expense,5413000000.0
+Research And Development,4291000000.0
+Selling General And Administration,1122000000.0
+Gross Profit,33853000000.0
+Cost Of Revenue,12890000000.0
+Total Revenue,46743000000.0
+Operating Revenue,46743000000.0

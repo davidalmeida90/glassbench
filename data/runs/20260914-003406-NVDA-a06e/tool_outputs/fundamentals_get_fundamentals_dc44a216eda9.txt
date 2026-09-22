@@ -1,0 +1,4 @@
+# Company Fundamentals for NVDA
+# Point-in-time as of: 2025-09-12
+
+Profile fundamentals are withheld for this date. This vendor serves only present-day values (2026-09-14) with no historical vintage: market cap, valuation multiples, the 52-week range and TTM income move with today's quote, and even the name, sector and industry reflect today rather than 2025-09-12 (companies rename and get reclassified). Serving them would put post-decision information into a 2025-09-12 analysis. Point-in-time fundamentals for 2025-09-12 are available from the balance sheet, income statement, and cash flow tools.

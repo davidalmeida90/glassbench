@@ -1,0 +1,51 @@
+## atr values from 2026-08-08 to 2026-09-22:
+
+2026-09-22: N/A: Not a trading day (weekend or holiday)
+2026-09-21: 10.605827630190774
+2026-09-20: N/A: Not a trading day (weekend or holiday)
+2026-09-19: N/A: Not a trading day (weekend or holiday)
+2026-09-18: 10.61089063674992
+2026-09-17: 10.846344701656164
+2026-09-16: 10.821447107342461
+2026-09-15: 10.893098105533467
+2026-09-14: 10.934106778915849
+2026-09-13: N/A: Not a trading day (weekend or holiday)
+2026-09-12: N/A: Not a trading day (weekend or holiday)
+2026-09-11: 10.651344541206246
+2026-09-10: 10.968371138276202
+2026-09-09: 11.156708224784229
+2026-09-08: 11.661837560885425
+2026-09-07: N/A: Not a trading day (weekend or holiday)
+2026-09-06: N/A: Not a trading day (weekend or holiday)
+2026-09-05: N/A: Not a trading day (weekend or holiday)
+2026-09-04: 11.824285195526848
+2026-09-03: 11.838459852995259
+2026-09-02: 11.300647757853072
+2026-09-01: 11.615313627297299
+2026-08-31: 11.700337001272091
+2026-08-30: N/A: Not a trading day (weekend or holiday)
+2026-08-29: N/A: Not a trading day (weekend or holiday)
+2026-08-28: 12.051131028413215
+2026-08-27: 11.985061555238268
+2026-08-26: 11.645449027636403
+2026-08-25: 11.765099234539925
+2026-08-24: 12.043951895009341
+2026-08-23: N/A: Not a trading day (weekend or holiday)
+2026-08-22: N/A: Not a trading day (weekend or holiday)
+2026-08-21: 12.29733281001006
+2026-08-20: 12.640974828298093
+2026-08-19: 13.254895687235686
+2026-08-18: 13.511324164634349
+2026-08-17: 14.00399395722348
+2026-08-16: N/A: Not a trading day (weekend or holiday)
+2026-08-15: N/A: Not a trading day (weekend or holiday)
+2026-08-14: 13.776758472640276
+2026-08-13: 14.368928097414177
+2026-08-12: 14.790133209461805
+2026-08-11: 14.98422762167177
+2026-08-10: 15.63703022234798
+2026-08-09: N/A: Not a trading day (weekend or holiday)
+2026-08-08: N/A: Not a trading day (weekend or holiday)
+
+
+ATR: Averages true range to measure volatility. Usage: Set stop-loss levels and adjust position sizes based on current market volatility. Tips: It's a reactive measure, so use it as part of a broader risk management strategy.

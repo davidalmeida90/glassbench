@@ -1,0 +1,46 @@
+## close_50_sma values from 2025-11-30 to 2026-01-09:
+
+2026-01-09: 271.83924865722656
+2026-01-08: 272.0261297607422
+2026-01-07: 272.21580688476564
+2026-01-06: 272.2603955078125
+2026-01-05: 272.1999322509766
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 272.01921875
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 271.84979064941405
+2025-12-30: 271.65284729003906
+2025-12-29: 271.2333032226563
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 270.7037515258789
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 270.21904205322267
+2025-12-23: 269.69486938476564
+2025-12-22: 269.1974264526367
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 268.6800833129883
+2025-12-18: 268.28364135742186
+2025-12-17: 267.99682373046875
+2025-12-16: 267.6855041503906
+2025-12-15: 267.3231192016602
+2025-12-14: N/A: Not a trading day (weekend or holiday)
+2025-12-13: N/A: Not a trading day (weekend or holiday)
+2025-12-12: 266.9972091674805
+2025-12-11: 266.57039031982424
+2025-12-10: 266.1150823974609
+2025-12-09: 265.6284744262695
+2025-12-08: 265.1697946166992
+2025-12-07: N/A: Not a trading day (weekend or holiday)
+2025-12-06: N/A: Not a trading day (weekend or holiday)
+2025-12-05: 264.717477722168
+2025-12-04: 264.2755047607422
+2025-12-03: 263.7043716430664
+2025-12-02: 263.10667022705076
+2025-12-01: 262.5011581420898
+2025-11-30: N/A: Not a trading day (weekend or holiday)
+
+
+50 SMA: A medium-term trend indicator. Usage: Identify trend direction and serve as dynamic support/resistance. Tips: It lags price; combine with faster indicators for timely signals.

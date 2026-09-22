@@ -1,0 +1,46 @@
+## macd values from 2025-08-03 to 2025-09-12:
+
+2025-09-12: 3.610851772355204
+2025-09-11: 3.749150998271432
+2025-09-10: 4.2809679850853115
+2025-09-09: 5.226167758883889
+2025-09-08: 5.589657994528039
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 5.614203672122386
+2025-09-04: 5.380260010484108
+2025-09-03: 4.994275416579256
+2025-09-02: 4.561863782040973
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 4.831225861644953
+2025-08-28: 4.859266504295107
+2025-08-27: 4.781768233138479
+2025-08-26: 4.823285282871694
+2025-08-25: 4.92582584595641
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 5.203157101926308
+2025-08-21: 5.420585645449904
+2025-08-20: 5.909388266272515
+2025-08-19: 6.334719991584677
+2025-08-18: 6.323887842980497
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 6.184602362565869
+2025-08-14: 5.845855733341409
+2025-08-13: 5.2077432296264305
+2025-08-12: 4.261736962567483
+2025-08-11: 3.3656137163668802
+2025-08-10: N/A: Not a trading day (weekend or holiday)
+2025-08-09: N/A: Not a trading day (weekend or holiday)
+2025-08-08: 2.423443730839068
+2025-08-07: 0.9918836974588316
+2025-08-06: 0.09464678672574678
+2025-08-05: -0.3649234019878804
+2025-08-04: 0.10052930840390673
+2025-08-03: N/A: Not a trading day (weekend or holiday)
+
+
+MACD: Computes momentum via differences of EMAs. Usage: Look for crossovers and divergence as signals of trend changes. Tips: Confirm with other indicators in low-volatility or sideways markets.

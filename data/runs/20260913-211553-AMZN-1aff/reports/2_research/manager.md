@@ -1,0 +1,14 @@
+**Recommendation**: Hold
+
+**Rationale**: The bull case on AMZN is strong on the operating fundamentals: revenue growth is re-accelerating from +13.3% to roughly +19.6% y/y, AWS is growing at its fastest pace in years, operating margins have expanded from 2.4% to ~13.1%, advertising and third-party services are mixing revenue up the value ladder, and the balance sheet is not distressed at under 0.5x net debt/EBITDA with ~51x interest coverage. The negative FCF is plausibly a deliberate capex buildout, with operating cash flow near $139.5B supporting that interpretation.
+
+However, the bear rebuttal is not merely "optics." The macro tape is genuinely hostile: 10Y at 4.95%, 86% odds of a 2026 Fed hike, CPI reaccelerating, and GDP decelerating all pressure a high-beta, long-duration mega-cap. Earnings quality is also a legitimate concern—trailing EPS is flattered by one-time investment gains, so the honest valuation is closer to 24.7x forward earnings with a PEG near 1.5, and forward EPS sits below trailing. LTM FCF is negative, long-term debt jumped from $65.6B to $119.1B in one quarter, and receivables are growing much faster than revenue. The technical picture is mixed: price is above a rising 200-DMA, but MACD has crossed bearishly below zero and price is below VWMA and the Bollinger middle.
+
+Neither side clearly wins. The operating acceleration argues against reducing exposure, while valuation, macro, earnings-quality, and momentum concerns argue against adding or initiating aggressively. The evidence is materially conflicting, so the correct stance is to hold existing exposure and wait for confirmation from price and Q3 fundamentals.
+
+**Strategic Actions**: For AMZN:
+- Maintain the existing position; do not add aggressively at current levels and do not initiate fresh size while MACD is negative and price is below VWMA/Bollinger middle.
+- Use $249.5 as the near-term trigger. A decisive close below it opens the 200-DMA near $239.8; if $239.8 fails, treat the bull thesis as invalidated and trim exposure.
+- On strength into the $266–271 resistance zone, consider trimming partial size if the macro backdrop remains hostile (10Y near 5%, elevated Fed hike odds) and no new fundamental catalyst appears.
+- Allow accumulation only on confirmed support near the rising 50-DMA (~$255) or 200-DMA (~$239.8), and only if Q3'26 results confirm revenue growth near/above 19%, AWS strength, operating margin at or above 13%, and stabilization in FCF/debt trends.
+- Monitor key catalysts: Q3'26 earnings, Anthropic IPO, and any shift in Fed/rate expectations. An earnings confirmation plus reclaim of $265 could justify upgrading toward Overweight/Buy; a break below $239.80 or deterioration in AWS/advertising growth would justify downgrading toward Underweight.

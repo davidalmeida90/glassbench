@@ -1,0 +1,36 @@
+## vwma values from 2026-08-14 to 2026-09-13:
+
+2026-09-13: N/A: Not a trading day (weekend or holiday)
+2026-09-12: N/A: Not a trading day (weekend or holiday)
+2026-09-11: 356.20393266805536
+2026-09-10: 355.8002743275949
+2026-09-09: 355.7682043394705
+2026-09-08: 356.2117458600607
+2026-09-07: N/A: Not a trading day (weekend or holiday)
+2026-09-06: N/A: Not a trading day (weekend or holiday)
+2026-09-05: N/A: Not a trading day (weekend or holiday)
+2026-09-04: 356.69559285245526
+2026-09-03: 356.94887315879635
+2026-09-02: 357.1219077542643
+2026-09-01: 357.54362429397895
+2026-08-31: 357.99154109812974
+2026-08-30: N/A: Not a trading day (weekend or holiday)
+2026-08-29: N/A: Not a trading day (weekend or holiday)
+2026-08-28: 358.3815094898373
+2026-08-27: 358.48583017422493
+2026-08-26: 358.63206149206195
+2026-08-25: 358.7491854917155
+2026-08-24: 358.99585734499516
+2026-08-23: N/A: Not a trading day (weekend or holiday)
+2026-08-22: N/A: Not a trading day (weekend or holiday)
+2026-08-21: 359.07701142586905
+2026-08-20: 359.21458677743067
+2026-08-19: 359.0866884651932
+2026-08-18: 358.21165838990265
+2026-08-17: 356.9988104759663
+2026-08-16: N/A: Not a trading day (weekend or holiday)
+2026-08-15: N/A: Not a trading day (weekend or holiday)
+2026-08-14: 356.64320246288827
+
+
+VWMA: A moving average weighted by volume. Usage: Confirm trends by integrating price action with volume data. Tips: Watch for skewed results from volume spikes; use in combination with other volume analyses.

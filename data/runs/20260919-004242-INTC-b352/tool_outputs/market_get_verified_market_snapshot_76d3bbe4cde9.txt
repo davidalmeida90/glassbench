@@ -1,0 +1,68 @@
+## Verified market data snapshot for INTC
+
+- Requested analysis date: 2025-11-14
+- Latest trading row used: 2025-11-14
+- Rows after the requested analysis date are excluded before verification.
+
+### Latest verified OHLCV row
+
+| Field | Value |
+|---|---:|
+| Open | 35.03 |
+| High | 36.10 |
+| Low | 34.62 |
+| Close | 35.52 |
+| Volume | 71716200 |
+
+### Verified technical indicators (latest row)
+
+| Indicator | Value |
+|---|---:|
+| close_10_ema | 37.42 |
+| close_50_sma | 34.63 |
+| close_200_sma | 25.05 |
+| rsi | 43.49 |
+| boll | 38.40 |
+| boll_ub | 41.56 |
+| boll_lb | 35.25 |
+| macd | 0.43 |
+| macds | 1.12 |
+| macdh | -0.68 |
+| atr | 1.77 |
+
+### Recent verified closes (last 30 rows)
+
+| Date | Close |
+|---|---:|
+| 2025-10-06 | 36.59 |
+| 2025-10-07 | 37.17 |
+| 2025-10-08 | 37.43 |
+| 2025-10-09 | 37.80 |
+| 2025-10-10 | 36.37 |
+| 2025-10-13 | 37.22 |
+| 2025-10-14 | 35.63 |
+| 2025-10-15 | 37.15 |
+| 2025-10-16 | 36.84 |
+| 2025-10-17 | 37.01 |
+| 2025-10-20 | 38.10 |
+| 2025-10-21 | 38.12 |
+| 2025-10-22 | 36.92 |
+| 2025-10-23 | 38.16 |
+| 2025-10-24 | 38.28 |
+| 2025-10-27 | 39.54 |
+| 2025-10-28 | 41.53 |
+| 2025-10-29 | 41.34 |
+| 2025-10-30 | 40.16 |
+| 2025-10-31 | 39.99 |
+| 2025-11-03 | 39.50 |
+| 2025-11-04 | 37.03 |
+| 2025-11-05 | 38.38 |
+| 2025-11-06 | 37.24 |
+| 2025-11-07 | 38.13 |
+| 2025-11-10 | 38.45 |
+| 2025-11-11 | 37.88 |
+| 2025-11-12 | 37.89 |
+| 2025-11-13 | 35.91 |
+| 2025-11-14 | 35.52 |
+
+Use this snapshot as the source of truth for exact OHLCV, price-level, and indicator-value claims. If another tool output conflicts with it, flag the discrepancy rather than inventing a reconciled number. Do not claim historical validation, support/resistance bounces, or exact percentage moves unless directly supported by tool output with concrete dates and prices.

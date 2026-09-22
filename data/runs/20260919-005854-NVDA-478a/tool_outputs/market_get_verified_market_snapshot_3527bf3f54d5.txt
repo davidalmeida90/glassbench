@@ -1,0 +1,68 @@
+## Verified market data snapshot for NVDA
+
+- Requested analysis date: 2026-02-13
+- Latest trading row used: 2026-02-13
+- Rows after the requested analysis date are excluded before verification.
+
+### Latest verified OHLCV row
+
+| Field | Value |
+|---|---:|
+| Open | 187.04 |
+| High | 187.06 |
+| Low | 181.17 |
+| Close | 182.38 |
+| Volume | 161888000 |
+
+### Verified technical indicators (latest row)
+
+| Indicator | Value |
+|---|---:|
+| close_10_ema | 184.98 |
+| close_50_sma | 183.97 |
+| close_200_sma | 171.26 |
+| rsi | 47.33 |
+| boll | 184.87 |
+| boll_ub | 196.01 |
+| boll_lb | 173.73 |
+| macd | 0.11 |
+| macds | 0.03 |
+| macdh | 0.08 |
+| atr | 6.40 |
+
+### Recent verified closes (last 30 rows)
+
+| Date | Close |
+|---|---:|
+| 2026-01-02 | 188.41 |
+| 2026-01-05 | 187.68 |
+| 2026-01-06 | 186.80 |
+| 2026-01-07 | 188.67 |
+| 2026-01-08 | 184.61 |
+| 2026-01-09 | 184.43 |
+| 2026-01-12 | 184.51 |
+| 2026-01-13 | 185.38 |
+| 2026-01-14 | 182.71 |
+| 2026-01-15 | 186.61 |
+| 2026-01-16 | 185.80 |
+| 2026-01-20 | 177.65 |
+| 2026-01-21 | 182.89 |
+| 2026-01-22 | 184.41 |
+| 2026-01-23 | 187.23 |
+| 2026-01-26 | 186.03 |
+| 2026-01-27 | 188.08 |
+| 2026-01-28 | 191.07 |
+| 2026-01-29 | 192.06 |
+| 2026-01-30 | 190.68 |
+| 2026-02-02 | 185.18 |
+| 2026-02-03 | 179.92 |
+| 2026-02-04 | 173.78 |
+| 2026-02-05 | 171.48 |
+| 2026-02-06 | 184.98 |
+| 2026-02-09 | 189.60 |
+| 2026-02-10 | 188.10 |
+| 2026-02-11 | 189.61 |
+| 2026-02-12 | 186.50 |
+| 2026-02-13 | 182.38 |
+
+Use this snapshot as the source of truth for exact OHLCV, price-level, and indicator-value claims. If another tool output conflicts with it, flag the discrepancy rather than inventing a reconciled number. Do not claim historical validation, support/resistance bounces, or exact percentage moves unless directly supported by tool output with concrete dates and prices.

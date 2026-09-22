@@ -1,0 +1,32 @@
+# Company Fundamentals for PFE, USD in millions unless the row says otherwise
+# Point-in-time as of: 2025-11-14
+# SEC EDGAR facts filed on or before 2025-11-14, priced at the 2025-11-14 close
+# Name, sector, beta, dividend yield and forward estimates have no filed vintage
+# and are not served.
+
+Price (USD per share): 25.06
+Shares Outstanding (millions): 5685.7 (counted 2025-10-29)
+Market Cap: 142484
+Enterprise Value: 192674 (debt: LongTermDebtNoncurrent + LongTermDebtCurrent + CommercialPaper)
+PE Ratio (TTM): 14.5x
+Price to Sales (TTM): 2.3x
+Price to Book: 1.5x
+EV to EBITDA (TTM): unavailable (an input was not on file)
+EV to Sales (TTM): 3.1x
+Free Cash Flow Yield (TTM): 7.28%
+
+# Trailing twelve months, each built only from filed figures
+Revenue (TTM): 62785 = fiscal year to 2024-12-31 (63627) + 9 months to 2025-09-28 (45022) - 9 months to 2024-09-29 (45864)
+Net Income (TTM): 9829 = fiscal year to 2024-12-31 (8031) + 9 months to 2025-09-28 (9419) - 9 months to 2024-09-29 (7621)
+Operating Income (TTM): unavailable (a part was not on file)
+Depreciation and Amortization (TTM): 6696 = fiscal year to 2024-12-31 (7013) + 9 months to 2025-09-28 (4905) - 9 months to 2024-09-29 (5222)
+Operating Cash Flow (TTM): 13077 = fiscal year to 2024-12-31 (12744) + 9 months to 2025-09-28 (6356) - 9 months to 2024-09-29 (6023)
+Capital Expenditure (TTM): 2701 = fiscal year to 2024-12-31 (2909) + 9 months to 2025-09-28 (1784) - 9 months to 2024-09-29 (1992)
+EBITDA (TTM): unavailable
+Free Cash Flow (TTM): 10376
+
+# Balances at 2025-09-28
+Stockholders Equity: 92801
+Cash and Equivalents: 1343
+Marketable Securities: 10123
+Debt: 61656

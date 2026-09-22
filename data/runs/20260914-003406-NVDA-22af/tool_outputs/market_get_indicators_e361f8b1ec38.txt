@@ -1,0 +1,51 @@
+## atr values from 2025-07-29 to 2025-09-12:
+
+2025-09-12: 4.823241952979739
+2025-09-11: 5.02927054252549
+2025-09-10: 5.124528188139564
+2025-09-09: 4.864172529461228
+2025-09-08: 4.912984468135635
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 4.9885720583883995
+2025-09-04: 4.78989087611409
+2025-09-03: 4.970343738636963
+2025-09-02: 5.081803746709464
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 4.93863855814651
+2025-08-28: 4.77985296362384
+2025-08-27: 4.529050855046136
+2025-08-26: 4.617308156686843
+2025-08-25: 4.697774636314706
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 4.649377856569536
+2025-08-21: 4.439951419261655
+2025-08-20: 4.544375606251902
+2025-08-19: 4.341451950758941
+2025-08-18: 4.137498625108467
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 4.264697310473263
+2025-08-14: 4.2873467270614825
+2025-08-13: 4.34396660513864
+2025-08-12: 4.323603029938109
+2025-08-11: 4.2709795445628105
+2025-08-10: N/A: Not a trading day (weekend or holiday)
+2025-08-09: N/A: Not a trading day (weekend or holiday)
+2025-08-08: 4.324038446010084
+2025-08-07: 4.434124883037313
+2025-08-06: 4.385397974168795
+2025-08-05: 4.4426543693702065
+2025-08-04: 4.449832808932827
+2025-08-03: N/A: Not a trading day (weekend or holiday)
+2025-08-02: N/A: Not a trading day (weekend or holiday)
+2025-08-01: 4.294884859960927
+2025-07-31: 4.0896521323083315
+2025-07-30: 3.8387037853842716
+2025-07-29: 3.7978896824993553
+
+
+ATR: Averages true range to measure volatility. Usage: Set stop-loss levels and adjust position sizes based on current market volatility. Tips: It's a reactive measure, so use it as part of a broader risk management strategy.

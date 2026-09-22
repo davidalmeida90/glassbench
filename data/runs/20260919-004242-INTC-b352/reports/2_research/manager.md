@@ -1,0 +1,10 @@
+**Recommendation**: Underweight
+
+**Rationale**: The bear case is stronger on the evidence. INTC’s Q3 operating improvement is real but modest: $683M operating income equals only a 5.0% operating margin, 9M 2025 operating income remains $(2,794)M, and revenue growth is still +0.9% YoY. The ~$15–16B equity infusion from the US government, NVIDIA, and SoftBank improved liquidity—cash $11.141B, current ratio 1.60, equity $106.376B—but it was dilution, not operating cash flow. FY2024 FCF was $(15,656)M, cumulative FY2022–24 FCF burn was ~$(39.3)B, and annual capex remains >$20B. Strategic investment is not commercial validation: no named 18A anchor customer is provided, and competitive losses to TSMC, AMD, and NVIDIA remain. Technicals reinforce caution: price $35.52 is below the 10 EMA ($37.42), VWMA ($38.85), and Bollinger middle; MACD is bearish below signal; RSI at 43.49 is not yet oversold; and the $34.60–$35.30 support sits only ~2.6% below the close, inside the ~5% daily ATR. The bull’s long-term uptrend and balance-sheet recapitalization keep this from a Sell, but the evidence does not support adding at current levels.
+
+**Strategic Actions**:
+- If long INTC, reduce to an underweight allocation. For example, if a normal single-name weight is 2% of portfolio, hold no more than ~1% residual.
+- Use strength toward **$37.42–$38.85** (10 EMA, Bollinger middle, VWMA) to trim, not chase.
+- Do not initiate or average down at **$35.52**. Wait for either a decisive high-volume close above **$38.85** or a deeper washout toward **$33.75–$31.98** before reassessing.
+- Keep any residual-long stop on a closing basis below **$34.60**, acknowledging it is tight. Below that, next supports are **$33.75** and **$31.98**.
+- Reassess only on concrete evidence not yet provided: a named 18A external anchor customer, operating cash flow/FCF break-even, or a technical reclaim of VWMA. Missing forward FCF and customer data make the bull case dependent on hope, not confirmation.

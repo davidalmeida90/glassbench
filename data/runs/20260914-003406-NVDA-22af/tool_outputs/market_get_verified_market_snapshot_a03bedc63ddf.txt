@@ -1,0 +1,68 @@
+## Verified market data snapshot for NVDA
+
+- Requested analysis date: 2025-09-12
+- Latest trading row used: 2025-09-12
+- Rows after the requested analysis date are excluded before verification.
+
+### Latest verified OHLCV row
+
+| Field | Value |
+|---|---:|
+| Open | 177.35 |
+| High | 178.17 |
+| Low | 176.03 |
+| Close | 177.39 |
+| Volume | 124911000 |
+
+### Verified technical indicators (latest row)
+
+| Indicator | Value |
+|---|---:|
+| close_10_ema | 174.27 |
+| close_50_sma | 173.70 |
+| close_200_sma | 139.62 |
+| rsi | 55.53 |
+| boll | 175.34 |
+| boll_ub | 184.60 |
+| boll_lb | 166.09 |
+| macd | 0.01 |
+| macds | 0.18 |
+| macdh | -0.17 |
+| atr | 4.82 |
+
+### Recent verified closes (last 30 rows)
+
+| Date | Close |
+|---|---:|
+| 2025-08-01 | 173.30 |
+| 2025-08-04 | 179.56 |
+| 2025-08-05 | 177.82 |
+| 2025-08-06 | 178.98 |
+| 2025-08-07 | 180.33 |
+| 2025-08-08 | 182.25 |
+| 2025-08-11 | 181.61 |
+| 2025-08-12 | 182.71 |
+| 2025-08-13 | 181.15 |
+| 2025-08-14 | 181.57 |
+| 2025-08-15 | 180.01 |
+| 2025-08-18 | 181.56 |
+| 2025-08-19 | 175.21 |
+| 2025-08-20 | 174.97 |
+| 2025-08-21 | 174.55 |
+| 2025-08-22 | 177.55 |
+| 2025-08-25 | 179.37 |
+| 2025-08-26 | 181.33 |
+| 2025-08-27 | 181.16 |
+| 2025-08-28 | 179.73 |
+| 2025-08-29 | 173.75 |
+| 2025-09-02 | 170.36 |
+| 2025-09-03 | 170.20 |
+| 2025-09-04 | 171.24 |
+| 2025-09-05 | 166.61 |
+| 2025-09-08 | 167.90 |
+| 2025-09-09 | 170.34 |
+| 2025-09-10 | 176.90 |
+| 2025-09-11 | 176.75 |
+| 2025-09-12 | 177.39 |
+
+Use this snapshot as the source of truth for exact OHLCV, price-level, and indicator-value claims. If another tool output conflicts with it, flag the discrepancy rather than inventing a reconciled number. Do not claim historical validation, support/resistance bounces, or exact percentage moves unless directly supported by tool output with concrete dates and prices.

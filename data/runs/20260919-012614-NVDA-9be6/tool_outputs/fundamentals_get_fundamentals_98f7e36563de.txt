@@ -1,0 +1,32 @@
+# Company Fundamentals for NVDA, USD in millions unless the row says otherwise
+# Point-in-time as of: 2026-05-15
+# SEC EDGAR facts filed on or before 2026-05-15, priced at the 2026-05-15 close
+# Name, sector, beta, dividend yield and forward estimates have no filed vintage
+# and are not served.
+
+Price (USD per share): 225.32
+Shares Outstanding (millions): 24300.0 (counted 2026-02-20)
+Market Cap: 5475276
+Enterprise Value: 5473139 (debt: LongTermDebtNoncurrent + LongTermDebtCurrent)
+PE Ratio (TTM): 45.6x
+Price to Sales (TTM): 25.4x
+Price to Book: 34.8x
+EV to EBITDA (TTM): 41.1x
+EV to Sales (TTM): 25.3x
+Free Cash Flow Yield (TTM): 1.77%
+
+# Trailing twelve months, each built only from filed figures
+Revenue (TTM): 215938 = fiscal year to 2026-01-25
+Net Income (TTM): 120067 = fiscal year to 2026-01-25
+Operating Income (TTM): 130387 = fiscal year to 2026-01-25
+Depreciation and Amortization (TTM): 2843 = fiscal year to 2026-01-25
+Operating Cash Flow (TTM): 102718 = fiscal year to 2026-01-25
+Capital Expenditure (TTM): 6042 = fiscal year to 2026-01-25
+EBITDA (TTM): 133230
+Free Cash Flow (TTM): 96676
+
+# Balances at 2026-01-25
+Stockholders Equity: 157293
+Cash and Equivalents: 10605
+Marketable Securities: unavailable
+Debt: 8468

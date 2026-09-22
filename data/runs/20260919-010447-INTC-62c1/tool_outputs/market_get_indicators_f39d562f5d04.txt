@@ -1,0 +1,46 @@
+## atr values from 2026-01-04 to 2026-02-13:
+
+2026-02-13: 3.1637183454120623
+2026-02-12: 3.197850725366386
+2026-02-11: 3.2315313860691486
+2026-02-10: 3.2731877521737767
+2026-02-09: 3.234971390205323
+2026-02-08: N/A: Not a trading day (weekend or holiday)
+2026-02-07: N/A: Not a trading day (weekend or holiday)
+2026-02-06: 3.2045844919045607
+2026-02-05: 3.2157065636977
+2026-02-04: 3.1499917074571986
+2026-02-03: 3.184606395497025
+2026-02-02: 3.1941913972051794
+2026-02-01: N/A: Not a trading day (weekend or holiday)
+2026-01-31: N/A: Not a trading day (weekend or holiday)
+2026-01-30: 3.1060522621757403
+2026-01-29: 3.0665176095291025
+2026-01-28: 3.164711494813642
+2026-01-27: 2.995843101310725
+2026-01-26: 3.0693697167323126
+2026-01-25: N/A: Not a trading day (weekend or holiday)
+2026-01-24: N/A: Not a trading day (weekend or holiday)
+2026-01-23: 3.0908596245173108
+2026-01-22: 2.5693873701044296
+2026-01-21: 2.6501097337227395
+2026-01-20: 2.403964445999789
+2026-01-19: N/A: Not a trading day (weekend or holiday)
+2026-01-18: N/A: Not a trading day (weekend or holiday)
+2026-01-17: N/A: Not a trading day (weekend or holiday)
+2026-01-16: 2.3373462912487213
+2026-01-15: 2.247911390575546
+2026-01-14: 2.223904762266453
+2026-01-13: 2.2634359682505916
+2026-01-12: 2.1160079423332694
+2026-01-11: N/A: Not a trading day (weekend or holiday)
+2026-01-10: N/A: Not a trading day (weekend or holiday)
+2026-01-09: 2.1510854880964354
+2026-01-08: 1.9611690693434867
+2026-01-07: 1.9074128556459002
+2026-01-06: 1.7056754769035176
+2026-01-05: 1.732265851253668
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+
+
+ATR: Averages true range to measure volatility. Usage: Set stop-loss levels and adjust position sizes based on current market volatility. Tips: It's a reactive measure, so use it as part of a broader risk management strategy.

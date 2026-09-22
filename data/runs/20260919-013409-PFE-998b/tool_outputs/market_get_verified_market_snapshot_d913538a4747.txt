@@ -1,0 +1,68 @@
+## Verified market data snapshot for PFE
+
+- Requested analysis date: 2026-05-15
+- Latest trading row used: 2026-05-15
+- Rows after the requested analysis date are excluded before verification.
+
+### Latest verified OHLCV row
+
+| Field | Value |
+|---|---:|
+| Open | 25.31 |
+| High | 25.39 |
+| Low | 24.81 |
+| Close | 24.89 |
+| Volume | 37110100 |
+
+### Verified technical indicators (latest row)
+
+| Indicator | Value |
+|---|---:|
+| close_10_ema | 25.39 |
+| close_50_sma | 26.09 |
+| close_200_sma | 24.53 |
+| rsi | 36.12 |
+| boll | 25.65 |
+| boll_ub | 26.45 |
+| boll_lb | 24.85 |
+| macd | -0.27 |
+| macds | -0.23 |
+| macdh | -0.04 |
+| atr | 0.52 |
+
+### Recent verified closes (last 30 rows)
+
+| Date | Close |
+|---|---:|
+| 2026-04-06 | 26.91 |
+| 2026-04-07 | 26.20 |
+| 2026-04-08 | 26.56 |
+| 2026-04-09 | 26.32 |
+| 2026-04-10 | 26.03 |
+| 2026-04-13 | 26.43 |
+| 2026-04-14 | 26.21 |
+| 2026-04-15 | 26.29 |
+| 2026-04-16 | 26.32 |
+| 2026-04-17 | 26.65 |
+| 2026-04-20 | 26.61 |
+| 2026-04-21 | 26.40 |
+| 2026-04-22 | 25.91 |
+| 2026-04-23 | 25.79 |
+| 2026-04-24 | 26.10 |
+| 2026-04-27 | 25.90 |
+| 2026-04-28 | 25.60 |
+| 2026-04-29 | 25.39 |
+| 2026-04-30 | 25.81 |
+| 2026-05-01 | 25.46 |
+| 2026-05-04 | 25.43 |
+| 2026-05-05 | 25.57 |
+| 2026-05-06 | 25.65 |
+| 2026-05-07 | 25.60 |
+| 2026-05-08 | 25.24 |
+| 2026-05-11 | 25.37 |
+| 2026-05-12 | 25.43 |
+| 2026-05-13 | 25.51 |
+| 2026-05-14 | 25.31 |
+| 2026-05-15 | 24.89 |
+
+Use this snapshot as the source of truth for exact OHLCV, price-level, and indicator-value claims. If another tool output conflicts with it, flag the discrepancy rather than inventing a reconciled number. Do not claim historical validation, support/resistance bounces, or exact percentage moves unless directly supported by tool output with concrete dates and prices.

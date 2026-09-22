@@ -1,0 +1,66 @@
+## boll_ub values from 2025-12-15 to 2026-02-13:
+
+2026-02-13: 27.14748499928603
+2026-02-12: 27.00267822733563
+2026-02-11: 26.87185816363097
+2026-02-10: 26.682108970661446
+2026-02-09: 26.45222483173101
+2026-02-08: N/A: Not a trading day (weekend or holiday)
+2026-02-07: N/A: Not a trading day (weekend or holiday)
+2026-02-06: 26.29887560516605
+2026-02-05: 26.078138863955314
+2026-02-04: 25.991592474146756
+2026-02-03: 25.807946114321677
+2026-02-02: 25.79842297607178
+2026-02-01: N/A: Not a trading day (weekend or holiday)
+2026-01-31: N/A: Not a trading day (weekend or holiday)
+2026-01-30: 25.609721827928826
+2026-01-29: 25.463663380461924
+2026-01-28: 25.35957603942345
+2026-01-27: 25.28343764388046
+2026-01-26: 24.99171805467786
+2026-01-25: N/A: Not a trading day (weekend or holiday)
+2026-01-24: N/A: Not a trading day (weekend or holiday)
+2026-01-23: 24.85093932927518
+2026-01-22: 24.756526756118994
+2026-01-21: 24.62089072428275
+2026-01-20: 24.522046973314147
+2026-01-19: N/A: Not a trading day (weekend or holiday)
+2026-01-18: N/A: Not a trading day (weekend or holiday)
+2026-01-17: N/A: Not a trading day (weekend or holiday)
+2026-01-16: 24.493191219363176
+2026-01-15: 24.43399159851325
+2026-01-14: 24.333929212588544
+2026-01-13: 24.62725535903764
+2026-01-12: 24.711562005229773
+2026-01-11: N/A: Not a trading day (weekend or holiday)
+2026-01-10: N/A: Not a trading day (weekend or holiday)
+2026-01-09: 24.77359779681467
+2026-01-08: 24.81357979132572
+2026-01-07: 24.815517030744367
+2026-01-06: 24.863917088763003
+2026-01-05: 24.9469570516813
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 24.979390283472632
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 24.99586828016315
+2025-12-30: 24.98526418175488
+2025-12-29: 24.97881813456762
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 24.999111942906993
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 25.015274204699196
+2025-12-23: 25.022791352317817
+2025-12-22: 24.99421564866677
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 25.005652484134302
+2025-12-18: 25.108258292897872
+2025-12-17: 25.11976524808147
+2025-12-16: 25.11540409071291
+2025-12-15: 25.11416707229241
+
+
+Bollinger Upper Band: Typically 2 standard deviations above the middle line. Usage: Signals potential overbought conditions and breakout zones. Tips: Confirm signals with other tools; prices may ride the band in strong trends.

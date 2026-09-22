@@ -1,0 +1,46 @@
+## rsi values from 2026-08-12 to 2026-09-21:
+
+2026-09-21: 52.33659037541345
+2026-09-20: N/A: Not a trading day (weekend or holiday)
+2026-09-19: N/A: Not a trading day (weekend or holiday)
+2026-09-18: 53.25946856208175
+2026-09-17: 55.71486828734734
+2026-09-16: 51.846431430895066
+2026-09-15: 56.00503806199916
+2026-09-14: 61.5801722576376
+2026-09-13: N/A: Not a trading day (weekend or holiday)
+2026-09-12: N/A: Not a trading day (weekend or holiday)
+2026-09-11: 56.87766302645719
+2026-09-10: 55.21750249295655
+2026-09-09: 54.81748936393542
+2026-09-08: 56.173977285306954
+2026-09-07: N/A: Not a trading day (weekend or holiday)
+2026-09-06: N/A: Not a trading day (weekend or holiday)
+2026-09-05: N/A: Not a trading day (weekend or holiday)
+2026-09-04: 59.59752915860987
+2026-09-03: 66.40799091242768
+2026-09-02: 61.145530531353145
+2026-09-01: 64.08962727756055
+2026-08-31: 68.67328291456066
+2026-08-30: N/A: Not a trading day (weekend or holiday)
+2026-08-29: N/A: Not a trading day (weekend or holiday)
+2026-08-28: 73.533335394774
+2026-08-27: 70.94128215164535
+2026-08-26: 67.9510212925561
+2026-08-25: 66.22011956122444
+2026-08-24: 64.54106407013983
+2026-08-23: N/A: Not a trading day (weekend or holiday)
+2026-08-22: N/A: Not a trading day (weekend or holiday)
+2026-08-21: 62.95966955910719
+2026-08-20: 62.1548653598246
+2026-08-19: 63.534867693512474
+2026-08-18: 62.61862697516109
+2026-08-17: 62.19737396411599
+2026-08-16: N/A: Not a trading day (weekend or holiday)
+2026-08-15: N/A: Not a trading day (weekend or holiday)
+2026-08-14: 70.92350007943759
+2026-08-13: 71.84391785183847
+2026-08-12: 70.78538224580521
+
+
+RSI: Measures momentum to flag overbought/oversold conditions. Usage: Apply 70/30 thresholds and watch for divergence to signal reversals. Tips: In strong trends, RSI may remain extreme; always cross-check with trend analysis.

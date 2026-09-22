@@ -1,0 +1,31 @@
+# Company Fundamentals for NVDA
+# Point-in-time as of: 2026-05-15
+
+Profile fundamentals are withheld for this date. This vendor serves only present-day values (2026-09-18) with no historical vintage: market cap, valuation multiples, the 52-week range and TTM income move with today's quote, and even the name, sector and industry reflect today rather than 2026-05-15 (companies rename and get reclassified). Serving them would put post-decision information into a 2026-05-15 analysis. Point-in-time fundamentals for 2026-05-15 are available from the balance sheet, income statement, and cash flow tools.
+
+## Point-in-time valuation for NVDA as of 2026-05-15 (SEC EDGAR)
+
+Built only from SEC filings filed before 2026-05-15 and the closing price on 2026-05-15. Forward estimates are not included: no point-in-time source for them is available.
+
+| Measure | Value |
+|---|---:|
+| Price (close 2026-05-15) | $225.32 |
+| Shares outstanding | 24.300B (as of 2026-02-20, filed 2026-02-25) |
+| Market cap | $5.475T |
+| Enterprise value | $5.473T |
+| P/E (TTM) | 45.6x |
+| P/S (TTM) | 25.4x |
+| P/B | 34.8x |
+| EV/EBITDA (TTM) | 41.1x |
+| EV/Sales (TTM) | 25.3x |
+| Free cash flow yield (TTM) | 1.77% |
+
+Inputs:
+- Revenue TTM: $215.94B (period to 2026-01-25, fiscal year; 10-K filed 2026-02-25)
+- Net income TTM: $120.07B (period to 2026-01-25, fiscal year; DEF 14A filed 2026-05-12)
+- Operating income TTM: $130.39B (period to 2026-01-25, fiscal year; 10-K filed 2026-02-25)
+- Depreciation and amortisation TTM: $2.84B (period to 2026-01-25, fiscal year; 10-K filed 2026-02-25)
+- Operating cash flow TTM: $102.72B (period to 2026-01-25, fiscal year; 10-K filed 2026-02-25)
+- Capital expenditure TTM: $6.04B (period to 2026-01-25, fiscal year; 10-K filed 2026-02-25)
+- Debt: $8.47B (LongTermDebtNoncurrent + LongTermDebtCurrent)
+- Cash and current marketable securities: $10.61B

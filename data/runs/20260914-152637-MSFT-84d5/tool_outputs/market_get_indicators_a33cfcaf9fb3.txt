@@ -1,0 +1,66 @@
+## macdh values from 2026-07-16 to 2026-09-14:
+
+2026-09-14: N/A: Not a trading day (weekend or holiday)
+2026-09-13: N/A: Not a trading day (weekend or holiday)
+2026-09-12: N/A: Not a trading day (weekend or holiday)
+2026-09-11: -3.8450364827975267
+2026-09-10: -3.9441462792668904
+2026-09-09: -3.66820702499205
+2026-09-08: -3.0756779787723403
+2026-09-07: N/A: Not a trading day (weekend or holiday)
+2026-09-06: N/A: Not a trading day (weekend or holiday)
+2026-09-05: N/A: Not a trading day (weekend or holiday)
+2026-09-04: -2.3555611355538666
+2026-09-03: -1.854566862314602
+2026-09-02: -2.229128874467399
+2026-09-01: -1.560893727024144
+2026-08-31: -1.0747328668560527
+2026-08-30: N/A: Not a trading day (weekend or holiday)
+2026-08-29: N/A: Not a trading day (weekend or holiday)
+2026-08-28: -1.1361674489541116
+2026-08-27: -2.066981201788895
+2026-08-26: -2.813380745779625
+2026-08-25: -3.1882489365783186
+2026-08-24: -3.3595607527032314
+2026-08-23: N/A: Not a trading day (weekend or holiday)
+2026-08-22: N/A: Not a trading day (weekend or holiday)
+2026-08-21: -3.2298470823375744
+2026-08-20: -2.676524928323939
+2026-08-19: -1.7069785635512673
+2026-08-18: -0.6060780762642715
+2026-08-17: 1.1075596299063228
+2026-08-16: N/A: Not a trading day (weekend or holiday)
+2026-08-15: N/A: Not a trading day (weekend or holiday)
+2026-08-14: 3.510987760417084
+2026-08-13: 5.158395005199061
+2026-08-12: 6.8536620777415
+2026-08-11: 9.104909192219282
+2026-08-10: 10.471079482010158
+2026-08-09: N/A: Not a trading day (weekend or holiday)
+2026-08-08: N/A: Not a trading day (weekend or holiday)
+2026-08-07: 11.271848292938518
+2026-08-06: 11.987188222230834
+2026-08-05: 11.94372425839745
+2026-08-04: 11.983807013002469
+2026-08-03: 10.393387598801255
+2026-08-02: N/A: Not a trading day (weekend or holiday)
+2026-08-01: N/A: Not a trading day (weekend or holiday)
+2026-07-31: 7.446273269910036
+2026-07-30: 4.424799474766362
+2026-07-29: 0.6183243964326877
+2026-07-28: 0.6642342406681985
+2026-07-27: 0.4147615158071245
+2026-07-26: N/A: Not a trading day (weekend or holiday)
+2026-07-25: N/A: Not a trading day (weekend or holiday)
+2026-07-24: 0.4347841809839479
+2026-07-23: 1.204731937844446
+2026-07-22: 2.368498514390446
+2026-07-21: 3.165180252164449
+2026-07-20: 3.455376346569305
+2026-07-19: N/A: Not a trading day (weekend or holiday)
+2026-07-18: N/A: Not a trading day (weekend or holiday)
+2026-07-17: 3.2164010145177198
+2026-07-16: 3.4878785017879252
+
+
+MACD Histogram: Shows the gap between the MACD line and its signal. Usage: Visualize momentum strength and spot divergence early. Tips: Can be volatile; complement with additional filters in fast-moving markets.

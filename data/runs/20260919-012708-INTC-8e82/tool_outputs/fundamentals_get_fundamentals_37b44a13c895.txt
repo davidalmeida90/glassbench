@@ -1,0 +1,32 @@
+# Company Fundamentals for INTC, USD in millions unless the row says otherwise
+# Point-in-time as of: 2026-05-15
+# SEC EDGAR facts filed on or before 2026-05-15, priced at the 2026-05-15 close
+# Name, sector, beta, dividend yield and forward estimates have no filed vintage
+# and are not served.
+
+Price (USD per share): 108.77
+Shares Outstanding (millions): 5026.0 (counted 2026-04-17)
+Market Cap: 546678
+Enterprise Value: 556916 (debt: LongTermDebtNoncurrent)
+PE Ratio (TTM): not meaningful (the denominator is zero or negative)
+Price to Sales (TTM): 10.2x
+Price to Book: 4.9x
+EV to EBITDA (TTM): 90.0x
+EV to Sales (TTM): 10.4x
+Free Cash Flow Yield (TTM): -0.57%
+
+# Trailing twelve months, each built only from filed figures
+Revenue (TTM): 53763 = fiscal year to 2025-12-27 (52853) + 3 months to 2026-03-28 (13577) - 3 months to 2025-03-29 (12667)
+Net Income (TTM): -3174 = fiscal year to 2025-12-27 (-267) + 3 months to 2026-03-28 (-3728) - 3 months to 2025-03-29 (-821)
+Operating Income (TTM): -5049 = fiscal year to 2025-12-27 (-2214) + 3 months to 2026-03-28 (-3136) - 3 months to 2025-03-29 (-301)
+Depreciation and Amortization (TTM): 11234 = fiscal year to 2025-12-27 (10757) + 3 months to 2026-03-28 (2902) - 3 months to 2025-03-29 (2425)
+Operating Cash Flow (TTM): 9980 = fiscal year to 2025-12-27 (9697) + 3 months to 2026-03-28 (1096) - 3 months to 2025-03-29 (813)
+Capital Expenditure (TTM): 13099 = fiscal year to 2025-12-27 (14646) + 3 months to 2026-03-28 (3636) - 3 months to 2025-03-29 (5183)
+EBITDA (TTM): 6185 (depreciation only, this filer tags amortization separately)
+Free Cash Flow (TTM): -3119
+
+# Balances at 2026-03-28
+Stockholders Equity: 111394
+Cash and Equivalents: 17247
+Marketable Securities: 15542
+Debt: 43027

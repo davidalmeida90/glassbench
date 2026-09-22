@@ -1,0 +1,31 @@
+# Company Fundamentals for NVDA
+# Point-in-time as of: 2026-09-11
+
+Profile fundamentals are withheld for this date. This vendor serves only present-day values (2026-09-14) with no historical vintage: market cap, valuation multiples, the 52-week range and TTM income move with today's quote, and even the name, sector and industry reflect today rather than 2026-09-11 (companies rename and get reclassified). Serving them would put post-decision information into a 2026-09-11 analysis. Point-in-time fundamentals for 2026-09-11 are available from the balance sheet, income statement, and cash flow tools.
+
+## Point-in-time valuation for NVDA as of 2026-09-11 (SEC EDGAR)
+
+Built only from SEC filings filed before 2026-09-11 and the closing price on 2026-09-11. Forward estimates are not included: no point-in-time source for them is available.
+
+| Measure | Value |
+|---|---:|
+| Price (close 2026-09-11) | $218.29 |
+| Shares outstanding | 24.100B (as of 2026-08-21, filed 2026-08-26) |
+| Market cap | $5.261T |
+| Enterprise value | $5.272T |
+| P/E (TTM) | 27.3x |
+| P/S (TTM) | 17.4x |
+| P/B | 23.0x |
+| EV/EBITDA (TTM) | 26.2x |
+| EV/Sales (TTM) | 17.4x |
+| Free cash flow yield (TTM) | 2.41% |
+
+Inputs:
+- Revenue TTM: $302.97B (period to 2026-07-26, FY to 2026-01-25 + 6-month YTD - prior YTD; 10-Q filed 2026-08-26)
+- Net income TTM: $192.88B (period to 2026-07-26, FY to 2026-01-25 + 6-month YTD - prior YTD; 10-Q filed 2026-08-26)
+- Operating income TTM: $197.58B (period to 2026-07-26, FY to 2026-01-25 + 6-month YTD - prior YTD; 10-Q filed 2026-08-26)
+- Depreciation and amortisation TTM: $3.69B (period to 2026-07-26, FY to 2026-01-25 + 6-month YTD - prior YTD; 10-Q filed 2026-08-26)
+- Operating cash flow TTM: $134.36B (period to 2026-07-26, FY to 2026-01-25 + 6-month YTD - prior YTD; 10-Q filed 2026-08-26)
+- Capital expenditure TTM: $7.35B (period to 2026-07-26, FY to 2026-01-25 + 6-month YTD - prior YTD; 10-Q filed 2026-08-26)
+- Debt: $33.37B (LongTermDebtNoncurrent + LongTermDebtCurrent)
+- Cash and current marketable securities: $22.44B

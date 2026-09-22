@@ -1,0 +1,46 @@
+## vwma values from 2025-11-30 to 2026-01-09:
+
+2026-01-09: 267.7649226570927
+2026-01-08: 268.6174911333587
+2026-01-07: 269.8702801444998
+2026-01-06: 270.83206509723783
+2026-01-05: 271.8414359651548
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 272.5399960638778
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 272.80130682662406
+2025-12-30: 273.11864732360675
+2025-12-29: 273.36795060584853
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 273.62623800847075
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 274.00633370542585
+2025-12-23: 274.46397917917915
+2025-12-22: 275.2718688201155
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 276.2112864363258
+2025-12-18: 277.53191108663435
+2025-12-17: 278.18558274538833
+2025-12-16: 278.64105572811144
+2025-12-15: 278.8485947357646
+2025-12-14: N/A: Not a trading day (weekend or holiday)
+2025-12-13: N/A: Not a trading day (weekend or holiday)
+2025-12-12: 278.62229246811194
+2025-12-11: 277.7972745554339
+2025-12-10: 277.1725986214073
+2025-12-09: 276.5520460867923
+2025-12-08: 275.8291607617962
+2025-12-07: N/A: Not a trading day (weekend or holiday)
+2025-12-06: N/A: Not a trading day (weekend or holiday)
+2025-12-05: 275.1378550249977
+2025-12-04: 274.6438908312407
+2025-12-03: 274.1242205716837
+2025-12-02: 273.32909523489104
+2025-12-01: 272.35144436321576
+2025-11-30: N/A: Not a trading day (weekend or holiday)
+
+
+VWMA: A moving average weighted by volume. Usage: Confirm trends by integrating price action with volume data. Tips: Watch for skewed results from volume spikes; use in combination with other volume analyses.

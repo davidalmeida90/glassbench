@@ -1,0 +1,46 @@
+## boll_lb values from 2025-11-30 to 2026-01-09:
+
+2026-01-09: 258.26004790914766
+2026-01-08: 259.9444897799996
+2026-01-07: 262.3044561053906
+2026-01-06: 264.79466376633945
+2026-01-05: 267.1646936301023
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 268.0645523864917
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 267.6916632200539
+2025-12-30: 267.1548027169318
+2025-12-29: 267.2465040661978
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 267.56334626868556
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 267.9301894680991
+2025-12-23: 268.23282375086245
+2025-12-22: 268.7074723104373
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 268.8189082088793
+2025-12-18: 267.11880954746687
+2025-12-17: 266.4056977453597
+2025-12-16: 265.5305538405678
+2025-12-15: 264.41068799525226
+2025-12-14: N/A: Not a trading day (weekend or holiday)
+2025-12-13: N/A: Not a trading day (weekend or holiday)
+2025-12-12: 264.22861073266336
+2025-12-11: 263.9086695637894
+2025-12-10: 263.66715173835325
+2025-12-09: 263.5757358652615
+2025-12-08: 262.8876503455203
+2025-12-07: N/A: Not a trading day (weekend or holiday)
+2025-12-06: N/A: Not a trading day (weekend or holiday)
+2025-12-05: 262.06951721277755
+2025-12-04: 261.54553808811875
+2025-12-03: 261.2475081356193
+2025-12-02: 261.4832812999325
+2025-12-01: 262.41402205805485
+2025-11-30: N/A: Not a trading day (weekend or holiday)
+
+
+Bollinger Lower Band: Typically 2 standard deviations below the middle line. Usage: Indicates potential oversold conditions. Tips: Use additional analysis to avoid false reversal signals.

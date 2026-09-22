@@ -1,0 +1,66 @@
+## boll values from 2025-12-15 to 2026-02-13:
+
+2026-02-13: 48.19550037384033
+2026-02-12: 48.272000312805176
+2026-02-11: 48.38400039672852
+2026-02-10: 48.33400039672851
+2026-02-09: 48.1805004119873
+2026-02-08: N/A: Not a trading day (weekend or holiday)
+2026-02-07: N/A: Not a trading day (weekend or holiday)
+2026-02-06: 47.946000289916995
+2026-02-05: 47.47200031280518
+2026-02-04: 47.1915002822876
+2026-02-03: 46.76350040435791
+2026-02-02: 46.26950035095215
+2026-02-01: N/A: Not a trading day (weekend or holiday)
+2026-01-31: N/A: Not a trading day (weekend or holiday)
+2026-01-30: 45.79800033569336
+2026-01-29: 45.31950035095215
+2026-01-28: 44.75150032043457
+2026-01-27: 44.14650039672851
+2026-01-26: 43.7600004196167
+2026-01-25: N/A: Not a trading day (weekend or holiday)
+2026-01-24: N/A: Not a trading day (weekend or holiday)
+2026-01-23: 43.44350032806396
+2026-01-22: 43.00750026702881
+2026-01-21: 42.11000022888184
+2026-01-20: 41.23850021362305
+2026-01-19: N/A: Not a trading day (weekend or holiday)
+2026-01-18: N/A: Not a trading day (weekend or holiday)
+2026-01-17: N/A: Not a trading day (weekend or holiday)
+2026-01-16: 40.62450008392334
+2026-01-15: 40.079000091552736
+2026-01-14: 39.528500175476076
+2026-01-13: 38.96800003051758
+2026-01-12: 38.49400005340576
+2026-01-11: N/A: Not a trading day (weekend or holiday)
+2026-01-10: N/A: Not a trading day (weekend or holiday)
+2026-01-09: 38.26649990081787
+2026-01-08: 38.02799987792969
+2026-01-07: 37.99749984741211
+2026-01-06: 37.88099975585938
+2026-01-05: 37.949499702453615
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 38.00599975585938
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 38.224999618530276
+2025-12-30: 38.55349960327148
+2025-12-29: 38.688999557495116
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 38.88299961090088
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 38.913499641418454
+2025-12-23: 38.896999740600585
+2025-12-22: 38.8689998626709
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 38.77549991607666
+2025-12-18: 38.615499877929686
+2025-12-17: 38.55699996948242
+2025-12-16: 38.47100009918213
+2025-12-15: 38.34099998474121
+
+
+Bollinger Middle: A 20 SMA serving as the basis for Bollinger Bands. Usage: Acts as a dynamic benchmark for price movement. Tips: Combine with the upper and lower bands to effectively spot breakouts or reversals.

@@ -1,0 +1,53 @@
+# Cash Flow data for NVDA (quarterly)
+# Data retrieved on: 2026-09-14 00:48:37
+
+,2025-10-31,2025-07-31,2025-01-31
+Free Cash Flow,22115000000.0,13470000000.0,
+Repurchase Of Capital Stock,-12456000000.0,-9720000000.0,
+Repayment Of Debt,0.0,,0.0
+Capital Expenditure,-1636000000.0,-1895000000.0,
+Income Tax Paid Supplemental Data,4858000000.0,,4129000000.0
+End Cash Position,11486000000.0,11639000000.0,
+Beginning Cash Position,11639000000.0,15234000000.0,
+Changes In Cash,-153000000.0,-3595000000.0,
+Financing Cash Flow,-14880000000.0,-11833000000.0,
+Cash Flow From Continuing Financing Activities,-14880000000.0,-11833000000.0,
+Net Other Financing Charges,-2453000000.0,-1869000000.0,
+Proceeds From Stock Option Exercised,273000000.0,0.0,
+Cash Dividends Paid,-244000000.0,-244000000.0,
+Common Stock Dividend Paid,-244000000.0,-244000000.0,
+Net Common Stock Issuance,-12456000000.0,-9720000000.0,
+Common Stock Payments,-12456000000.0,-9720000000.0,
+Net Issuance Payments Of Debt,0.0,,0.0
+Net Long Term Debt Issuance,0.0,,0.0
+Long Term Debt Payments,0.0,,0.0
+Investing Cash Flow,-9024000000.0,-7127000000.0,
+Cash Flow From Continuing Investing Activities,-9024000000.0,-7127000000.0,
+Net Investment Purchase And Sale,-6695000000.0,-4938000000.0,
+Sale Of Investment,2730000000.0,3220000000.0,
+Purchase Of Investment,-9425000000.0,-8158000000.0,
+Net Business Purchase And Sale,-693000000.0,-294000000.0,
+Purchase Of Business,-693000000.0,-294000000.0,
+Net PPE Purchase And Sale,-1636000000.0,-1895000000.0,
+Purchase Of PPE,-1636000000.0,-1895000000.0,
+Operating Cash Flow,23751000000.0,15365000000.0,
+Cash Flow From Continuing Operating Activities,23751000000.0,15365000000.0,
+Change In Working Capital,-9256000000.0,-11022000000.0,
+Change In Other Current Liabilities,332000000.0,629000000.0,
+Change In Payables And Accrued Expense,906000000.0,-2739000000.0,
+Change In Accrued Expense,1129000000.0,-4053000000.0,
+Change In Payable,-223000000.0,1314000000.0,
+Change In Account Payable,-223000000.0,1314000000.0,
+Change In Prepaid Assets,-89000000.0,386000000.0,
+Change In Inventory,-4823000000.0,-3622000000.0,
+Change In Receivables,-5582000000.0,-5676000000.0,
+Changes In Account Receivables,-5582000000.0,-5676000000.0,
+Other Non Cash Items,-80000000.0,-98000000.0,
+Stock Based Compensation,1654000000.0,1625000000.0,
+Deferred Tax,125000000.0,17000000.0,
+Deferred Income Tax,125000000.0,17000000.0,
+Depreciation Amortization Depletion,751000000.0,669000000.0,
+Depreciation And Amortization,751000000.0,669000000.0,
+Operating Gains Losses,-1353000000.0,-2248000000.0,
+Gain Loss On Investment Securities,-1353000000.0,-2248000000.0,
+Net Income From Continuing Operations,31910000000.0,26422000000.0,

@@ -1,0 +1,37 @@
+# Income Statement data for AAPL (quarterly)
+# Data retrieved on: 2026-09-14 00:39:20
+
+,2025-06-30
+Tax Effect Of Unusual Items,0.0
+Tax Rate For Calcs,0.163997
+Normalized EBITDA,31032000000.0
+Net Income From Continuing Operation Net Minority Interest,23434000000.0
+Reconciled Depreciation,2830000000.0
+Reconciled Cost Of Revenue,50318000000.0
+EBITDA,31032000000.0
+EBIT,28202000000.0
+Normalized Income,23434000000.0
+Net Income From Continuing And Discontinued Operation,23434000000.0
+Total Expenses,65834000000.0
+Total Operating Income As Reported,28202000000.0
+Diluted Average Shares,14948179000.0
+Basic Average Shares,14902886000.0
+Diluted EPS,1.57
+Basic EPS,1.57
+Diluted NI Availto Com Stockholders,23434000000.0
+Net Income Common Stockholders,23434000000.0
+Net Income,23434000000.0
+Net Income Including Noncontrolling Interests,23434000000.0
+Net Income Continuous Operations,23434000000.0
+Tax Provision,4597000000.0
+Pretax Income,28031000000.0
+Other Income Expense,-171000000.0
+Other Non Operating Income Expenses,-171000000.0
+Operating Income,28202000000.0
+Operating Expense,15516000000.0
+Research And Development,8866000000.0
+Selling General And Administration,6650000000.0
+Gross Profit,43718000000.0
+Cost Of Revenue,50318000000.0
+Total Revenue,94036000000.0
+Operating Revenue,94036000000.0

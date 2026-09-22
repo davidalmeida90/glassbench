@@ -1,0 +1,68 @@
+## Verified market data snapshot for MSFT
+
+- Requested analysis date: 2026-09-22
+- Latest trading row used: 2026-09-21
+- Rows after the requested analysis date are excluded before verification.
+
+### Latest verified OHLCV row
+
+| Field | Value |
+|---|---:|
+| Open | 495.58 |
+| High | 501.87 |
+| Low | 491.33 |
+| Close | 501.61 |
+| Volume | 26347908 |
+
+### Verified technical indicators (latest row)
+
+| Indicator | Value |
+|---|---:|
+| close_10_ema | 497.17 |
+| close_50_sma | 466.54 |
+| close_200_sma | 430.15 |
+| rsi | 57.26 |
+| boll | 498.43 |
+| boll_ub | 512.42 |
+| boll_lb | 484.44 |
+| macd | 6.92 |
+| macds | 9.53 |
+| macdh | -2.62 |
+| atr | 10.61 |
+
+### Recent verified closes (last 30 rows)
+
+| Date | Close |
+|---|---:|
+| 2026-08-10 | 505.11 |
+| 2026-08-11 | 502.86 |
+| 2026-08-12 | 491.50 |
+| 2026-08-13 | 495.95 |
+| 2026-08-14 | 494.47 |
+| 2026-08-17 | 479.45 |
+| 2026-08-18 | 480.73 |
+| 2026-08-19 | 483.40 |
+| 2026-08-20 | 481.15 |
+| 2026-08-21 | 483.24 |
+| 2026-08-24 | 487.31 |
+| 2026-08-25 | 491.71 |
+| 2026-08-26 | 496.37 |
+| 2026-08-27 | 505.06 |
+| 2026-08-28 | 513.53 |
+| 2026-08-31 | 507.29 |
+| 2026-09-01 | 501.02 |
+| 2026-09-02 | 496.82 |
+| 2026-09-03 | 510.12 |
+| 2026-09-04 | 499.70 |
+| 2026-09-08 | 493.95 |
+| 2026-09-09 | 491.65 |
+| 2026-09-10 | 492.44 |
+| 2026-09-11 | 495.63 |
+| 2026-09-14 | 505.41 |
+| 2026-09-15 | 497.12 |
+| 2026-09-16 | 490.30 |
+| 2026-09-17 | 497.75 |
+| 2026-09-18 | 493.78 |
+| 2026-09-21 | 501.61 |
+
+Use this snapshot as the source of truth for exact OHLCV, price-level, and indicator-value claims. If another tool output conflicts with it, flag the discrepancy rather than inventing a reconciled number. Do not claim historical validation, support/resistance bounces, or exact percentage moves unless directly supported by tool output with concrete dates and prices.

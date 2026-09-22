@@ -1,0 +1,66 @@
+## close_10_ema values from 2025-12-15 to 2026-02-13:
+
+2026-02-13: 26.199563136812294
+2026-02-12: 26.09598798467922
+2026-02-11: 25.993030724764186
+2026-02-10: 25.81133164699911
+2026-02-09: 25.61503726364996
+2026-02-08: N/A: Not a trading day (weekend or holiday)
+2026-02-07: N/A: Not a trading day (weekend or holiday)
+2026-02-06: 25.495440848823044
+2026-02-05: 25.312742150460366
+2026-02-04: 25.24628798641336
+2026-02-03: 25.102757812929703
+2026-02-02: 25.144335761701406
+2026-02-01: N/A: Not a trading day (weekend or holiday)
+2026-01-31: N/A: Not a trading day (weekend or holiday)
+2026-01-30: 25.003932229389612
+2026-01-29: 24.879595825937994
+2026-01-28: 24.80067971553446
+2026-01-27: 24.755792073923622
+2026-01-26: 24.563422280075486
+2026-01-25: N/A: Not a trading day (weekend or holiday)
+2026-01-24: N/A: Not a trading day (weekend or holiday)
+2026-01-23: 24.461514143231362
+2026-01-22: 24.386376189844626
+2026-01-21: 24.290243445085704
+2026-01-20: 24.217124241449152
+2026-01-19: N/A: Not a trading day (weekend or holiday)
+2026-01-18: N/A: Not a trading day (weekend or holiday)
+2026-01-17: N/A: Not a trading day (weekend or holiday)
+2026-01-16: 24.205942784904867
+2026-01-15: 24.16480565366411
+2026-01-14: 24.063811385267204
+2026-01-13: 24.005881622981747
+2026-01-12: 24.025944245200346
+2026-01-11: N/A: Not a trading day (weekend or holiday)
+2026-01-10: N/A: Not a trading day (weekend or holiday)
+2026-01-09: 24.02510723976635
+2026-01-08: 23.979708707544283
+2026-01-07: 23.964370877471655
+2026-01-06: 23.947737983001385
+2026-01-05: 23.895711298614106
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 23.887065365813726
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 23.874384348472855
+2025-12-30: 23.91805424885506
+2025-12-29: 23.952410610254276
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 23.99228795249069
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 24.02200854118979
+2025-12-23: 24.07101248730054
+2025-12-22: 24.162603790359512
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 24.204814778739095
+2025-12-18: 24.26063224747365
+2025-12-17: 24.36055034158455
+2025-12-16: 24.482672456608977
+2025-12-15: 24.528388372259496
+
+
+10 EMA: A responsive short-term average. Usage: Capture quick shifts in momentum and potential entry points. Tips: Prone to noise in choppy markets; use alongside longer averages for filtering false signals.

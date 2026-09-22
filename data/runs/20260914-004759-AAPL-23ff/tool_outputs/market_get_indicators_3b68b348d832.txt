@@ -1,0 +1,51 @@
+## atr values from 2026-03-31 to 2026-05-15:
+
+2026-05-15: 6.23338101156516
+2026-05-14: 6.199466685128759
+2026-05-13: 6.286684225436165
+2026-05-12: 6.199996891757421
+2026-05-11: 6.4686384785800275
+2026-05-10: N/A: Not a trading day (weekend or holiday)
+2026-05-09: N/A: Not a trading day (weekend or holiday)
+2026-05-08: 6.685699226151811
+2026-05-07: 6.637911162887197
+2026-05-06: 6.660927815270036
+2026-05-05: 6.638876607567364
+2026-05-04: 6.529895441035189
+2026-05-03: N/A: Not a trading day (weekend or holiday)
+2026-05-02: N/A: Not a trading day (weekend or holiday)
+2026-05-01: 6.589138134973035
+2026-04-30: 5.8774004710436705
+2026-04-29: 5.725970968231732
+2026-04-28: 5.859286102375166
+2026-04-27: 5.878460969661425
+2026-04-26: N/A: Not a trading day (weekend or holiday)
+2026-04-25: N/A: Not a trading day (weekend or holiday)
+2026-04-24: 5.870704042910786
+2026-04-23: 6.03204469978848
+2026-04-22: 6.179690006344653
+2026-04-21: 6.073780751096745
+2026-04-20: 5.953582799039096
+2026-04-19: N/A: Not a trading day (weekend or holiday)
+2026-04-18: N/A: Not a trading day (weekend or holiday)
+2026-04-17: 6.100569074885585
+2026-04-16: 5.886449007364067
+2026-04-15: 5.886981818183086
+2026-04-14: 5.667948646810014
+2026-04-13: 5.739979559248737
+2026-04-12: N/A: Not a trading day (weekend or holiday)
+2026-04-11: N/A: Not a trading day (weekend or holiday)
+2026-04-10: 5.888193847460869
+2026-04-09: 6.09771903899692
+2026-04-08: 6.1790057284511555
+2026-04-07: 6.174399392509665
+2026-04-06: 5.638848825268186
+2026-04-05: N/A: Not a trading day (weekend or holiday)
+2026-04-04: N/A: Not a trading day (weekend or holiday)
+2026-04-03: N/A: Not a trading day (weekend or holiday)
+2026-04-02: 5.593460793660039
+2026-04-01: 5.602938617140477
+2026-03-31: 5.815094357193868
+
+
+ATR: Averages true range to measure volatility. Usage: Set stop-loss levels and adjust position sizes based on current market volatility. Tips: It's a reactive measure, so use it as part of a broader risk management strategy.

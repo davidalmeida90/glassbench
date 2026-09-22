@@ -1,0 +1,36 @@
+## close_10_ema values from 2025-12-10 to 2026-01-09:
+
+2026-01-09: 264.6325514326455
+2026-01-08: 265.9584686238411
+2026-01-07: 267.6521609786183
+2026-01-06: 269.4363543037279
+2026-01-05: 271.16714489769873
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 272.19661812366303
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 272.6237949267514
+2025-12-30: 272.9575250710642
+2025-12-29: 273.09504529084927
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 273.1124161953262
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 273.21344059506885
+2025-12-23: 273.2460402954487
+2025-12-22: 273.607234471347
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 274.35673845326096
+2025-12-18: 274.67443054877725
+2025-12-17: 275.39072381742915
+2025-12-16: 276.3437622699134
+2025-12-15: 276.89470222529343
+2025-12-14: N/A: Not a trading day (weekend or holiday)
+2025-12-13: N/A: Not a trading day (weekend or holiday)
+2025-12-12: 277.67888599888295
+2025-12-11: 277.71317240575274
+2025-12-10: 277.8104911543402
+
+
+10 EMA: A responsive short-term average. Usage: Capture quick shifts in momentum and potential entry points. Tips: Prone to noise in choppy markets; use alongside longer averages for filtering false signals.

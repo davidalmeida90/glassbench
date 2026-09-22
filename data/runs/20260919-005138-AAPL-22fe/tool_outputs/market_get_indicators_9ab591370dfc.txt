@@ -1,0 +1,66 @@
+## atr values from 2025-12-15 to 2026-02-13:
+
+2026-02-13: 6.523348500235881
+2026-02-12: 6.504534060136255
+2026-02-11: 5.81162688909214
+2026-02-10: 5.759565260405847
+2026-02-09: 6.0160192226619325
+2026-02-08: N/A: Not a trading day (weekend or holiday)
+2026-02-07: N/A: Not a trading day (weekend or holiday)
+2026-02-06: 5.979680611556432
+2026-02-05: 6.056088077195376
+2026-02-04: 6.040943389152954
+2026-02-03: 5.779150605254413
+2026-02-02: 5.896129227354841
+2026-02-01: N/A: Not a trading day (weekend or holiday)
+2026-01-31: N/A: Not a trading day (weekend or holiday)
+2026-01-30: 5.484340761368448
+2026-01-29: 5.160550388150719
+2026-01-28: 5.15553379628517
+2026-01-27: 5.2184069497020475
+2026-01-26: 5.1181123602188165
+2026-01-25: N/A: Not a trading day (weekend or holiday)
+2026-01-24: N/A: Not a trading day (weekend or holiday)
+2026-01-23: 4.858207291104101
+2026-01-22: 4.869056237368062
+2026-01-21: 4.986606320450307
+2026-01-20: 4.880754030679092
+2026-01-19: N/A: Not a trading day (weekend or holiday)
+2026-01-18: N/A: Not a trading day (weekend or holiday)
+2026-01-17: N/A: Not a trading day (weekend or holiday)
+2026-01-16: 4.3271870057149195
+2026-01-15: 4.3554918177927355
+2026-01-14: 4.384438143594563
+2026-01-13: 4.329691523966536
+2026-01-12: 4.400383226339919
+2026-01-11: N/A: Not a trading day (weekend or holiday)
+2026-01-10: N/A: Not a trading day (weekend or holiday)
+2026-01-09: 4.393660035924502
+2026-01-08: 4.425544713019096
+2026-01-07: 4.410785586461071
+2026-01-06: 4.453192972164008
+2026-01-05: 4.379188377629221
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 4.304093797285979
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 3.9570241532149457
+2025-12-30: 4.113352655427627
+2025-12-29: 4.291679648139802
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 4.467614769436377
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 4.6187238880445385
+2025-12-23: 4.726224775900554
+2025-12-22: 4.8642403871268876
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 4.97988602824753
+2025-12-18: 5.002396198483334
+2025-12-17: 4.8747451519658975
+2025-12-16: 4.902977940056033
+2025-12-15: 4.995520830982595
+
+
+ATR: Averages true range to measure volatility. Usage: Set stop-loss levels and adjust position sizes based on current market volatility. Tips: It's a reactive measure, so use it as part of a broader risk management strategy.

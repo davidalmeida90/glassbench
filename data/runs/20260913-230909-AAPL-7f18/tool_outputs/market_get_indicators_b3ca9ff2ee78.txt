@@ -1,0 +1,46 @@
+## close_200_sma values from 2025-11-30 to 2026-01-09:
+
+2026-01-09: 232.16904914855957
+2026-01-08: 231.98763046264648
+2026-01-07: 231.79284942626953
+2026-01-06: 231.57941123962402
+2026-01-05: 231.33512832641603
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 231.0720767211914
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 230.77765388488768
+2025-12-30: 230.4855027770996
+2025-12-29: 230.1847338104248
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 229.86164031982423
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 229.57661895751954
+2025-12-23: 229.30873527526856
+2025-12-22: 229.08107887268068
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 228.91794944763183
+2025-12-18: 228.722770614624
+2025-12-17: 228.53700942993163
+2025-12-16: 228.3539376068115
+2025-12-15: 228.16748939514162
+2025-12-14: N/A: Not a trading day (weekend or holiday)
+2025-12-13: N/A: Not a trading day (weekend or holiday)
+2025-12-12: 228.00246788024901
+2025-12-11: 227.7940916442871
+2025-12-10: 227.6021686553955
+2025-12-09: 227.439701461792
+2025-12-08: 227.28551094055175
+2025-12-07: N/A: Not a trading day (weekend or holiday)
+2025-12-06: N/A: Not a trading day (weekend or holiday)
+2025-12-05: 227.1200772857666
+2025-12-04: 226.95159713745116
+2025-12-03: 226.7687722015381
+2025-12-02: 226.56675651550293
+2025-12-01: 226.35521461486817
+2025-11-30: N/A: Not a trading day (weekend or holiday)
+
+
+200 SMA: A long-term trend benchmark. Usage: Confirm overall market trend and identify golden/death cross setups. Tips: It reacts slowly; best for strategic trend confirmation rather than frequent trading entries.

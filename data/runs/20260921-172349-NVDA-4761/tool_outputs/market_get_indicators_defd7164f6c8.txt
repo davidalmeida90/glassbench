@@ -1,0 +1,66 @@
+## close_10_ema values from 2026-07-23 to 2026-09-21:
+
+2026-09-21: 219.71306990317504
+2026-09-20: N/A: Not a trading day (weekend or holiday)
+2026-09-19: N/A: Not a trading day (weekend or holiday)
+2026-09-18: 218.56641852640666
+2026-09-17: 217.74339947172797
+2026-09-16: 217.38860016813626
+2026-09-15: 218.16384600628112
+2026-09-14: 219.49581219235574
+2026-09-13: N/A: Not a trading day (weekend or holiday)
+2026-09-12: N/A: Not a trading day (weekend or holiday)
+2026-09-11: 221.39265785424212
+2026-09-10: 222.08213886937753
+2026-09-09: 222.90928070471662
+2026-09-08: 222.79578793488804
+2026-09-07: N/A: Not a trading day (weekend or holiday)
+2026-09-06: N/A: Not a trading day (weekend or holiday)
+2026-09-05: N/A: Not a trading day (weekend or holiday)
+2026-09-04: 222.19980933144302
+2026-09-03: 220.44365055982794
+2026-09-02: 218.7212048237741
+2026-09-01: 217.5127659651683
+2026-08-31: 217.58294157787063
+2026-08-30: N/A: Not a trading day (weekend or holiday)
+2026-08-29: N/A: Not a trading day (weekend or holiday)
+2026-08-28: 216.92732111904675
+2026-08-27: 216.84298381455537
+2026-08-26: 214.42471933996873
+2026-08-25: 215.53562159780898
+2026-08-24: 216.14089875517797
+2026-08-23: N/A: Not a trading day (weekend or holiday)
+2026-08-22: N/A: Not a trading day (weekend or holiday)
+2026-08-21: 217.89510319860295
+2026-08-20: 218.65401257910847
+2026-08-19: 219.10876304156662
+2026-08-18: 219.5069696072273
+2026-08-17: 219.50976284785244
+2026-08-16: N/A: Not a trading day (weekend or holiday)
+2026-08-15: N/A: Not a trading day (weekend or holiday)
+2026-08-14: 218.34337700392902
+2026-08-13: 216.88449623722397
+2026-08-12: 215.0703426775272
+2026-08-11: 213.12163586910444
+2026-08-10: 212.202688957204
+2026-08-09: N/A: Not a trading day (weekend or holiday)
+2026-08-08: N/A: Not a trading day (weekend or holiday)
+2026-08-07: 211.06843339452539
+2026-08-06: 208.25926608679836
+2026-08-05: 205.929049826573
+2026-08-04: 203.02995521338087
+2026-08-03: 201.10258754052975
+2026-08-02: N/A: Not a trading day (weekend or holiday)
+2026-08-01: N/A: Not a trading day (weekend or holiday)
+2026-07-31: 199.92337535878116
+2026-07-30: 199.7895433258801
+2026-07-29: 200.8934438501208
+2026-07-28: 203.35918188777785
+2026-07-27: 204.81904565797848
+2026-07-26: N/A: Not a trading day (weekend or holiday)
+2026-07-25: N/A: Not a trading day (weekend or holiday)
+2026-07-24: 206.71430924929143
+2026-07-23: 206.73775343251071
+
+
+10 EMA: A responsive short-term average. Usage: Capture quick shifts in momentum and potential entry points. Tips: Prone to noise in choppy markets; use alongside longer averages for filtering false signals.

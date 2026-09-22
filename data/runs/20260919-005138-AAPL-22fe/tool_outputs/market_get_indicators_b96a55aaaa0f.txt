@@ -1,0 +1,66 @@
+## macds values from 2025-12-15 to 2026-02-13:
+
+2026-02-13: 1.194519638659363
+2026-02-12: 1.1975414371643955
+2026-02-11: 0.9030019233022099
+2026-02-10: 0.31389146223404935
+2026-02-09: -0.3427553770733332
+2026-02-08: N/A: Not a trading day (weekend or holiday)
+2026-02-07: N/A: Not a trading day (weekend or holiday)
+2026-02-06: -1.0973375778815069
+2026-02-05: -1.922421681132015
+2026-02-04: -2.712646764884268
+2026-02-03: -3.4442554587173664
+2026-02-02: -4.016297322533453
+2026-02-01: N/A: Not a trading day (weekend or holiday)
+2026-01-31: N/A: Not a trading day (weekend or holiday)
+2026-01-30: -4.476388954542299
+2026-01-29: -4.720539038947624
+2026-01-28: -4.883331389845233
+2026-01-27: -4.950334057742821
+2026-01-26: -4.923371223085814
+2026-01-25: N/A: Not a trading day (weekend or holiday)
+2026-01-24: N/A: Not a trading day (weekend or holiday)
+2026-01-23: -4.720292909093742
+2026-01-22: -4.343719793176677
+2026-01-21: -3.926094578914899
+2026-01-20: -3.4858267336878868
+2026-01-19: N/A: Not a trading day (weekend or holiday)
+2026-01-18: N/A: Not a trading day (weekend or holiday)
+2026-01-17: N/A: Not a trading day (weekend or holiday)
+2026-01-16: -3.078302650976997
+2026-01-15: -2.793895418921444
+2026-01-14: -2.516742642499439
+2026-01-13: -2.216470964448552
+2026-01-12: -1.8691552803733404
+2026-01-11: N/A: Not a trading day (weekend or holiday)
+2026-01-10: N/A: Not a trading day (weekend or holiday)
+2026-01-09: -1.456220350851833
+2026-01-08: -1.0002343741821977
+2026-01-07: -0.5413342973672591
+2026-01-06: -0.12817998651475448
+2026-01-05: 0.20821229262146138
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 0.44506637351939093
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 0.628448509707956
+2025-12-30: 0.807994687359378
+2025-12-29: 0.990266926787535
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 1.1955527300008408
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 1.441249536527866
+2025-12-23: 1.726079356645041
+2025-12-22: 2.065170613011449
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 2.431941400874013
+2025-12-18: 2.784422092936076
+2025-12-17: 3.1620079554306684
+2025-12-16: 3.5206227710915363
+2025-12-15: 3.821589173529596
+
+
+MACD Signal: An EMA smoothing of the MACD line. Usage: Use crossovers with the MACD line to trigger trades. Tips: Should be part of a broader strategy to avoid false positives.

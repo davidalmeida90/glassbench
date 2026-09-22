@@ -1,0 +1,3 @@
+{"ticker": "MSFT", "run_id": "20260919-220931-MSFT-2938", "at": "2026-09-21T17:23:09", "side": "BUY", "qty": 20, "limit": 494.86, "stop": 473.0, "target": 590.0, "entry_id": 6, "status": "Filled", "filled": 20.0, "avg_price": 492.62}
+{"ticker": "NVDA", "run_id": "20260921-172349-NVDA-4761", "at": "2026-09-21T17:37:51", "side": "BUY", "qty": 44, "limit": 225.75, "stop": 214.35, "target": 235.0, "entry_id": 21, "status": "Filled", "filled": 44.0, "avg_price": 225.35}
+{"ticker": "NVDA", "run_id": "20260921-172349-NVDA-4761", "at": "2026-09-21T17:46:53", "side": "BUY", "qty": 44, "limit": 225.62, "stop": 214.35, "target": 235.0, "entry_id": 36, "status": "Filled", "filled": 44.0, "avg_price": 225.11}

@@ -1,0 +1,82 @@
+## MSFT News, from 2026-09-15 to 2026-09-22:
+
+### Meta stock jumps as Wells Fargo raises price target (source: Yahoo Finance Video)
+Yahoo Finance Tech Editor Dan Howley joins Market Domination to discuss Meta (META) more than 10% intraday surge after Wells Fargo (WFC) raised its price target on the stock from $640 to $796. Meta also got a boost from its Meta Muse AI agent app climbing to the top spot on Apple's (AAPL) App Store, highlighting growing momentum around the company's AI push.
+Link: https://finance.yahoo.com/video/meta-stock-jumps-wells-fargo-195200224.html
+
+### SCHD’s 0.06% Fee Hides $413,350 in Decade-Long Underperformance on a $500,000 Position (source: 24/7 Wall St.)
+SCHD prints one of the smallest fee numbers in the ETF universe, yet a half-million-dollar position tells a quietly alarming story about what that number leaves out.
+Link: https://247wallst.com/investing/etf/2026/09/21/schds-0-06-fee-hides-413350-in-decade-long-underperformance-on-a-500000-position/
+
+### 3 U.S. Growth Stocks Facing The Biggest AI Spending Test Right Now (source: Simply Wall St.)
+Markets are racing to fresh highs while many stocks quietly struggle, which creates a strange mix of euphoria and fragility that investors cannot ignore. Narrow leadership in big tech and communication names can quickly reward or punish anyone chasing the rally late. This article walks through three large U.S. growth stocks that are closely tied to the latest news shock and explains how that exposure could help or hurt your portfolio from here. The three stocks that follow are only a sample...
+Link: https://finance.yahoo.com/technology/ai/articles/3-u-growth-stocks-facing-221805235.html
+
+### Microsoft (MSFT) Laps the Stock Market: Here's Why (source: Zacks)
+In the most recent trading session, Microsoft (MSFT) closed at $501.61, indicating a +1.59% shift from the previous trading day.
+Link: https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-laps-stock-market-214503698.html
+
+### Microsoft (MSFT) Stock Looks Reasonable Despite Its 75% Five Year Run (source: Simply Wall St.)
+Microsoft closed at US$493.78 after a strong multi year run, and with the stock dipping over the past week, the real question for investors is whether that price still lines up with the cash flows the business can generate. Over the past 5 years Microsoft has delivered a 74.9% gain, which puts a lot of long term expectation into the current valuation story. Heavy investment in artificial intelligence partnerships and infrastructure, including deep ties to OpenAI and large data center...
+Link: https://finance.yahoo.com/markets/stocks/articles/microsoft-msft-stock-looks-reasonable-211138209.html
+
+### Microsoft Patent Hints At Contextual In-Game Ads (source: MediaPost)
+Microsoft has filed a patent application for an 'ad credit' system designed to contextually deliver ads to gaming players during 'stopping points.'
+Link: https://www.mediapost.com/publications/article/418175/microsoft-patent-hints-at-contextual-in-game-ads.html
+
+### Has The Price For Amazon Stock Already Peaked? (source: Trefis)
+The market has rewarded this tech giant for its powerful business engine, but a recent pullback forces investors to ask if the best part of the run is already over.
+Link: https://www.trefis.com/articles/615981/has-the-price-for-amazon-stock-already-peaked/2026-09-21
+
+### Is Dollar General’s (DG) Hallmark Holiday Tie-Up a Small Test of a Bigger Brand Strategy? (source: Simply Wall St.)
+In September 2026, Dollar General introduced the exclusive Simply for You by Hallmark Holiday 2026 Collection, offering more than 30 festive décor, entertaining essentials and gift items priced between US$1 and US$15, with over 70% under US$5, across about 19,500 stores in 48 states. This collaboration with Hallmark underscores Dollar General’s push to attract value-conscious holiday shoppers with curated, low-cost seasonal assortments that could complement its broader value proposition. Now...
+Link: https://finance.yahoo.com/markets/stocks/articles/dollar-general-dg-hallmark-holiday-201255009.html
+
+### How Far Could Zoom Communications Stock Fall In A Real Market Shock? (source: Trefis)
+Zoom Communications (ZM) stock sits about 21% below its 52-week high after falling 17.4% over the past month, a month in which its quarterly report beat its own guidance. Over the past year it returned 2.9% while the S&P 500 returned 17.3%. The question for a holder is what a real market shock would add.
+Link: https://www.trefis.com/articles/615991/how-far-could-zoom-communications-stock-fall-in-a-real-market-shock/2026-09-21
+
+### Microsoft's Nadella Is Joining Trump and Xi and Tech Giants Are Coming Too (source: GuruFocus.com)
+Satya Nadella is expected to attend the Trump-Xi state dinner.
+Link: https://finance.yahoo.com/technology/articles/microsofts-nadella-joining-trump-xi-192151216.html
+
+### Microsoft Stays Flat as Hyderabad Adds AI Capacity Without Water Cooling (source: GuruFocus.com)
+A fourth Indian cloud region improves resilience, but Microsoft disclosed no capacity, utilization or site-level investment.
+Link: https://finance.yahoo.com/technology/ai/articles/microsoft-stays-flat-hyderabad-adds-191137236.html
+
+### CoreWeave vs. D-Wave Quantum: Is the AI Giant or the Quantum Computer Upstart the Better Stock Investment? (source: Motley Fool)
+Both are high-growth bets on unproven cutting-edge technologies.
+Link: https://www.fool.com/coverage/better-buy/2026/09/21/coreweave-vs-d-wave-quantum-is-the-ai-giant-or-the-quantum-computer-upstart-the-better-stock-investment/
+
+### Is Apple Stock's Shrinking Share Count Worth Paying Up For Near The Highs? (source: Trefis)
+Apple (AAPL) stock has gained 41.2% over the past twelve months and trades near its 52-week high of $339.79. All the while, Apple keeps buying back its own shares, so each share you hold claims a bigger slice of the profit. That engine is real and well funded, but at 38.2 times trailing earnings it explains only a small part of what you are now paying for.
+Link: https://www.trefis.com/articles/616009/is-apple-stocks-shrinking-share-count-worth-paying-up-for-near-the-highs/2026-09-21
+
+### Why Higher Rates Are Becoming NVIDIA’s Biggest Threat (source: 24/7 Wall St.)
+A single quarter-point rate hike just wiped out hundreds of billions in NVIDIA's market value, and the forces behind that move are only getting more entangled with the AI buildout's financing structure.
+Link: https://247wallst.com/investing/2026/09/21/why-higher-rates-are-becoming-nvidias-biggest-threat/
+
+### Sector Update: Tech Stocks Gain Monday Afternoon (source: MT Newswires)
+Tech stocks were higher Monday afternoon, with the State Street Technology Select Sector SPDR ETF (X
+Link: https://finance.yahoo.com/markets/stocks/articles/sector-tech-stocks-gain-monday-175658801.html
+
+### Microsoft and Anthropic dominate Nscale's $103B IPO contract backlog (source: Quartz)
+The two companies account for $87.7 billion of the AI infrastructure firm's total contract value as it prepares to list in New York
+Link: https://qz.com/nscale-ipo-microsoft-anthropic-contract-backlog-092126
+
+### DIS Stock Alert: What to Know as Disney Creates First-Ever Chief Technology Officer Role (source: Barchart)
+Disney names Karandeep Anand as its first-ever CTO. Here’s what the development means for DIS shares.
+Link: https://www.barchart.com/story/news/4714034/dis-stock-alert-what-to-know-as-disney-creates-first-ever-chief-technology-officer-role
+
+### Microsoft vs Alibaba: Which Cloud AI Stock Is Better Positioned? (source: Zacks)
+MSFT and BABA are ramping up AI cloud spending as demand outpaces supply, but their growth, margins and stock performance diverge.
+Link: https://finance.yahoo.com/markets/stocks/articles/microsoft-vs-alibaba-cloud-ai-153200503.html
+
+### Microsoft Slips as AI Testimony Sharpens Copyright Risk (source: GuruFocus.com)
+Publishers cite internal testimony as evidence of substitution; Microsoft says the remarks do not resolve fair use.
+Link: https://finance.yahoo.com/technology/ai/articles/microsoft-slips-ai-testimony-sharpens-152514329.html
+
+### Is It Too Late To Buy Microsoft Stock After Its Summer Run? (source: Trefis)
+Microsoft (MSFT) stock is up about 30% in three months, including a 19% jump in the two trading days after its July report. That makes buying now feel late. Yet the stock is slightly lower than a year ago, while the S&P 500 (SPY) gained about 17%. With the stock trading near $500 a share, Wall Street consensus is already banking on Microsoft beating its own forecast again.
+Link: https://www.trefis.com/articles/615998/is-it-too-late-to-buy-microsoft-stock-after-its-summer-run/2026-09-21
+

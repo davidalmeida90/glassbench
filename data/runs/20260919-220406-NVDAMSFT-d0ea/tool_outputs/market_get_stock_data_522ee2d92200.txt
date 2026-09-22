@@ -1,0 +1,1 @@
+NO_DATA_AVAILABLE: No usable market data for 'NVDAMSFT' from any configured vendor (no rows between 2025-08-01 and 2026-09-19). The symbol may be invalid, delisted, not covered, or the vendor returned stale data. Do not estimate or fabricate values — report that data is unavailable for this symbol.

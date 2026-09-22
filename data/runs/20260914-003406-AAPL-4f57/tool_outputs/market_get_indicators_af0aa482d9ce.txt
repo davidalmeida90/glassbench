@@ -1,0 +1,46 @@
+## boll_lb values from 2025-08-03 to 2025-09-12:
+
+2025-09-12: 221.9265513899109
+2025-09-11: 221.91527916611275
+2025-09-10: 222.0832071396512
+2025-09-09: 222.47574061961797
+2025-09-08: 221.9453329038169
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 221.9602863083868
+2025-09-04: 220.52159894537084
+2025-09-03: 217.4001467831462
+2025-09-02: 211.30482404466656
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 206.64100790130854
+2025-08-28: 202.63649673723413
+2025-08-27: 200.47866217463002
+2025-08-26: 198.83145362672727
+2025-08-25: 197.71058806624086
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 197.02999951350688
+2025-08-21: 196.4290807092793
+2025-08-20: 195.85415576566083
+2025-08-19: 195.3946711083561
+2025-08-18: 195.26388005957716
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 195.15832368424913
+2025-08-14: 195.2314898795762
+2025-08-13: 195.68439405219345
+2025-08-12: 196.76774779311552
+2025-08-11: 197.64000924554014
+2025-08-10: N/A: Not a trading day (weekend or holiday)
+2025-08-09: N/A: Not a trading day (weekend or holiday)
+2025-08-08: 198.52934455430454
+2025-08-07: 200.9913773319579
+2025-08-06: 201.748873017035
+2025-08-05: 201.76151798561105
+2025-08-04: 202.93401787513454
+2025-08-03: N/A: Not a trading day (weekend or holiday)
+
+
+Bollinger Lower Band: Typically 2 standard deviations below the middle line. Usage: Indicates potential oversold conditions. Tips: Use additional analysis to avoid false reversal signals.

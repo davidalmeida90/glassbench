@@ -1,0 +1,32 @@
+# Company Fundamentals for AAPL, USD in millions unless the row says otherwise
+# Point-in-time as of: 2026-05-15
+# SEC EDGAR facts filed on or before 2026-05-15, priced at the 2026-05-15 close
+# Name, sector, beta, dividend yield and forward estimates have no filed vintage
+# and are not served.
+
+Price (USD per share): 300.23
+Shares Outstanding (millions): 14687.4 (counted 2026-04-17)
+Market Cap: 4409585
+Enterprise Value: 4425789 (debt: LongTermDebtNoncurrent + LongTermDebtCurrent + CommercialPaper)
+PE Ratio (TTM): 36.0x
+Price to Sales (TTM): 9.8x
+Price to Book: 41.4x
+EV to EBITDA (TTM): 27.7x
+EV to Sales (TTM): 9.8x
+Free Cash Flow Yield (TTM): 2.93%
+
+# Trailing twelve months, each built only from filed figures
+Revenue (TTM): 451442 = fiscal year to 2025-09-27 (416161) + 6 months to 2026-03-28 (254940) - 6 months to 2025-03-29 (219659)
+Net Income (TTM): 122575 = fiscal year to 2025-09-27 (112010) + 6 months to 2026-03-28 (71675) - 6 months to 2025-03-29 (61110)
+Operating Income (TTM): 147366 = fiscal year to 2025-09-27 (133050) + 6 months to 2026-03-28 (86737) - 6 months to 2025-03-29 (72421)
+Depreciation and Amortization (TTM): 12610 = fiscal year to 2025-09-27 (11698) + 6 months to 2026-03-28 (6653) - 6 months to 2025-03-29 (5741)
+Operating Cash Flow (TTM): 140222 = fiscal year to 2025-09-27 (111482) + 6 months to 2026-03-28 (82627) - 6 months to 2025-03-29 (53887)
+Capital Expenditure (TTM): 11048 = fiscal year to 2025-09-27 (12715) + 6 months to 2026-03-28 (4344) - 6 months to 2025-03-29 (6011)
+EBITDA (TTM): 159976
+Free Cash Flow (TTM): 129174
+
+# Balances at 2026-03-28
+Stockholders Equity: 106491
+Cash and Equivalents: 45572
+Marketable Securities: 22935
+Debt: 84711

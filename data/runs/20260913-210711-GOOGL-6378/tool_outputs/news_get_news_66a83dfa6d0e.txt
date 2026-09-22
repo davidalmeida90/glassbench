@@ -1,0 +1,82 @@
+## GOOGL News, from 2026-09-06 to 2026-09-13:
+
+### Forget Chatbot Benchmarks. Google Just Found 1,000 Ways Into Microsoft’s Best Customers. (source: 24/7 Wall St.)
+Google just landed inside nearly every major Fortune 100 company, but having access and winning the deal are two very different things. The real fight is happening at a layer most investors never think about.
+Link: https://247wallst.com/investing/2026/09/13/forget-chatbot-benchmarks-google-just-found-1000-ways-into-microsofts-best-customers/
+
+### Bank of America has strong message for Marvell stock investors (source: TheStreet)
+The bank’s bullish outlook comes with a crucial test
+Link: https://www.thestreet.com/investing/marvell-stock-bofa-ai-growth-outlook
+
+### Chamath Palihapitiya: Anthropic Employee’s “Human Extinction” AI Warning Risks $2.3 Trillion IPO (source: 24/7 Wall St.)
+A viral Slack resignation note from an Anthropic safety researcher just handed the SEC a loaded question about the company's confidential IPO filing, and Chamath Palihapitiya thinks the answer could sink a $2.3 trillion deal before it ever prices.
+Link: https://247wallst.com/investing/2026/09/13/chamath-palihapitiya-anthropic-employees-human-extinction-ai-warning-risks-2-3-trillion-ipo/
+
+### Anthropic Locks Down $517 Billion in Compute Ahead of IPO — and It’s Still Not Enough (source: 24/7 Wall St.)
+Anthropic just signed a compute bill so large it reshapes the math behind every NVIDIA forecast on Wall Street, and the number arriving ahead of the company's IPO raises a question Jensen Huang's own team has not fully answered yet.
+Link: https://247wallst.com/investing/2026/09/13/anthropic-locks-down-517-billion-in-compute-ahead-of-ipo-and-its-still-not-enough/
+
+### Google Bought YouTube for $1.65 Billion in 2006. The Streaming Platform Is Now the Main Driver of a Roughly $93 Billion Business at Alphabet. (source: Motley Fool)
+YouTube will likely go down as one of the greatest acquisitions of all time.
+Link: https://www.fool.com/investing/2026/09/13/google-bought-youtube-for-165-billion-in-2006-the/
+
+### Sundar Pichai Says Alphabet's Cloud Backlog Hit $514 Billion After 82% Revenue Growth Last Quarter. Is Google Cloud Becoming a Bigger Growth Driver Than Search? (source: Motley Fool)
+Search still pays the bills, but Google Cloud's backlog now exceeds the entire company's revenue.
+Link: https://www.fool.com/investing/2026/09/13/sundar-pichai-alphabets-backlog-514-billion/
+
+### Broadcom’s Anthropic Ramp Puts Google’s TPU Business in a Different Light (source: Insider Monkey)
+Broadcom’s September 2 results show custom AI hardware turning into substantial sales. On the accompanying call, management said it expected to accelerate Ironwood shipments to Anthropic in the fourth quarter. That puts Google’s TPU technology at the center of a relationship whose economics differ for Broadcom Inc. (NASDAQ:AVGO) and Alphabet Inc. (NASDAQ:GOOGL). Broadcom can sell […]
+Link: https://finance.yahoo.com/technology/ai/articles/broadcom-anthropic-ramp-puts-google-113804111.html
+
+### SpaceX Says a Mystery AI Customer Adds $1.11 Billion a Month. Google Shows How Fast Compute Is Growing (source: Insider Monkey)
+Space Exploration Technologies Corp. (NASDAQ:SPCX) says a new, unnamed hosting customer will begin paying $1.11 billion per month on December 1. That is a $13.32 billion annualized run rate, not necessarily a guaranteed $13 billion contract. Alphabet Inc. (NASDAQ:GOOGL) shows both how quickly this business can scale and why contract terms matter. SpaceX CFO Bret […]
+Link: https://finance.yahoo.com/technology/ai/articles/spacex-says-mystery-ai-customer-104230984.html
+
+### Is Superintelligence On The Horizon? Safety Fears Grip Industry Leaders As They Push For A Slowdown (source: Insider Monkey)
+Something strange is happening at the frontier of intelligence. Anthropic CEO Dario Amodei called for slowing frontier AI development, OpenAI CEO Sam Altman agreed that the industry needs to “pace the frontier,” and Elon Musk said Amodei was right. The industry leaders’ fear stems from the fact that the alignment problem remains fundamentally unsolved. Rumors […]
+Link: https://finance.yahoo.com/technology/ai/articles/superintelligence-horizon-safety-fears-grip-104052728.html
+
+### NFL’s Sunday Ticket Is Getting Smaller. It Isn’t Getting Cheaper. (source: The Wall Street Journal)
+More NFL games are moving beyond Sunday afternoon, leaving YouTube and its subscribers paying more for a shrinking package.
+Link: https://www.wsj.com/business/media/nfls-sunday-ticket-is-getting-smaller-it-isnt-getting-cheaper-8a427606?siteid=yhoof2&yptr=yahoo
+
+### Can Alphabet Overtake Nvidia in 2027? (source: Motley Fool)
+Alphabet is having a great 2026, but Nvidia's growth is tough to compete against.
+Link: https://www.fool.com/investing/2026/09/13/can-alphabet-overtake-nvidia-in-2027/
+
+### 3 Unstoppable Dow Stocks Worth Buying Right Now (source: Motley Fool)
+These stocks are demonstrating incredible performance and have a long growth runway.
+Link: https://www.fool.com/investing/2026/09/13/3-unstoppable-dow-stocks-worth-buying-right-now/
+
+### Louis Navellier is buying 3 headline-making stocks, including Google (source: TheStreet)
+Fresh catalysts are putting stocks in the spotlight and creating new opportunities for investors.
+Link: https://www.thestreet.com/investing/stocks/louis-navellier-is-buying-3-headline-making-stocks-including-google
+
+### Agentic commerce: Is Payments the winner this time? (source: Investing.com)
+Investing.com -- Agentic commerce accounts for less than 1% of overall e-commerce activity, even as new AI shopping tools from Meta and Anthropic launched this week.
+Link: https://finance.yahoo.com/technology/ai/articles/agentic-commerce-payments-winner-time-213309351.html
+
+### Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call (source: Motley Fool)
+Elon Musk recently praised a specific GPU stock during SpaceX's earnings call.
+Link: https://www.fool.com/investing/2026/09/12/nvidia-vs-amd-elon-musk-picked-a-side-on-the-space/
+
+### Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play (source: Motley Fool)
+Recent IPO stock Fervo Energy is building on its partnership with Google with a massive power purchase agreement.
+Link: https://www.fool.com/investing/2026/09/12/googles-historic-396-mw-clean-energy-deal-just-cha/
+
+### Google Just Dropped a Bombshell on AI Spending — Alphabet’s $200 Billion AI Bet Is Starting to Pay Off Big (source: Barchart)
+Google says its AI servers pay back in under two years, while its own chips take about one year. That could make Alphabet’s $200 billion AI spending look increasingly profitable.
+Link: https://www.barchart.com/story/news/4575266/google-just-dropped-a-bombshell-on-ai-spending-alphabets-200-billion-ai-bet-is-starting-to-pay-off-big
+
+### Anthropic’s Prisoner’s Dilemma: Dario Amodei Hits the Brakes on AI While Begging Everyone Else to Do the Same (source: 24/7 Wall St.)
+Anthropic's CEO just called on the entire AI industry to slow down, while his own company's balance sheet depends on the biggest accelerators in the business. The conflict at the heart of that position may be impossible to resolve.
+Link: https://247wallst.com/investing/2026/09/12/anthropics-prisoners-dilemma-dario-amodei-hits-the-brakes-on-ai-while-begging-everyone-else-to-do-the-same/
+
+### ‘The Oil of the Next 50 Years’ — Trump Touts AI Data Centers Delivering Wealth and Investment to Communities (source: 24/7 Wall St.)
+Trump is calling AI data centers the oil of the next 50 years and singling out Google for building one in the wrong country, but the communities he says will benefit are already absorbing a cost his pitch quietly skips.
+Link: https://247wallst.com/investing/2026/09/12/the-oil-of-the-next-50-years-trump-touts-ai-data-centers-delivering-wealth-and-investment-to-communities/
+
+### $2.3 Billion in Daily Profits: Why Betting Against the Magnificent 7 Keeps Failing (source: 24/7 Wall St.)
+The Magnificent 7 label vanished from Wall Street chatter, yet the profit engines behind these seven companies kept compounding in ways that have made betting against them one of the most punishing trades in recent memory.
+Link: https://247wallst.com/investing/2026/09/12/2-3-billion-in-daily-profits-why-betting-against-the-magnificent-7-keeps-failing/
+

@@ -1,0 +1,46 @@
+# Income Statement data for NVDA (quarterly)
+# Data retrieved on: 2026-09-14 00:44:05
+
+,2025-10-31,2025-07-31
+Tax Effect Of Unusual Items,0.0,343791000.0
+Tax Rate For Calcs,0.158846,0.153304
+Normalized EBITDA,38748000000.0,29690000000.0
+Total Unusual Items,,2247000000.0
+Total Unusual Items Excluding Goodwill,,2247000000.0
+Net Income From Continuing Operation Net Minority Interest,31910000000.0,26422000000.0
+Reconciled Depreciation,751000000.0,669000000.0
+Reconciled Cost Of Revenue,15157000000.0,12890000000.0
+EBITDA,38748000000.0,31937000000.0
+EBIT,37997000000.0,31268000000.0
+Net Interest Income,563000000.0,530000000.0
+Interest Expense,61000000.0,62000000.0
+Interest Income,624000000.0,592000000.0
+Normalized Income,31910000000.0,24518791000.0
+Net Income From Continuing And Discontinued Operation,31910000000.0,26422000000.0
+Total Expenses,20996000000.0,18303000000.0
+Total Operating Income As Reported,36010000000.0,28440000000.0
+Diluted Average Shares,24483000000.0,24532000000.0
+Basic Average Shares,24327000000.0,24366000000.0
+Diluted EPS,1.3,1.08
+Basic EPS,1.31,1.08
+Diluted NI Availto Com Stockholders,31910000000.0,26422000000.0
+Net Income Common Stockholders,31910000000.0,26422000000.0
+Net Income,31910000000.0,26422000000.0
+Net Income Including Noncontrolling Interests,31910000000.0,26422000000.0
+Net Income Continuous Operations,31910000000.0,26422000000.0
+Tax Provision,6026000000.0,4784000000.0
+Pretax Income,37936000000.0,31206000000.0
+Other Income Expense,1363000000.0,2236000000.0
+Other Non Operating Income Expenses,1363000000.0,-11000000.0
+Gain On Sale Of Security,,2247000000.0
+Net Non Operating Interest Income Expense,563000000.0,530000000.0
+Interest Expense Non Operating,61000000.0,62000000.0
+Interest Income Non Operating,624000000.0,592000000.0
+Operating Income,36010000000.0,28440000000.0
+Operating Expense,5839000000.0,5413000000.0
+Research And Development,4705000000.0,4291000000.0
+Selling General And Administration,1134000000.0,1122000000.0
+Gross Profit,41849000000.0,33853000000.0
+Cost Of Revenue,15157000000.0,12890000000.0
+Total Revenue,57006000000.0,46743000000.0
+Operating Revenue,57006000000.0,46743000000.0

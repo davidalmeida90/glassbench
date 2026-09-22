@@ -1,0 +1,36 @@
+## rsi values from 2025-10-15 to 2025-11-14:
+
+2025-11-14: 65.08482928497907
+2025-11-13: 66.37372560919138
+2025-11-12: 67.5701436025867
+2025-11-11: 71.67686391711482
+2025-11-10: 65.26777456753133
+2025-11-09: N/A: Not a trading day (weekend or holiday)
+2025-11-08: N/A: Not a trading day (weekend or holiday)
+2025-11-07: 63.66748733004628
+2025-11-06: 66.70560164785628
+2025-11-05: 67.55770819430667
+2025-11-04: 67.4533724283894
+2025-11-03: 66.4618452105781
+2025-11-02: N/A: Not a trading day (weekend or holiday)
+2025-11-01: N/A: Not a trading day (weekend or holiday)
+2025-10-31: 69.06685240550769
+2025-10-30: 71.08555075448214
+2025-10-29: 69.72957026371014
+2025-10-28: 69.17688148644135
+2025-10-27: 69.03438121203237
+2025-10-26: N/A: Not a trading day (weekend or holiday)
+2025-10-25: N/A: Not a trading day (weekend or holiday)
+2025-10-24: 64.18749341460018
+2025-10-23: 61.13174623677289
+2025-10-22: 60.02723168663078
+2025-10-21: 66.76234036620147
+2025-10-20: 66.33199170067637
+2025-10-19: N/A: Not a trading day (weekend or holiday)
+2025-10-18: N/A: Not a trading day (weekend or holiday)
+2025-10-17: 56.517437715177635
+2025-10-16: 49.9238449557282
+2025-10-15: 52.82858232496639
+
+
+RSI: Measures momentum to flag overbought/oversold conditions. Usage: Apply 70/30 thresholds and watch for divergence to signal reversals. Tips: In strong trends, RSI may remain extreme; always cross-check with trend analysis.

@@ -1,0 +1,66 @@
+## macd values from 2025-11-10 to 2026-01-09:
+
+2026-01-09: 1.0401858988883532
+2026-01-08: 1.2517740551498662
+2026-01-07: 1.4853452818765618
+2026-01-06: 1.3484292407559337
+2026-01-05: 1.3440162353089704
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 1.229445104024876
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 0.9911719011245168
+2025-12-30: 0.9113472019545839
+2025-12-29: 0.6905626997754268
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 0.32964124654554894
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: -0.37047187650682645
+2025-12-23: -1.0636466149081514
+2025-12-22: -1.9938670184610032
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: -2.5914408253464956
+2025-12-18: -3.0422014835333187
+2025-12-17: -2.8774588220687747
+2025-12-16: -2.3002767368790558
+2025-12-15: -2.218838429700469
+2025-12-14: N/A: Not a trading day (weekend or holiday)
+2025-12-13: N/A: Not a trading day (weekend or holiday)
+2025-12-12: -1.9373589576571248
+2025-12-11: -1.4209040125211914
+2025-12-10: -1.3413918053627754
+2025-12-09: -1.5098992223354912
+2025-12-08: -1.8238933633983834
+2025-12-07: N/A: Not a trading day (weekend or holiday)
+2025-12-06: N/A: Not a trading day (weekend or holiday)
+2025-12-05: -2.2570511685862584
+2025-12-04: -2.4581249146279447
+2025-12-03: -2.777547412663978
+2025-12-02: -2.7588392369958115
+2025-12-01: -2.8847796299429547
+2025-11-30: N/A: Not a trading day (weekend or holiday)
+2025-11-29: N/A: Not a trading day (weekend or holiday)
+2025-11-28: -2.8471384897809457
+2025-11-27: N/A: Not a trading day (weekend or holiday)
+2025-11-26: -2.4610844382336268
+2025-11-25: -2.2636743058389186
+2025-11-24: -1.730940998372489
+2025-11-23: N/A: Not a trading day (weekend or holiday)
+2025-11-22: N/A: Not a trading day (weekend or holiday)
+2025-11-21: -1.506249030573656
+2025-11-20: -0.8247720885873093
+2025-11-19: -0.12173365687081628
+2025-11-18: 0.18010918346942617
+2025-11-17: 1.0868775031815971
+2025-11-16: N/A: Not a trading day (weekend or holiday)
+2025-11-15: N/A: Not a trading day (weekend or holiday)
+2025-11-14: 1.6961790702668225
+2025-11-13: 2.0865776657079778
+2025-11-12: 2.8907296193624745
+2025-11-11: 3.1701448653475666
+2025-11-10: 3.5456773387299734
+
+
+MACD: Computes momentum via differences of EMAs. Usage: Look for crossovers and divergence as signals of trend changes. Tips: Confirm with other indicators in low-volatility or sideways markets.

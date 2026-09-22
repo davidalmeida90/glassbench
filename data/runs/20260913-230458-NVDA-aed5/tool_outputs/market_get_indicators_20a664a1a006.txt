@@ -1,0 +1,36 @@
+## macds values from 2025-08-13 to 2025-09-12:
+
+2025-09-12: 0.1761420555241333
+2025-09-11: 0.2181887094524133
+2025-09-10: 0.3483218470708268
+2025-09-09: 0.5923956695208762
+2025-09-08: 1.0029197233672942
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 1.4799990350658425
+2025-09-04: 1.9647983453276268
+2025-09-03: 2.3939945096771726
+2025-09-02: 2.823546798573608
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 3.2000380416825744
+2025-08-28: 3.4747146044387014
+2025-08-27: 3.661948032286196
+2025-08-26: 3.858745713633443
+2025-08-25: 4.103970327620389
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 4.42429675818583
+2025-08-21: 4.802808581773952
+2025-08-20: 5.212369509724533
+2025-08-19: 5.57824761361833
+2025-08-18: 5.873449565018591
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 6.057579929610154
+2025-08-14: 6.232207787050824
+2025-08-13: 6.359484834874033
+
+
+MACD Signal: An EMA smoothing of the MACD line. Usage: Use crossovers with the MACD line to trigger trades. Tips: Should be part of a broader strategy to avoid false positives.

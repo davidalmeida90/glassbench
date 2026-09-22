@@ -1,0 +1,36 @@
+## close_10_ema values from 2025-08-13 to 2025-09-12:
+
+2025-09-12: 174.26589810957648
+2025-09-11: 173.570537793649
+2025-09-10: 172.86476035781925
+2025-09-09: 171.9688827224909
+2025-09-08: 172.3303556300062
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 173.31527379735135
+2025-09-04: 174.80501915726626
+2025-09-03: 175.5972308525876
+2025-09-02: 176.796039721522
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 178.2257823538654
+2025-08-28: 179.21953599001085
+2025-08-27: 179.10626664404103
+2025-08-26: 178.6508266849477
+2025-08-25: 178.0564920279135
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 177.76457193494116
+2025-08-21: 177.81123665637773
+2025-08-20: 178.5355245982464
+2025-08-19: 179.32766306691053
+2025-08-18: 180.242629995191
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 179.94882709590186
+2025-08-14: 179.93555646790784
+2025-08-13: 179.57129739632313
+
+
+10 EMA: A responsive short-term average. Usage: Capture quick shifts in momentum and potential entry points. Tips: Prone to noise in choppy markets; use alongside longer averages for filtering false signals.

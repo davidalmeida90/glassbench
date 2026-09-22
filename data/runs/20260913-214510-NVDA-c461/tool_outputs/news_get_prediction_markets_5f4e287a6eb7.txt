@@ -1,0 +1,4 @@
+## Polymarket prediction markets: "Nvidia"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+No open prediction markets matched 'Nvidia'. Polymarket coverage is concentrated in macro, political, geopolitical, and crypto events; a specific equity may have none.

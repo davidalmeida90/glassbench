@@ -1,0 +1,31 @@
+# Company Fundamentals for NVDA
+# Point-in-time as of: 2025-09-12
+
+Profile fundamentals are withheld for this date. This vendor serves only present-day values (2026-09-14) with no historical vintage: market cap, valuation multiples, the 52-week range and TTM income move with today's quote, and even the name, sector and industry reflect today rather than 2025-09-12 (companies rename and get reclassified). Serving them would put post-decision information into a 2025-09-12 analysis. Point-in-time fundamentals for 2025-09-12 are available from the balance sheet, income statement, and cash flow tools.
+
+## Point-in-time valuation for NVDA as of 2025-09-12 (SEC EDGAR)
+
+Built only from SEC filings filed before 2025-09-12 and the closing price on 2025-09-12. Forward estimates are not included: no point-in-time source for them is available.
+
+| Measure | Value |
+|---|---:|
+| Price (close 2025-09-12) | $177.82 |
+| Shares outstanding | 24.300B (as of 2025-08-22, filed 2025-08-27) |
+| Market cap | $4.321T |
+| Enterprise value | $4.273T |
+| P/E (TTM) | 49.9x |
+| P/S (TTM) | 26.2x |
+| P/B | 43.2x |
+| EV/EBITDA (TTM) | 43.5x |
+| EV/Sales (TTM) | 25.9x |
+| Free cash flow yield (TTM) | 1.67% |
+
+Inputs:
+- Revenue TTM: $165.22B (period to 2025-07-27, FY to 2025-01-26 + 6-month YTD - prior YTD; 10-Q filed 2025-08-27)
+- Net income TTM: $86.60B (period to 2025-07-27, FY to 2025-01-26 + 6-month YTD - prior YTD; 10-Q filed 2025-08-27)
+- Operating income TTM: $95.98B (period to 2025-07-27, FY to 2025-01-26 + 6-month YTD - prior YTD; 10-Q filed 2025-08-27)
+- Depreciation and amortisation TTM: $2.30B (period to 2025-07-27, FY to 2025-01-26 + 6-month YTD - prior YTD; 10-Q filed 2025-08-27)
+- Operating cash flow TTM: $77.03B (period to 2025-07-27, FY to 2025-01-26 + 6-month YTD - prior YTD; 10-Q filed 2025-08-27)
+- Capital expenditure TTM: $5.01B (period to 2025-07-27, FY to 2025-01-26 + 6-month YTD - prior YTD; 10-Q filed 2025-08-27)
+- Debt: $8.47B (LongTermDebtNoncurrent)
+- Cash and current marketable securities: $56.79B

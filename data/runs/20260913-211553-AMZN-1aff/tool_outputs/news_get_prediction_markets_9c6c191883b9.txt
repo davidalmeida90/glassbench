@@ -1,0 +1,6 @@
+## Polymarket prediction markets: "recession 2026"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+- **US recession by end of 2026?** — Yes 6% ($1,746,540 volume, resolves 2027-01-31)
+- **UK Recession in 2026?** — Yes 6% ($10,770 volume, resolves 2027-03-31, 1-week -1.5pp)
+- **Japan recession in 2026?** — Yes 6% ($4,133 volume, resolves 2027-03-31, 1-week -1.0pp)

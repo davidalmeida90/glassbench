@@ -1,0 +1,36 @@
+## close_50_sma values from 2025-08-13 to 2025-09-12:
+
+2025-09-12: 173.69504119873048
+2025-09-11: 173.28444702148437
+2025-09-10: 172.8080160522461
+2025-09-09: 172.42216217041016
+2025-09-08: 172.16259887695313
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 171.8974496459961
+2025-09-04: 171.64387115478516
+2025-09-03: 171.16983367919923
+2025-09-02: 170.64212799072266
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 170.10484619140624
+2025-08-28: 169.53225036621095
+2025-08-27: 168.81301391601562
+2025-08-26: 168.07661987304687
+2025-08-25: 167.28256744384765
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 166.58807037353515
+2025-08-21: 165.88659057617187
+2025-08-20: 165.26750915527344
+2025-08-19: 164.61351501464844
+2025-08-18: 163.9365789794922
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 163.09804138183594
+2025-08-14: 162.32912994384765
+2025-08-13: 161.51493041992188
+
+
+50 SMA: A medium-term trend indicator. Usage: Identify trend direction and serve as dynamic support/resistance. Tips: It lags price; combine with faster indicators for timely signals.

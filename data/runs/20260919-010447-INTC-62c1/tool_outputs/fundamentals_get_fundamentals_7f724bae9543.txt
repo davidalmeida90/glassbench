@@ -1,0 +1,32 @@
+# Company Fundamentals for INTC, USD in millions unless the row says otherwise
+# Point-in-time as of: 2026-02-13
+# SEC EDGAR facts filed on or before 2026-02-13, priced at the 2026-02-13 close
+# Name, sector, beta, dividend yield and forward estimates have no filed vintage
+# and are not served.
+
+Price (USD per share): 46.79
+Shares Outstanding (millions): 4995.0 (counted 2026-01-16)
+Market Cap: 233716
+Enterprise Value: 242885 (debt: LongTermDebtNoncurrent + LongTermDebtCurrent + CommercialPaper)
+PE Ratio (TTM): not meaningful (the denominator is zero or negative)
+Price to Sales (TTM): 4.4x
+Price to Book: 2.0x
+EV to EBITDA (TTM): 28.4x
+EV to Sales (TTM): 4.6x
+Free Cash Flow Yield (TTM): -2.12%
+
+# Trailing twelve months, each built only from filed figures
+Revenue (TTM): 52853 = fiscal year to 2025-12-27
+Net Income (TTM): -267 = fiscal year to 2025-12-27
+Operating Income (TTM): -2214 = fiscal year to 2025-12-27
+Depreciation and Amortization (TTM): 10757 = fiscal year to 2025-12-27
+Operating Cash Flow (TTM): 9697 = fiscal year to 2025-12-27
+Capital Expenditure (TTM): 14646 = fiscal year to 2025-12-27
+EBITDA (TTM): 8543 (depreciation only, this filer tags amortization separately)
+Free Cash Flow (TTM): -4949
+
+# Balances at 2025-12-27
+Stockholders Equity: 114281
+Cash and Equivalents: 14265
+Marketable Securities: 23151
+Debt: 46585

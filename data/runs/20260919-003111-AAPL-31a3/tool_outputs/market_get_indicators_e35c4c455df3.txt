@@ -1,0 +1,36 @@
+## boll_ub values from 2025-10-15 to 2025-11-14:
+
+2025-11-14: 276.7853810167968
+2025-11-13: 277.9542092754958
+2025-11-12: 279.3291753805348
+2025-11-11: 279.4530041615307
+2025-11-10: 278.97756659728384
+2025-11-09: N/A: Not a trading day (weekend or holiday)
+2025-11-08: N/A: Not a trading day (weekend or holiday)
+2025-11-07: 279.02191428852893
+2025-11-06: 279.16723512939035
+2025-11-05: 278.1912708254087
+2025-11-04: 277.04371387200933
+2025-11-03: 275.7674512828153
+2025-11-02: N/A: Not a trading day (weekend or holiday)
+2025-11-01: N/A: Not a trading day (weekend or holiday)
+2025-10-31: 274.5465066001352
+2025-10-30: 272.9948140485789
+2025-10-29: 270.98079144277244
+2025-10-28: 269.05962493350137
+2025-10-27: 267.011995791976
+2025-10-26: N/A: Not a trading day (weekend or holiday)
+2025-10-25: N/A: Not a trading day (weekend or holiday)
+2025-10-24: 264.6504026064369
+2025-10-23: 263.6384181325604
+2025-10-22: 263.2937379206871
+2025-10-21: 262.8536068728139
+2025-10-20: 261.5621422629318
+2025-10-19: N/A: Not a trading day (weekend or holiday)
+2025-10-18: N/A: Not a trading day (weekend or holiday)
+2025-10-17: 260.39669878694406
+2025-10-16: 260.82297135705505
+2025-10-15: 262.4677368946487
+
+
+Bollinger Upper Band: Typically 2 standard deviations above the middle line. Usage: Signals potential overbought conditions and breakout zones. Tips: Confirm signals with other tools; prices may ride the band in strong trends.

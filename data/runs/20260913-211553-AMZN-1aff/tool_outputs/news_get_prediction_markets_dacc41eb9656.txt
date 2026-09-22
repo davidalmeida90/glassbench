@@ -1,0 +1,9 @@
+## Polymarket prediction markets: "Amazon"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+- **Amazon 2026 capex above $180B?** — Yes 96% ($6,180 volume, resolves 2027-04-30, 1-week -0.4pp)
+- **Amazon 2026 capex above $190B?** — Yes 95% ($5,844 volume, resolves 2027-04-30, 1-week +1.5pp)
+- **Amazon 2026 capex above $200B?** — Yes 92% ($5,580 volume, resolves 2027-04-30, 1-week +3.0pp)
+- **Caribbean Premier League: Barbados Tridents vs Guyana Amazon Warriors** — Barbados Tridents 40% ($4,753 volume, resolves 2026-09-20)
+- **Amazon 2026 capex above $220B?** — Yes 62% ($2,177 volume, resolves 2027-04-30)
+- **Amazon 2026 capex above $210B?** — Yes 88% ($1,801 volume, resolves 2027-04-30, 1-week +12.0pp)

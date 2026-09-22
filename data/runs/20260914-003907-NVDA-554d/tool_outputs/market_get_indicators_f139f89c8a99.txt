@@ -1,0 +1,66 @@
+## rsi values from 2025-11-10 to 2026-01-09:
+
+2026-01-09: 49.70353858502835
+2026-01-08: 49.96434545248615
+2026-01-07: 56.1504982846005
+2026-01-06: 53.705067613317816
+2026-01-05: 55.04652672605602
+2026-01-04: N/A: Not a trading day (weekend or holiday)
+2026-01-03: N/A: Not a trading day (weekend or holiday)
+2026-01-02: 56.12644082815231
+2026-01-01: N/A: Not a trading day (weekend or holiday)
+2025-12-31: 53.393286082769364
+2025-12-30: 54.79604511171934
+2025-12-29: 55.684292458850614
+2025-12-28: N/A: Not a trading day (weekend or holiday)
+2025-12-27: N/A: Not a trading day (weekend or holiday)
+2025-12-26: 58.68501335345603
+2025-12-25: N/A: Not a trading day (weekend or holiday)
+2025-12-24: 56.892115228272985
+2025-12-23: 57.6176680100559
+2025-12-22: 52.43564576775961
+2025-12-21: N/A: Not a trading day (weekend or holiday)
+2025-12-20: N/A: Not a trading day (weekend or holiday)
+2025-12-19: 49.638923242506024
+2025-12-18: 41.54125306353126
+2025-12-17: 37.158091441653426
+2025-12-16: 43.58794200453511
+2025-12-15: 41.60905746082711
+2025-12-14: N/A: Not a trading day (weekend or holiday)
+2025-12-13: N/A: Not a trading day (weekend or holiday)
+2025-12-12: 39.86958529966757
+2025-12-11: 45.76019874348336
+2025-12-10: 49.00218302389736
+2025-12-09: 50.3862096090397
+2025-12-08: 51.0386467117638
+2025-12-07: N/A: Not a trading day (weekend or holiday)
+2025-12-06: N/A: Not a trading day (weekend or holiday)
+2025-12-05: 47.62970220893708
+2025-12-04: 48.60035957506408
+2025-12-03: 44.48484117753978
+2025-12-02: 46.174154007970884
+2025-12-01: 44.56433167199893
+2025-11-30: N/A: Not a trading day (weekend or holiday)
+2025-11-29: N/A: Not a trading day (weekend or holiday)
+2025-11-28: 41.482878209900136
+2025-11-27: N/A: Not a trading day (weekend or holiday)
+2025-11-26: 44.01952153386532
+2025-11-25: 41.534810852492214
+2025-11-24: 45.14143701224228
+2025-11-23: N/A: Not a trading day (weekend or holiday)
+2025-11-22: N/A: Not a trading day (weekend or holiday)
+2025-11-21: 41.48035480908415
+2025-11-20: 42.75083979197633
+2025-11-19: 47.23947068403539
+2025-11-18: 42.30307849903686
+2025-11-17: 46.396469019659534
+2025-11-16: N/A: Not a trading day (weekend or holiday)
+2025-11-15: N/A: Not a trading day (weekend or holiday)
+2025-11-14: 49.42187565625108
+2025-11-13: 46.41351014665987
+2025-11-12: 52.49216844318667
+2025-11-11: 51.95332392161136
+2025-11-10: 57.52952116515995
+
+
+RSI: Measures momentum to flag overbought/oversold conditions. Usage: Apply 70/30 thresholds and watch for divergence to signal reversals. Tips: In strong trends, RSI may remain extreme; always cross-check with trend analysis.

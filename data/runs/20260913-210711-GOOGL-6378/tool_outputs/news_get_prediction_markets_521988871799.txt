@@ -1,0 +1,5 @@
+## Polymarket prediction markets: "US government shutdown"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+- **Will there be another US government shutdown by January 31 and will the Republican Party win the House in 2026?** — Yes 14% ($69,475 volume, resolves 2026-11-03, 1-week +1.1pp)
+- **Will there be another US government shutdown by January 31 and will the Democratic Party win the House in 2026?** — Yes 86% ($57,653 volume, resolves 2026-11-03, 1-week -0.1pp)

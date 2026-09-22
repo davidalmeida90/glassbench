@@ -1,0 +1,36 @@
+## vwma values from 2025-08-13 to 2025-09-12:
+
+2025-09-12: 174.5262166200456
+2025-09-11: 174.46524538092308
+2025-09-10: 174.31075978844723
+2025-09-09: 173.98476028308306
+2025-09-08: 174.5022515203466
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 175.20627944348377
+2025-09-04: 176.23284821793547
+2025-09-03: 176.77833579820307
+2025-09-02: 177.48902409020235
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 178.44738336849522
+2025-08-28: 178.9959161160681
+2025-08-27: 179.02869594522068
+2025-08-26: 178.97420322256488
+2025-08-25: 178.7958484684963
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 178.7022398630365
+2025-08-21: 178.89896375531887
+2025-08-20: 178.63895347022626
+2025-08-19: 179.18580191870043
+2025-08-18: 179.2358354614127
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 178.8968839054982
+2025-08-14: 178.6233768713984
+2025-08-13: 178.1837818356039
+
+
+VWMA: A moving average weighted by volume. Usage: Confirm trends by integrating price action with volume data. Tips: Watch for skewed results from volume spikes; use in combination with other volume analyses.

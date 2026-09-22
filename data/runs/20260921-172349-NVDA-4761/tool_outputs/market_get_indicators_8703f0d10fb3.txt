@@ -1,0 +1,66 @@
+## close_200_sma values from 2026-07-23 to 2026-09-21:
+
+2026-09-21: 198.24060241699217
+2026-09-20: N/A: Not a trading day (weekend or holiday)
+2026-09-19: N/A: Not a trading day (weekend or holiday)
+2026-09-18: 198.0213688659668
+2026-09-17: 197.80746871948242
+2026-09-16: 197.59365356445312
+2026-09-15: 197.42329940795898
+2026-09-14: 197.2494245147705
+2026-09-13: N/A: Not a trading day (weekend or holiday)
+2026-09-12: N/A: Not a trading day (weekend or holiday)
+2026-09-11: 197.10519287109375
+2026-09-10: 196.90600524902345
+2026-09-09: 196.7152465057373
+2026-09-08: 196.52851753234864
+2026-09-07: N/A: Not a trading day (weekend or holiday)
+2026-09-06: N/A: Not a trading day (weekend or holiday)
+2026-09-05: N/A: Not a trading day (weekend or holiday)
+2026-09-04: 196.30576171875
+2026-09-03: 196.08601928710937
+2026-09-02: 195.89362342834474
+2026-09-01: 195.7048945617676
+2026-08-31: 195.58559371948243
+2026-08-30: N/A: Not a trading day (weekend or holiday)
+2026-08-29: N/A: Not a trading day (weekend or holiday)
+2026-08-28: 195.4464192199707
+2026-08-27: 195.35275634765625
+2026-08-26: 195.1526319885254
+2026-08-25: 195.04365600585936
+2026-08-24: 194.9533137512207
+2026-08-23: N/A: Not a trading day (weekend or holiday)
+2026-08-22: N/A: Not a trading day (weekend or holiday)
+2026-08-21: 194.9031544494629
+2026-08-20: 194.86268211364745
+2026-08-19: 194.78967414855958
+2026-08-18: 194.71511528015137
+2026-08-17: 194.65036895751953
+2026-08-16: N/A: Not a trading day (weekend or holiday)
+2026-08-15: N/A: Not a trading day (weekend or holiday)
+2026-08-14: 194.52932411193848
+2026-08-13: 194.35994400024413
+2026-08-12: 194.16377716064454
+2026-08-11: 193.95320266723633
+2026-08-10: 193.76616371154785
+2026-08-09: N/A: Not a trading day (weekend or holiday)
+2026-08-08: N/A: Not a trading day (weekend or holiday)
+2026-08-07: 193.58326461791992
+2026-08-06: 193.37573356628417
+2026-08-05: 193.1959178161621
+2026-08-04: 193.0079202270508
+2026-08-03: 192.84640563964842
+2026-08-02: N/A: Not a trading day (weekend or holiday)
+2026-08-01: N/A: Not a trading day (weekend or holiday)
+2026-07-31: 192.71235900878906
+2026-07-30: 192.6490805053711
+2026-07-29: 192.58858177185058
+2026-07-28: 192.6001424407959
+2026-07-27: 192.55948356628417
+2026-07-26: N/A: Not a trading day (weekend or holiday)
+2026-07-25: N/A: Not a trading day (weekend or holiday)
+2026-07-24: 192.50102043151855
+2026-07-23: 192.39345901489258
+
+
+200 SMA: A long-term trend benchmark. Usage: Confirm overall market trend and identify golden/death cross setups. Tips: It reacts slowly; best for strategic trend confirmation rather than frequent trading entries.

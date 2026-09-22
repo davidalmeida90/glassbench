@@ -1,0 +1,11 @@
+**Recommendation**: Underweight
+
+**Rationale**: The bear case is stronger on the current setup. NVDA’s business quality is not in dispute—$72B TTM FCF, $48.3B net cash, 72.4% gross margin, +56% YoY revenue growth, and a long-term uptrend above the rising 200 SMA. But the bull case leans heavily on long-term fundamentals and does not fully address the near-term risk/reward. At ~$189.72, NVDA trades near 53.4x TTM earnings, ~28x sales, ~46.5x EV/EBITDA, and a ~1.56% FCF yield. Even using the bull’s annualized Q2 EPS, the multiple is still roughly 44x—priced for near-perfection. Sequential revenue growth has sharply decelerated from ~12% QoQ in prior quarters to +6.1%, and the Q2 EPS jump was mostly margin normalization after the H20 charge rather than a demand reacceleration. Technically, NVDA is below the 10 EMA, 20 SMA, and VWMA, with a bearish MACD crossover, a lower-volume bounce, and ATR near 7.71—meaning the 50 SMA at $185 is only about one normal trading day away. The practical risk/reward is unfavorable: roughly +9% to +12% upside to recent peaks versus -5% to -8% to near supports and about -20% to the 200 SMA. The binary earnings event around 2025-11-19 adds event risk. This is not a Sell because the AI franchise, balance sheet, and long-term uptrend remain intact, but the stronger case is to reduce exposure rather than add at current levels.
+
+**Strategic Actions**:
+- Assume a standard full-size NVDA position is ~5% of a trading portfolio. Trim to an underweight size of roughly 2.5%–3.0% portfolio weight.
+- Do not add new money at ~$189.72. Use strength into $192–$196 to reduce, not to chase.
+- For the remaining trading position, place a stop below $179–$180. A decisive close below $185 is an early warning; a close below $175.38 would support further reduction.
+- Keep the long-term invalidation level near the rising 200 SMA at $150.82. A decisive break there would seriously damage the bull thesis.
+- Re-engage and return toward full size only on either: (1) a confirmed reclaim of $192 and then $196 on above-average volume, or (2) a washout into the $175–$180 zone that holds with improving MACD/RSI and strong volume.
+- Before the ~2025-11-19 earnings, avoid new leverage and consider keeping the position underweight or using a defined-risk hedge through the print.

@@ -1,0 +1,51 @@
+## rsi values from 2025-07-29 to 2025-09-12:
+
+2025-09-12: 55.53091760712021
+2025-09-11: 54.57255315357442
+2025-09-10: 54.82573136929142
+2025-09-09: 44.31905132662869
+2025-09-08: 39.44201265121692
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 36.73267293984231
+2025-09-04: 43.18605377800289
+2025-09-03: 41.02979866811929
+2025-09-02: 41.25344379807849
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 46.22579986629262
+2025-08-28: 57.57950411652837
+2025-08-27: 60.89502646361055
+2025-08-26: 61.28462180504399
+2025-08-25: 58.438147767061025
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 55.625058290072516
+2025-08-21: 50.47734697143779
+2025-08-20: 51.24762367040246
+2025-08-19: 51.66595856367846
+2025-08-18: 64.6783932736646
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 62.532500337396954
+2025-08-14: 66.29646136167062
+2025-08-13: 65.77250681189136
+2025-08-12: 69.43211129627436
+2025-08-11: 68.2840101632981
+2025-08-10: N/A: Not a trading day (weekend or holiday)
+2025-08-09: N/A: Not a trading day (weekend or holiday)
+2025-08-08: 69.6983079560215
+2025-08-07: 67.832703639419
+2025-08-06: 66.49274614935304
+2025-08-05: 65.34080145425943
+2025-08-04: 68.62703498349401
+2025-08-03: N/A: Not a trading day (weekend or holiday)
+2025-08-02: N/A: Not a trading day (weekend or holiday)
+2025-08-01: 62.26704838476162
+2025-07-31: 71.11314790040976
+2025-07-30: 74.42534635298382
+2025-07-29: 71.06432737507106
+
+
+RSI: Measures momentum to flag overbought/oversold conditions. Usage: Apply 70/30 thresholds and watch for divergence to signal reversals. Tips: In strong trends, RSI may remain extreme; always cross-check with trend analysis.

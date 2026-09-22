@@ -1,0 +1,13 @@
+# Glassbench backend. The TradingAgents engine is installed from its own clone (see README, step 2):
+#   pip install -e ./TradingAgents
+# which brings langchain, langgraph, yfinance, stockstats and the rest of the engine's dependencies.
+fastapi==0.141.1
+uvicorn==0.52.4
+httpx==0.28.1
+python-dotenv==1.2.3
+rich==15.0.0
+numpy==2.4.6
+pandas==3.0.5
+pydantic==2.13.5
+# trade.py only (Interactive Brokers paper account, bracket orders)
+ib_async

@@ -1,0 +1,68 @@
+## Verified market data snapshot for PFE
+
+- Requested analysis date: 2025-11-14
+- Latest trading row used: 2025-11-14
+- Rows after the requested analysis date are excluded before verification.
+
+### Latest verified OHLCV row
+
+| Field | Value |
+|---|---:|
+| Open | 24.41 |
+| High | 24.51 |
+| Low | 23.74 |
+| Close | 23.83 |
+| Volume | 96507600 |
+
+### Verified technical indicators (latest row)
+
+| Indicator | Value |
+|---|---:|
+| close_10_ema | 23.73 |
+| close_50_sma | 23.22 |
+| close_200_sma | 22.61 |
+| rsi | 55.59 |
+| boll | 23.28 |
+| boll_ub | 24.41 |
+| boll_lb | 22.15 |
+| macd | 0.23 |
+| macds | 0.08 |
+| macdh | 0.15 |
+| atr | 0.58 |
+
+### Recent verified closes (last 30 rows)
+
+| Date | Close |
+|---|---:|
+| 2025-10-06 | 24.70 |
+| 2025-10-07 | 24.55 |
+| 2025-10-08 | 24.00 |
+| 2025-10-09 | 23.59 |
+| 2025-10-10 | 23.16 |
+| 2025-10-13 | 23.11 |
+| 2025-10-14 | 22.91 |
+| 2025-10-15 | 22.79 |
+| 2025-10-16 | 22.64 |
+| 2025-10-17 | 22.90 |
+| 2025-10-20 | 23.07 |
+| 2025-10-21 | 23.22 |
+| 2025-10-22 | 23.10 |
+| 2025-10-23 | 23.05 |
+| 2025-10-24 | 23.14 |
+| 2025-10-27 | 23.15 |
+| 2025-10-28 | 22.89 |
+| 2025-10-29 | 22.70 |
+| 2025-10-30 | 22.70 |
+| 2025-10-31 | 23.03 |
+| 2025-11-03 | 23.04 |
+| 2025-11-04 | 22.71 |
+| 2025-11-05 | 23.00 |
+| 2025-11-06 | 23.22 |
+| 2025-11-07 | 23.23 |
+| 2025-11-10 | 23.19 |
+| 2025-11-11 | 24.26 |
+| 2025-11-12 | 24.60 |
+| 2025-11-13 | 24.52 |
+| 2025-11-14 | 23.83 |
+
+Use this snapshot as the source of truth for exact OHLCV, price-level, and indicator-value claims. If another tool output conflicts with it, flag the discrepancy rather than inventing a reconciled number. Do not claim historical validation, support/resistance bounces, or exact percentage moves unless directly supported by tool output with concrete dates and prices.

@@ -1,0 +1,9 @@
+## Polymarket prediction markets: "Fed rate hike"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+- **Fed rate hike in 2026?** — Yes 86% ($9,202,554 volume, resolves 2026-12-09, 1-week +16.0pp)
+- **Fed Rate Hike by September 2026 Meeting?** — Yes 78% ($1,591,354 volume, resolves 2026-12-09, 1-week +29.0pp)
+- **Fed Rate Hike by October 2026 Meeting?** — Yes 84% ($792,697 volume, resolves 2026-12-09, 1-week +22.0pp)
+- **Will no Fed rate hikes happen in 2026?** — Yes 10% ($124,878 volume, resolves 2026-12-31, 1-week -19.0pp)
+- **Will 2 Fed rate hikes happen in 2026?** — Yes 40% ($89,199 volume, resolves 2026-12-31, 1-week +17.0pp)
+- **Will 1 Fed rate hike happen in 2026?** — Yes 42% ($63,026 volume, resolves 2026-12-31)

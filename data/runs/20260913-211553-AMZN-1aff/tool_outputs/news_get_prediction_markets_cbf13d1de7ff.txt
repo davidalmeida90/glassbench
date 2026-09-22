@@ -1,0 +1,4 @@
+## Polymarket prediction markets: "Nasdaq S&P 2026"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+- **Nasdaq round-the-clock trading by December 31?** — Yes 90% ($2,286 volume, resolves 2027-01-01, 1-week +1.0pp)

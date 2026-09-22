@@ -1,0 +1,36 @@
+## close_10_ema values from 2026-04-15 to 2026-05-15:
+
+2026-05-15: 291.34622760908866
+2026-05-14: 289.42954186076116
+2026-05-13: 287.5354326193157
+2026-05-12: 285.0738715846324
+2026-05-11: 282.96896316507156
+2026-05-10: N/A: Not a trading day (weekend or holiday)
+2026-05-09: N/A: Not a trading day (weekend or holiday)
+2026-05-08: 280.86700044394166
+2026-05-07: 278.2157815755815
+2026-05-06: 276.2797445928114
+2026-05-05: 273.8979471130022
+2026-05-04: 271.72554267370407
+2026-05-03: N/A: Not a trading day (weekend or holiday)
+2026-05-02: N/A: Not a trading day (weekend or holiday)
+2026-05-01: 270.70080703956194
+2026-04-30: 268.714106227607
+2026-04-29: 268.23576579294325
+2026-04-28: 267.912886924014
+2026-04-27: 267.39847231034
+2026-04-26: N/A: Not a trading day (weekend or holiday)
+2026-04-25: N/A: Not a trading day (weekend or holiday)
+2026-04-24: 267.45740609848855
+2026-04-23: 266.7641368048367
+2026-04-22: 265.3910779589497
+2026-04-21: 263.7705595843761
+2026-04-20: 263.342714643925
+2026-04-19: N/A: Not a trading day (weekend or holiday)
+2026-04-18: N/A: Not a trading day (weekend or holiday)
+2026-04-17: 261.2936360947451
+2026-04-16: 259.41474929158085
+2026-04-15: 258.63341455299116
+
+
+10 EMA: A responsive short-term average. Usage: Capture quick shifts in momentum and potential entry points. Tips: Prone to noise in choppy markets; use alongside longer averages for filtering false signals.

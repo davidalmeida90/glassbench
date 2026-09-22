@@ -1,0 +1,7 @@
+Glassbench
+Copyright 2026 David Arias
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Glassbench runs on top of the TradingAgents engine (TauricResearch, Apache License 2.0), which is not
+included in this repository: it is cloned separately as described in the README.

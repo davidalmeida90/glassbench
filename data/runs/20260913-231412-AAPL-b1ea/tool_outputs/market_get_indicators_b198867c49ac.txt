@@ -1,0 +1,36 @@
+## macd values from 2026-04-15 to 2026-05-15:
+
+2026-05-15: 9.509049191536917
+2026-05-14: 9.201793873933639
+2026-05-13: 8.881277687918498
+2026-05-12: 8.275858927080378
+2026-05-11: 7.7967917187678495
+2026-05-10: N/A: Not a trading day (weekend or holiday)
+2026-05-09: N/A: Not a trading day (weekend or holiday)
+2026-05-08: 7.287587488794145
+2026-05-07: 6.494015295938425
+2026-05-06: 5.984292716048003
+2026-05-05: 5.239541503265798
+2026-05-04: 4.55121010447175
+2026-05-03: N/A: Not a trading day (weekend or holiday)
+2026-05-02: N/A: Not a trading day (weekend or holiday)
+2026-05-01: 4.353483874826679
+2026-04-30: 3.701365453962808
+2026-04-29: 3.7085758438775542
+2026-04-28: 3.7837694181965276
+2026-04-27: 3.7698238596705096
+2026-04-26: N/A: Not a trading day (weekend or holiday)
+2026-04-25: N/A: Not a trading day (weekend or holiday)
+2026-04-24: 4.012265028147567
+2026-04-23: 3.912701594139776
+2026-04-22: 3.4878306302391593
+2026-04-21: 2.9212295983127206
+2026-04-20: 2.867009549542047
+2026-04-19: N/A: Not a trading day (weekend or holiday)
+2026-04-18: N/A: Not a trading day (weekend or holiday)
+2026-04-17: 2.0568457252371104
+2026-04-16: 1.2794765403026531
+2026-04-15: 0.9628403441557793
+
+
+MACD: Computes momentum via differences of EMAs. Usage: Look for crossovers and divergence as signals of trend changes. Tips: Confirm with other indicators in low-volatility or sideways markets.

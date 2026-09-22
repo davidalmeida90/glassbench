@@ -1,0 +1,31 @@
+# Company Fundamentals for AAPL
+# Point-in-time as of: 2026-09-11
+
+Profile fundamentals are withheld for this date. This vendor serves only present-day values (2026-09-14) with no historical vintage: market cap, valuation multiples, the 52-week range and TTM income move with today's quote, and even the name, sector and industry reflect today rather than 2026-09-11 (companies rename and get reclassified). Serving them would put post-decision information into a 2026-09-11 analysis. Point-in-time fundamentals for 2026-09-11 are available from the balance sheet, income statement, and cash flow tools.
+
+## Point-in-time valuation for AAPL as of 2026-09-11 (SEC EDGAR)
+
+Built only from SEC filings filed before 2026-09-11 and the closing price on 2026-09-11. Forward estimates are not included: no point-in-time source for them is available.
+
+| Measure | Value |
+|---|---:|
+| Price (close 2026-09-11) | $332.27 |
+| Shares outstanding | 14.594B (as of 2026-07-17, filed 2026-07-31) |
+| Market cap | $4.849T |
+| Enterprise value | $4.871T |
+| P/E (TTM) | 37.6x |
+| P/S (TTM) | 10.4x |
+| P/B | 45.1x |
+| EV/EBITDA (TTM) | 29.0x |
+| EV/Sales (TTM) | 10.4x |
+| Free cash flow yield (TTM) | 2.82% |
+
+Inputs:
+- Revenue TTM: $466.82B (period to 2026-06-27, FY to 2025-09-27 + 9-month YTD - prior YTD; 10-Q filed 2026-07-31)
+- Net income TTM: $128.93B (period to 2026-06-27, FY to 2025-09-27 + 9-month YTD - prior YTD; 10-Q filed 2026-07-31)
+- Operating income TTM: $154.86B (period to 2026-06-27, FY to 2025-09-27 + 9-month YTD - prior YTD; 10-Q filed 2026-07-31)
+- Depreciation and amortisation TTM: $13.10B (period to 2026-06-27, FY to 2025-09-27 + 9-month YTD - prior YTD; 10-Q filed 2026-07-31)
+- Operating cash flow TTM: $146.72B (period to 2026-06-27, FY to 2025-09-27 + 9-month YTD - prior YTD; 10-Q filed 2026-07-31)
+- Capital expenditure TTM: $10.04B (period to 2026-06-27, FY to 2025-09-27 + 9-month YTD - prior YTD; 10-Q filed 2026-07-31)
+- Debt: $84.34B (LongTermDebtNoncurrent + LongTermDebtCurrent + CommercialPaper)
+- Cash and current marketable securities: $62.40B

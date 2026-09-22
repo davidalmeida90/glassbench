@@ -1,0 +1,53 @@
+# Cash Flow data for NVDA (quarterly)
+# Data retrieved on: 2026-09-14 00:34:38
+
+,2025-07-31,2025-01-31
+Free Cash Flow,13470000000.0,
+Repurchase Of Capital Stock,-9720000000.0,
+Repayment Of Debt,,0.0
+Capital Expenditure,-1895000000.0,
+Income Tax Paid Supplemental Data,,4129000000.0
+End Cash Position,11639000000.0,
+Beginning Cash Position,15234000000.0,
+Changes In Cash,-3595000000.0,
+Financing Cash Flow,-11833000000.0,
+Cash Flow From Continuing Financing Activities,-11833000000.0,
+Net Other Financing Charges,-1869000000.0,
+Proceeds From Stock Option Exercised,0.0,
+Cash Dividends Paid,-244000000.0,
+Common Stock Dividend Paid,-244000000.0,
+Net Common Stock Issuance,-9720000000.0,
+Common Stock Payments,-9720000000.0,
+Net Issuance Payments Of Debt,,0.0
+Net Long Term Debt Issuance,,0.0
+Long Term Debt Payments,,0.0
+Investing Cash Flow,-7127000000.0,
+Cash Flow From Continuing Investing Activities,-7127000000.0,
+Net Investment Purchase And Sale,-4938000000.0,
+Sale Of Investment,3220000000.0,
+Purchase Of Investment,-8158000000.0,
+Net Business Purchase And Sale,-294000000.0,
+Purchase Of Business,-294000000.0,
+Net PPE Purchase And Sale,-1895000000.0,
+Purchase Of PPE,-1895000000.0,
+Operating Cash Flow,15365000000.0,
+Cash Flow From Continuing Operating Activities,15365000000.0,
+Change In Working Capital,-11022000000.0,
+Change In Other Current Liabilities,629000000.0,
+Change In Payables And Accrued Expense,-2739000000.0,
+Change In Accrued Expense,-4053000000.0,
+Change In Payable,1314000000.0,
+Change In Account Payable,1314000000.0,
+Change In Prepaid Assets,386000000.0,
+Change In Inventory,-3622000000.0,
+Change In Receivables,-5676000000.0,
+Changes In Account Receivables,-5676000000.0,
+Other Non Cash Items,-98000000.0,
+Stock Based Compensation,1625000000.0,
+Deferred Tax,17000000.0,
+Deferred Income Tax,17000000.0,
+Depreciation Amortization Depletion,669000000.0,
+Depreciation And Amortization,669000000.0,
+Operating Gains Losses,-2248000000.0,
+Gain Loss On Investment Securities,-2248000000.0,
+Net Income From Continuing Operations,26422000000.0,

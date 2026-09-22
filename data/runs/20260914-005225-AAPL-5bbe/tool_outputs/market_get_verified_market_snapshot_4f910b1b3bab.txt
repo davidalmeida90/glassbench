@@ -1,0 +1,68 @@
+## Verified market data snapshot for AAPL
+
+- Requested analysis date: 2026-05-15
+- Latest trading row used: 2026-05-15
+- Rows after the requested analysis date are excluded before verification.
+
+### Latest verified OHLCV row
+
+| Field | Value |
+|---|---:|
+| Open | 297.64 |
+| High | 302.94 |
+| Low | 296.26 |
+| Close | 299.97 |
+| Volume | 54862800 |
+
+### Verified technical indicators (latest row)
+
+| Indicator | Value |
+|---|---:|
+| close_10_ema | 291.35 |
+| close_50_sma | 265.74 |
+| close_200_sma | 258.43 |
+| rsi | 76.02 |
+| boll | 281.11 |
+| boll_ub | 304.51 |
+| boll_lb | 257.72 |
+| macd | 9.51 |
+| macds | 7.73 |
+| macdh | 1.77 |
+| atr | 6.23 |
+
+### Recent verified closes (last 30 rows)
+
+| Date | Close |
+|---|---:|
+| 2026-04-06 | 258.40 |
+| 2026-04-07 | 253.05 |
+| 2026-04-08 | 258.44 |
+| 2026-04-09 | 260.03 |
+| 2026-04-10 | 260.02 |
+| 2026-04-13 | 258.74 |
+| 2026-04-14 | 258.37 |
+| 2026-04-15 | 265.96 |
+| 2026-04-16 | 262.93 |
+| 2026-04-17 | 269.75 |
+| 2026-04-20 | 272.56 |
+| 2026-04-21 | 265.70 |
+| 2026-04-22 | 272.68 |
+| 2026-04-23 | 272.94 |
+| 2026-04-24 | 270.58 |
+| 2026-04-27 | 267.13 |
+| 2026-04-28 | 270.23 |
+| 2026-04-29 | 269.69 |
+| 2026-04-30 | 270.87 |
+| 2026-05-01 | 279.64 |
+| 2026-05-04 | 276.34 |
+| 2026-05-05 | 283.67 |
+| 2026-05-06 | 287.00 |
+| 2026-05-07 | 286.93 |
+| 2026-05-08 | 292.80 |
+| 2026-05-11 | 292.43 |
+| 2026-05-12 | 294.55 |
+| 2026-05-13 | 298.61 |
+| 2026-05-14 | 297.95 |
+| 2026-05-15 | 299.97 |
+
+Use this snapshot as the source of truth for exact OHLCV, price-level, and indicator-value claims. If another tool output conflicts with it, flag the discrepancy rather than inventing a reconciled number. Do not claim historical validation, support/resistance bounces, or exact percentage moves unless directly supported by tool output with concrete dates and prices.

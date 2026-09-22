@@ -1,0 +1,9 @@
+## Polymarket prediction markets: "US inflation 2026"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+- **Will the Fed decrease interest rates by 25 bps after the September 2026 meeting?** — Yes 0% ($40,572,261 volume, resolves 2026-09-16)
+- **Will there be no change in Fed interest rates after the September 2026 meeting?** — Yes 22% ($38,384,964 volume, resolves 2026-09-16, 1-week -29.0pp)
+- **Will the Fed increase interest rates by 25 bps after the September 2026 meeting?** — Yes 78% ($29,813,287 volume, resolves 2026-09-16, 1-week +28.0pp)
+- **Will the Fed increase interest rates by 50+ bps after the September 2026 meeting?** — Yes 1% ($19,957,059 volume, resolves 2026-09-16, 1-week +0.1pp)
+- **Will the Fed decrease interest rates by 50+ bps after the September 2026 meeting?** — Yes 0% ($16,148,754 volume, resolves 2026-09-16, 1-week -0.1pp)
+- **Will the US economy be in a soft landing at the end of 2026?** — Yes 36% ($39,034 volume, resolves 2027-01-31, 1-week -18.5pp)

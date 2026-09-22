@@ -1,0 +1,46 @@
+## boll_ub values from 2025-08-03 to 2025-09-12:
+
+2025-09-12: 239.7829014299133
+2025-09-11: 239.66564887343802
+2025-09-10: 239.82650507958706
+2025-09-09: 239.71891575245235
+2025-09-08: 239.5349618959878
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 238.64424402608586
+2025-09-04: 238.09931627679714
+2025-09-03: 238.55344818755694
+2025-09-02: 241.08393480543108
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 243.09748849761726
+2025-08-28: 244.1140983555393
+2025-08-27: 243.75868523747937
+2025-08-26: 243.24617088499147
+2025-08-25: 242.5458175734076
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 241.89605334293844
+2025-08-21: 241.08992563837697
+2025-08-20: 240.53080822359698
+2025-08-19: 239.78446860111657
+2025-08-18: 238.28098993554005
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 236.5283233494423
+2025-08-14: 234.39781615069722
+2025-08-13: 231.65356981499406
+2025-08-12: 228.23800782211885
+2025-08-11: 225.29569021735048
+2025-08-10: N/A: Not a trading day (weekend or holiday)
+2025-08-09: N/A: Not a trading day (weekend or holiday)
+2025-08-08: 222.5336223646408
+2025-08-07: 218.2613372066163
+2025-08-06: 216.74550717095326
+2025-08-05: 216.52287532493582
+2025-08-04: 216.055963203967
+2025-08-03: N/A: Not a trading day (weekend or holiday)
+
+
+Bollinger Upper Band: Typically 2 standard deviations above the middle line. Usage: Signals potential overbought conditions and breakout zones. Tips: Confirm signals with other tools; prices may ride the band in strong trends.

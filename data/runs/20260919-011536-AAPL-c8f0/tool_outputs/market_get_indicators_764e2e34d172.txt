@@ -1,0 +1,36 @@
+## vwma values from 2026-04-15 to 2026-05-15:
+
+2026-05-15: 284.95311429791286
+2026-05-14: 282.7409278525989
+2026-05-13: 281.35918744521007
+2026-05-12: 279.73981119457545
+2026-05-11: 278.2410345135409
+2026-05-10: N/A: Not a trading day (weekend or holiday)
+2026-05-09: N/A: Not a trading day (weekend or holiday)
+2026-05-08: 276.6511971804082
+2026-05-07: 275.2105736035247
+2026-05-06: 273.86825346270336
+2026-05-05: 272.2619265337577
+2026-05-04: 270.95203047494493
+2026-05-03: N/A: Not a trading day (weekend or holiday)
+2026-05-02: N/A: Not a trading day (weekend or holiday)
+2026-05-01: 269.6948478606089
+2026-04-30: 267.59655008747507
+2026-04-29: 266.60467814549656
+2026-04-28: 266.1052800903544
+2026-04-27: 265.23608115180525
+2026-04-26: N/A: Not a trading day (weekend or holiday)
+2026-04-25: N/A: Not a trading day (weekend or holiday)
+2026-04-24: 263.7167629817994
+2026-04-23: 263.0164312080087
+2026-04-22: 261.95869455929306
+2026-04-21: 260.8108749231098
+2026-04-20: 259.4582604325751
+2026-04-19: N/A: Not a trading day (weekend or holiday)
+2026-04-18: N/A: Not a trading day (weekend or holiday)
+2026-04-17: 257.8637505557562
+2026-04-16: 256.028097996735
+2026-04-15: 255.2564907122962
+
+
+VWMA: A moving average weighted by volume. Usage: Confirm trends by integrating price action with volume data. Tips: Watch for skewed results from volume spikes; use in combination with other volume analyses.

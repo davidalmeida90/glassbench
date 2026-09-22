@@ -1,0 +1,68 @@
+## Verified market data snapshot for INTC
+
+- Requested analysis date: 2026-02-13
+- Latest trading row used: 2026-02-13
+- Rows after the requested analysis date are excluded before verification.
+
+### Latest verified OHLCV row
+
+| Field | Value |
+|---|---:|
+| Open | 45.76 |
+| High | 47.69 |
+| Low | 44.97 |
+| Close | 46.79 |
+| Volume | 69740400 |
+
+### Verified technical indicators (latest row)
+
+| Indicator | Value |
+|---|---:|
+| close_10_ema | 47.83 |
+| close_50_sma | 43.30 |
+| close_200_sma | 31.24 |
+| rsi | 50.67 |
+| boll | 48.20 |
+| boll_ub | 53.95 |
+| boll_lb | 42.44 |
+| macd | 1.20 |
+| macds | 1.72 |
+| macdh | -0.53 |
+| atr | 3.16 |
+
+### Recent verified closes (last 30 rows)
+
+| Date | Close |
+|---|---:|
+| 2026-01-02 | 39.38 |
+| 2026-01-05 | 39.37 |
+| 2026-01-06 | 40.04 |
+| 2026-01-07 | 42.63 |
+| 2026-01-08 | 41.11 |
+| 2026-01-09 | 45.55 |
+| 2026-01-12 | 44.06 |
+| 2026-01-13 | 47.29 |
+| 2026-01-14 | 48.72 |
+| 2026-01-15 | 48.32 |
+| 2026-01-16 | 46.96 |
+| 2026-01-20 | 48.56 |
+| 2026-01-21 | 54.25 |
+| 2026-01-22 | 54.32 |
+| 2026-01-23 | 45.07 |
+| 2026-01-26 | 42.49 |
+| 2026-01-27 | 43.93 |
+| 2026-01-28 | 48.78 |
+| 2026-01-29 | 48.66 |
+| 2026-01-30 | 46.47 |
+| 2026-02-02 | 48.81 |
+| 2026-02-03 | 49.25 |
+| 2026-02-04 | 48.60 |
+| 2026-02-05 | 48.24 |
+| 2026-02-06 | 50.59 |
+| 2026-02-09 | 50.24 |
+| 2026-02-10 | 47.13 |
+| 2026-02-11 | 48.29 |
+| 2026-02-12 | 46.48 |
+| 2026-02-13 | 46.79 |
+
+Use this snapshot as the source of truth for exact OHLCV, price-level, and indicator-value claims. If another tool output conflicts with it, flag the discrepancy rather than inventing a reconciled number. Do not claim historical validation, support/resistance bounces, or exact percentage moves unless directly supported by tool output with concrete dates and prices.

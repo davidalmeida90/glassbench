@@ -1,0 +1,46 @@
+## macdh values from 2025-08-03 to 2025-09-12:
+
+2025-09-12: -0.9268709291045161
+2025-09-11: -1.0202894354644174
+2025-09-10: -0.743544807516642
+2025-09-09: 0.015768764402775304
+2025-09-08: 0.3832011911476201
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 0.5035471665288718
+2025-09-04: 0.3954902965228122
+2025-09-03: 0.10837827674866496
+2025-09-02: -0.2969387886024517
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: -0.10181140614908468
+2025-08-28: -0.09922361503620092
+2025-08-27: -0.2015277899518786
+2025-08-26: -0.21039268770663266
+2025-08-25: -0.16045029654857412
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 0.07676838528418095
+2025-08-21: 0.3133890251288225
+2025-08-20: 0.8805389022336394
+2025-08-19: 1.5260053531042121
+2025-08-18: 1.8966745427760854
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 2.2315576980554797
+2025-08-14: 2.4507004933448906
+2025-08-13: 2.4252631129661353
+2025-08-12: 2.0855726241487216
+2025-08-11: 1.7108425339853002
+2025-08-10: N/A: Not a trading day (weekend or holiday)
+2025-08-09: N/A: Not a trading day (weekend or holiday)
+2025-08-08: 1.1963831819538135
+2025-08-07: 0.06391894406203069
+2025-08-06: -0.8173382306555466
+2025-08-05: -1.4812429770330604
+2025-08-04: -1.3861010108995382
+2025-08-03: N/A: Not a trading day (weekend or holiday)
+
+
+MACD Histogram: Shows the gap between the MACD line and its signal. Usage: Visualize momentum strength and spot divergence early. Tips: Can be volatile; complement with additional filters in fast-moving markets.

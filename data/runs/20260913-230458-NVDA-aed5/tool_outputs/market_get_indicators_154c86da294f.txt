@@ -1,0 +1,36 @@
+## atr values from 2025-08-13 to 2025-09-12:
+
+2025-09-12: 4.823242685533871
+2025-09-11: 5.029271303046409
+2025-09-10: 5.124529057512208
+2025-09-09: 4.864173452735445
+2025-09-08: 4.912985433286525
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 4.988574308495709
+2025-09-04: 4.789893320038034
+2025-09-03: 4.970346387307305
+2025-09-02: 5.0818066476918045
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 4.93863935924282
+2025-08-28: 4.779854993155057
+2025-08-27: 4.529053040695139
+2025-08-26: 4.617310488551782
+2025-08-25: 4.697777147553871
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 4.649380526122832
+2025-08-21: 4.43995434289847
+2025-08-20: 4.544378734056386
+2025-08-19: 4.341455319163771
+2025-08-18: 4.137502252621361
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 4.2647000432726045
+2025-08-14: 4.287347338246233
+2025-08-13: 4.343967240381014
+
+
+ATR: Averages true range to measure volatility. Usage: Set stop-loss levels and adjust position sizes based on current market volatility. Tips: It's a reactive measure, so use it as part of a broader risk management strategy.

@@ -1,0 +1,32 @@
+# Company Fundamentals for NVDA, USD in millions unless the row says otherwise
+# Point-in-time as of: 2026-02-13
+# SEC EDGAR facts filed on or before 2026-02-13, priced at the 2026-02-13 close
+# Name, sector, beta, dividend yield and forward estimates have no filed vintage
+# and are not served.
+
+Price (USD per share): 182.81
+Shares Outstanding (millions): 24300.0 (counted 2025-11-14)
+Market Cap: 4442283
+Enterprise Value: 4390142 (debt: LongTermDebtNoncurrent + LongTermDebtCurrent)
+PE Ratio (TTM): 44.8x
+Price to Sales (TTM): 23.7x
+Price to Book: 37.4x
+EV to EBITDA (TTM): 39.0x
+EV to Sales (TTM): 23.5x
+Free Cash Flow Yield (TTM): 1.74%
+
+# Trailing twelve months, each built only from filed figures
+Revenue (TTM): 187142 = fiscal year to 2025-01-26 (130497) + 9 months to 2025-10-26 (147811) - 9 months to 2024-10-27 (91166)
+Net Income (TTM): 99198 = fiscal year to 2025-01-26 (72880) + 9 months to 2025-10-26 (77107) - 9 months to 2024-10-27 (50789)
+Operating Income (TTM): 110122 = fiscal year to 2025-01-26 (81453) + 9 months to 2025-10-26 (86088) - 9 months to 2024-10-27 (57419)
+Depreciation and Amortization (TTM): 2574 = fiscal year to 2025-01-26 (1864) + 9 months to 2025-10-26 (2031) - 9 months to 2024-10-27 (1321)
+Operating Cash Flow (TTM): 83159 = fiscal year to 2025-01-26 (64089) + 9 months to 2025-10-26 (66530) - 9 months to 2024-10-27 (47460)
+Capital Expenditure (TTM): 5835 = fiscal year to 2025-01-26 (3236) + 9 months to 2025-10-26 (4758) - 9 months to 2024-10-27 (2159)
+EBITDA (TTM): 112696
+Free Cash Flow (TTM): 77324
+
+# Balances at 2025-10-26
+Stockholders Equity: 118897
+Cash and Equivalents: 11486
+Marketable Securities: 49122
+Debt: 8467

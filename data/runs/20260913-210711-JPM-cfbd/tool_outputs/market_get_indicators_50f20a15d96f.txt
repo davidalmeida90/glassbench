@@ -1,0 +1,36 @@
+## macds values from 2026-08-14 to 2026-09-13:
+
+2026-09-13: N/A: Not a trading day (weekend or holiday)
+2026-09-12: N/A: Not a trading day (weekend or holiday)
+2026-09-11: 1.818726466633636
+2026-09-10: 2.0272176925088186
+2026-09-09: 2.272452636835428
+2026-09-08: 2.4952076773417495
+2026-09-07: N/A: Not a trading day (weekend or holiday)
+2026-09-06: N/A: Not a trading day (weekend or holiday)
+2026-09-05: N/A: Not a trading day (weekend or holiday)
+2026-09-04: 2.701002667591466
+2026-09-03: 2.8410552179333144
+2026-09-02: 3.0049089780200195
+2026-09-01: 3.290417574043426
+2026-08-31: 3.608414519781285
+2026-08-30: N/A: Not a trading day (weekend or holiday)
+2026-08-29: N/A: Not a trading day (weekend or holiday)
+2026-08-28: 3.9312872042958404
+2026-08-27: 4.2752922917583955
+2026-08-26: 4.679264850896227
+2026-08-25: 5.0741272076839525
+2026-08-24: 5.496481640176224
+2026-08-23: N/A: Not a trading day (weekend or holiday)
+2026-08-22: N/A: Not a trading day (weekend or holiday)
+2026-08-21: 5.950662038361495
+2026-08-20: 6.429984474288343
+2026-08-19: 6.808532795807775
+2026-08-18: 7.017258349792726
+2026-08-17: 7.107686665984904
+2026-08-16: N/A: Not a trading day (weekend or holiday)
+2026-08-15: N/A: Not a trading day (weekend or holiday)
+2026-08-14: 7.179803802673171
+
+
+MACD Signal: An EMA smoothing of the MACD line. Usage: Use crossovers with the MACD line to trigger trades. Tips: Should be part of a broader strategy to avoid false positives.

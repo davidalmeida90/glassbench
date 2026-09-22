@@ -1,0 +1,9 @@
+## Polymarket prediction markets: "inflation CPI"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+- **Will the UK’s 2026 inflation be between 3.5% and 3.9%?** — Yes 27% ($37,547 volume, resolves 2027-01-20, 1-week +0.3pp)
+- **Will Mexico’s 2026 Annual Inflation be between 3.00% and 3.49%?** — Yes 21% ($29,128 volume, resolves 2027-01-08, 1-week +0.6pp)
+- **Will the Eurozone's 2026 Annual Inflation be between 1.9% and 2.1%?** — Yes 1% ($26,053 volume, resolves 2027-01-19, 1-week +0.9pp)
+- **Will the UK’s 2026 inflation be between 2.5% and 2.9%?** — Yes 11% ($22,566 volume, resolves 2027-01-20, 1-week +6.3pp)
+- **Will Japan's core-core CPI increase by between 2.0 and 2.4% in 2026?** — Yes 44% ($22,018 volume, resolves 2027-02-12, 1-week -13.5pp)
+- **Will China's annual inflation in 2026 be less than -1.0%?** — Yes 1% ($20,219 volume, resolves 2027-01-10, 1-week -0.7pp)

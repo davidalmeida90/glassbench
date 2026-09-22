@@ -1,0 +1,82 @@
+## MSFT News, from 2026-09-14 to 2026-09-21:
+
+### Microsoft AI CEO Sends Stark Warning on AI Rules (source: GuruFocus.com)
+The regulatory divide could reshape Big Tech's AI economics
+Link: https://finance.yahoo.com/technology/ai/articles/microsoft-ai-ceo-sends-stark-145941847.html
+
+### Can CoreWeave Stock Handle The Cost Of Its Own Growth? (source: Trefis)
+CoreWeave (CRWV) sells AI computing on NVIDIA GPUs through its own cloud, and demand for its capacity outruns supply. Revenue reached $2.6 billion in the second quarter of 2026, up 112% from a year earlier. The risk is in how that growth gets paid for.
+Link: https://www.trefis.com/articles/616006/can-coreweave-stock-handle-the-cost-of-its-own-growth/2026-09-21
+
+### NOW Rides on Strong Workflow Demand: Can It Outpace CRM & MSFT? (source: Zacks)
+ServiceNow benefits from broad workflow demand, cross-selling and AI partnerships that are fueling growth as competition with CRM and MSFT intensifies.
+Link: https://finance.yahoo.com/technology/articles/now-rides-strong-workflow-demand-144100921.html
+
+### Meta Spikes 7% as Wells Fargo Lifts Price Target to $796 Ahead of Connect; Alphabet Nudges Higher, Microsoft Holds Flat (source: 24/7 Wall St.)
+Wells Fargo just raised its Meta price target before Connect rather than after it, which means buyers are betting on Muse usage numbers the company has not yet disclosed and that this week's developer event will either validate or crush.
+Link: https://247wallst.com/investing/2026/09/21/meta-spikes-7-as-wells-fargo-lifts-price-target-to-796-ahead-of-connect-alphabet-nudges-higher-microsoft-holds-flat/
+
+### Prediction: This Underappreciated ETF Could Be the Biggest Winner of the Next 10 Years (source: Motley Fool)
+Companies servicing the AI energy demand boom have a lot of upside potential.
+Link: https://www.fool.com/investing/2026/09/21/prediction-etf-could-biggest-winner-next-10-years/
+
+### IREN Expands Its 5GW+ Pipeline: Can Execution Match Ambition? (source: Zacks)
+IREN rapidly pivots to AI infrastructure, with 5GW+ of power secured and billions in contracted ARR fueling its expansion.
+Link: https://finance.yahoo.com/technology/ai/articles/iren-expands-5gw-pipeline-execution-132900207.html
+
+### Azure, AI Capex, and What to Expect Out of Microsoft Through The End of 2026 (source: 24/7 Wall St.)
+Microsoft is sitting on the biggest contracted backlog in its history while its stock trails the broader market by nearly 900 basis points, and the reason for that disconnect reveals everything about whether this setup is a trap or a buying opportunity.
+Link: https://247wallst.com/investing/2026/09/21/azure-ai-capex-and-what-to-expect-out-of-microsoft-through-the-end-of-2026/
+
+### Oracle’s Co-CEOs Deliver Explosive Growth, but Stock Plunges 50% in Their First Year (source: 24/7 Wall St.)
+Oracle's co-CEOs oversaw one of the fastest contract buildouts in enterprise software history, yet the stock cratered anyway. The question investors are wrestling with now cuts to the heart of the AI buildout era.
+Link: https://247wallst.com/investing/2026/09/21/oracles-co-ceos-deliver-explosive-growth-but-stock-plunges-50-in-their-first-year/
+
+### Zacks Investment Ideas feature highlights: Intel, SK Hynix, Nvidia, Microsoft and Apple (source: Zacks)
+Intel and SK Hynix heat up as a potential U.S. memory partnership draws attention, while AI demand and valuation widen the contrast.
+Link: https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-130200708.html
+
+### Zacks Investment Ideas feature highlights: Microsoft, NVIDIA and Apple (source: Zacks)
+Microsoft and NVIDIA combine strong cloud and AI growth with attractive valuations, while Apple offers a less AI-sensitive option within the Magnificent Seven.
+Link: https://finance.yahoo.com/markets/stocks/articles/zacks-investment-ideas-feature-highlights-130100092.html
+
+### We’re More Bullish on Amazon Than Wall Street Is. Here’s the Math. (source: 24/7 Wall St.)
+Wall Street has a number on Amazon, and we think it's wrong. AWS is accelerating at its fastest pace in nearly five years, AI demand is outrunning supply, and our model tells a very different story about where this stock is headed.
+Link: https://247wallst.com/investing/2026/09/21/were-more-bullish-on-amazon-than-wall-street-is-heres-the-math/
+
+### The Zacks Analyst Blog Highlights Microsoft, Amazon, Oracle and Alphabet (source: Zacks)
+Microsoft's cloud momentum, expanding enterprise AI adoption and investment outlook support its stock after a 31.2% three-month surge.
+Link: https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-microsoft-130000455.html
+
+### 85% of Nscale’s $103B of contracts are with Microsoft and Anthropic (source: Investing.com)
+Investing.com -- Nscale disclosed that Microsoft Corp. and Anthropic PBC account for 85% of its $103 billion in total contract value, according to details revealed in the British data center developer's initial public offering filing on Friday.
+Link: https://finance.yahoo.com/markets/stocks/articles/85-nscale-103b-contracts-microsoft-125451095.html
+
+### MSFT Stock: Redburn Raises Target To $440 As AI Safety, Spending Debate Continues (source: Stocktwits)
+Microsoft is drawing fresh attention after Redburn raised its price target to $440 while keeping a Neutral rating.
+Link: https://stocktwits.com/news-articles/markets/equity/msft-stock-redburn-raises-target-to-440-as-ai-safety-spending-debate-continues/cZMRiFQRB4U
+
+### Microsoft AI Chief Sends Stark Warning on AI Safety (source: GuruFocus.com)
+Microsoft AI Chief Takes Aim at AI Free-for-All, Urges Safeguards for Powerful Systems
+Link: https://finance.yahoo.com/technology/ai/articles/microsoft-ai-chief-sends-stark-122657280.html
+
+### Worried About Hugging Face? Microsoft and Amazon Got Exposed Most Among Hyperscalers (source: 24/7 Wall St.)
+The Hugging Face security incident hit two hyperscalers at the peak of their cloud momentum, and enterprise buyers are now forcing Microsoft and Amazon to answer uncomfortable questions about whether their AI stacks can actually be trusted.
+Link: https://247wallst.com/investing/2026/09/21/worried-about-hugging-face-microsoft-and-amazon-got-exposed-most-among-hyperscalers/
+
+### This Artificial Intelligence (AI) Stock Has Raised Its Dividend by Over 150% in 10 Years (source: Motley Fool)
+Microsoft recently boosted its dividend, yet again.
+Link: https://www.fool.com/investing/2026/09/21/this-artificial-intelligence-ai-stock-has-raised-its-dividend-by-over-150-in-10-years/
+
+### The Tech Selloff Is Only Strengthening My Belief In Alphabet (source: 24/7 Wall St.)
+While most investors flee the tech selloff, one mega cap keeps pulling more capital in the opposite direction, and the reasoning has nothing to do with hoping for a rebound.
+Link: https://247wallst.com/investing/2026/09/21/the-tech-selloff-is-only-strengthening-my-belief-in-alphabet/
+
+### Market Chatter: Microsoft-backed OpenAI Seeks Valuation Above $1.2 Trillion Despite Projected $278 Billion Cash Burn (source: MT Newswires)
+Microsoft (MSFT)-backed OpenAI is seeking a valuation above $1.2 trillion in new funding discussions
+Link: https://finance.yahoo.com/technology/ai/articles/market-chatter-microsoft-backed-openai-090300004.html
+
+### If I Were in My 20s, I'd Buy These 2 Trillion-Dollar Stocks and Hold Them Forever (source: Motley Fool)
+Buying a slice of America's largest technology giants can help young investors build a secure financial future.
+Link: https://www.fool.com/investing/2026/09/21/if-20s-buy-2-trillion-dollar-stocks-hold-forever/
+

@@ -1,0 +1,68 @@
+# Balance Sheet data for INTC (quarterly)
+# Data retrieved on: 2026-09-19 00:47:56
+# Periods are cut at the fiscal period end; this vendor does not report filing dates, so the most recent period may not have been published yet.
+
+,2025-09-30,2025-06-30,2025-03-31,2024-12-31
+Ordinary Shares Number,4766000000.0,4377000000.0,,
+Share Issued,4766000000.0,4377000000.0,,
+Net Debt,35412000000.0,41114000000.0,,
+Total Debt,46553000000.0,50757000000.0,,
+Tangible Book Value,79587000000.0,70914000000.0,,
+Invested Capital,152929000000.0,148640000000.0,,
+Working Capital,19434000000.0,8409000000.0,,
+Net Tangible Assets,79587000000.0,70914000000.0,,
+Common Stock Equity,106376000000.0,97883000000.0,,
+Total Capitalization,150433000000.0,141909000000.0,,
+Total Equity Gross Minority Interest,116730000000.0,105751000000.0,,
+Minority Interest,10354000000.0,7868000000.0,,
+Stockholders Equity,106376000000.0,97883000000.0,,
+Gains Losses Not Affecting Retained Earnings,19000000.0,65000000.0,,
+Other Equity Adjustments,19000000.0,65000000.0,,
+Retained Earnings,49602000000.0,45484000000.0,,
+Capital Stock,56755000000.0,52334000000.0,,
+Common Stock,56755000000.0,52334000000.0,,
+Preferred Stock,,,,0.0
+Total Liabilities Net Minority Interest,87784000000.0,86769000000.0,,
+Total Non Current Liabilities Net Minority Interest,55487000000.0,51803000000.0,,
+Other Non Current Liabilities,11430000000.0,7777000000.0,,
+Long Term Debt And Capital Lease Obligation,44057000000.0,44026000000.0,,
+Long Term Debt,44057000000.0,44026000000.0,,
+Current Liabilities,32297000000.0,34966000000.0,,
+Current Deferred Liabilities,3200000000.0,3000000000.0,2700000000.0,
+Current Debt And Capital Lease Obligation,2496000000.0,6731000000.0,,
+Current Debt,2496000000.0,6731000000.0,,
+Other Current Borrowings,,,,3729000000.0
+Pensionand Other Post Retirement Benefit Plans Current,3756000000.0,4249000000.0,,
+Payables And Accrued Expenses,22845000000.0,20986000000.0,,
+Current Accrued Expenses,11752000000.0,9433000000.0,,
+Payables,11093000000.0,11553000000.0,,
+Total Tax Payable,825000000.0,887000000.0,1873000000.0,1756000000.0
+Income Tax Payable,825000000.0,887000000.0,1873000000.0,1756000000.0
+Accounts Payable,10268000000.0,10666000000.0,,
+Total Assets,204514000000.0,192520000000.0,,
+Total Non Current Assets,152783000000.0,149145000000.0,,
+Other Non Current Assets,12280000000.0,7283000000.0,,
+Investments And Advances,8667000000.0,5383000000.0,,
+Investmentin Financial Assets,572000000.0,5383000000.0,,
+Available For Sale Securities,572000000.0,5383000000.0,,
+Long Term Equity Investment,8095000000.0,,,
+Goodwill And Other Intangible Assets,26789000000.0,26969000000.0,,
+Other Intangible Assets,2877000000.0,3057000000.0,,
+Goodwill,23912000000.0,23912000000.0,,
+Net PPE,105047000000.0,109510000000.0,,
+Accumulated Depreciation,-105063000000.0,-103572000000.0,,
+Gross PPE,210110000000.0,213082000000.0,,
+Construction In Progress,,,,50418000000.0
+Machinery Furniture Equipment,,,,103150000000.0
+Properties,,,,56544000000.0
+Current Assets,51731000000.0,43375000000.0,,
+Other Current Assets,6105000000.0,8432000000.0,,
+Inventory,11489000000.0,11377000000.0,,
+Finished Goods,3603000000.0,3699000000.0,,
+Work In Process,6751000000.0,6484000000.0,,
+Raw Materials,1135000000.0,1194000000.0,,
+Receivables,3202000000.0,2360000000.0,,
+Accounts Receivable,3202000000.0,2360000000.0,,
+Cash Cash Equivalents And Short Term Investments,30935000000.0,21206000000.0,,
+Other Short Term Investments,19794000000.0,11563000000.0,,
+Cash And Cash Equivalents,11141000000.0,9643000000.0,,

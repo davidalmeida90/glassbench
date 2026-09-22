@@ -1,0 +1,5 @@
+## Polymarket prediction markets: "Fed rate hike September 2026"
+Live, market-implied probabilities (higher traded volume = deeper, more reliable). A probability is the crowd's priced odds of the event, not a forecast you should take as certain.
+
+- **Fed Rate Hike by September 2026 Meeting?** — Yes 78% ($1,591,354 volume, resolves 2026-12-09, 1-week +29.0pp)
+- **Fed Rate Hike by October 2026 Meeting?** — Yes 84% ($792,697 volume, resolves 2026-12-09, 1-week +22.0pp)

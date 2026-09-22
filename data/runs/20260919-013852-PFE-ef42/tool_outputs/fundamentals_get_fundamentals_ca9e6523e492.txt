@@ -1,0 +1,32 @@
+# Company Fundamentals for PFE, USD in millions unless the row says otherwise
+# Point-in-time as of: 2026-05-15
+# SEC EDGAR facts filed on or before 2026-05-15, priced at the 2026-05-15 close
+# Name, sector, beta, dividend yield and forward estimates have no filed vintage
+# and are not served.
+
+Price (USD per share): 25.33
+Shares Outstanding (millions): 5699.4 (counted 2026-04-29)
+Market Cap: 144367
+Enterprise Value: 198901 (debt: LongTermDebtNoncurrent + LongTermDebtCurrent)
+PE Ratio (TTM): 19.3x
+Price to Sales (TTM): 2.3x
+Price to Book: 1.6x
+EV to EBITDA (TTM): unavailable (an input was not on file)
+EV to Sales (TTM): 3.1x
+Free Cash Flow Yield (TTM): 6.57%
+
+# Trailing twelve months, each built only from filed figures
+Revenue (TTM): 63315 = fiscal year to 2025-12-31 (62579) + 3 months to 2026-03-29 (14451) - 3 months to 2025-03-30 (13715)
+Net Income (TTM): 7491 = fiscal year to 2025-12-31 (7771) + 3 months to 2026-03-29 (2687) - 3 months to 2025-03-30 (2967)
+Operating Income (TTM): unavailable (a part was not on file)
+Depreciation and Amortization (TTM): 6587 = fiscal year to 2025-12-31 (6592) + 3 months to 2026-03-29 (1613) - 3 months to 2025-03-30 (1618)
+Operating Cash Flow (TTM): 11984 = fiscal year to 2025-12-31 (11704) + 3 months to 2026-03-29 (2615) - 3 months to 2025-03-30 (2335)
+Capital Expenditure (TTM): 2501 = fiscal year to 2025-12-31 (2629) + 3 months to 2026-03-29 (436) - 3 months to 2025-03-30 (564)
+EBITDA (TTM): unavailable
+Free Cash Flow (TTM): 9483
+
+# Balances at 2026-03-29
+Stockholders Equity: 90101
+Cash and Equivalents: 1703
+Marketable Securities: 8189
+Debt: 64426

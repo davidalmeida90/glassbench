@@ -1,0 +1,36 @@
+## close_200_sma values from 2025-10-15 to 2025-11-14:
+
+2025-11-14: 224.2895979309082
+2025-11-13: 224.11063652038575
+2025-11-12: 223.93776863098145
+2025-11-11: 223.75684730529784
+2025-11-10: 223.52535278320312
+2025-11-09: N/A: Not a trading day (weekend or holiday)
+2025-11-08: N/A: Not a trading day (weekend or holiday)
+2025-11-07: 223.287734375
+2025-11-06: 223.06056770324707
+2025-11-05: 222.82776885986328
+2025-11-04: 222.5872194671631
+2025-11-03: 222.38360389709473
+2025-11-02: N/A: Not a trading day (weekend or holiday)
+2025-11-01: N/A: Not a trading day (weekend or holiday)
+2025-10-31: 222.17638229370118
+2025-10-30: 222.01028861999512
+2025-10-29: 221.81627937316895
+2025-10-28: 221.63629844665527
+2025-10-27: 221.47196632385254
+2025-10-26: N/A: Not a trading day (weekend or holiday)
+2025-10-25: N/A: Not a trading day (weekend or holiday)
+2025-10-24: 221.33761993408203
+2025-10-23: 221.23068115234375
+2025-10-22: 221.15373237609865
+2025-10-21: 221.07427154541017
+2025-10-20: 220.9757228088379
+2025-10-19: N/A: Not a trading day (weekend or holiday)
+2025-10-18: N/A: Not a trading day (weekend or holiday)
+2025-10-17: 220.91242767333983
+2025-10-16: 220.90753524780274
+2025-10-15: 220.94358169555665
+
+
+200 SMA: A long-term trend benchmark. Usage: Confirm overall market trend and identify golden/death cross setups. Tips: It reacts slowly; best for strategic trend confirmation rather than frequent trading entries.

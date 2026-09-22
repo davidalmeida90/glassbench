@@ -1,0 +1,36 @@
+## macd values from 2025-10-15 to 2025-11-14:
+
+2025-11-14: 5.230229197646736
+2025-11-13: 5.428652990878504
+2025-11-12: 5.548115032099702
+2025-11-11: 5.567090779729028
+2025-11-10: 5.3295926805889735
+2025-11-09: N/A: Not a trading day (weekend or holiday)
+2025-11-08: N/A: Not a trading day (weekend or holiday)
+2025-11-07: 5.539910406423473
+2025-11-06: 5.851651405236055
+2025-11-05: 6.032556794445497
+2025-11-04: 6.138172955600112
+2025-11-03: 6.193840220091261
+2025-11-02: N/A: Not a trading day (weekend or holiday)
+2025-11-01: N/A: Not a trading day (weekend or holiday)
+2025-10-31: 6.275235128937084
+2025-10-30: 6.153938682306631
+2025-10-29: 5.805124275785232
+2025-10-28: 5.447924139836488
+2025-10-27: 4.983774196867671
+2025-10-26: N/A: Not a trading day (weekend or holiday)
+2025-10-25: N/A: Not a trading day (weekend or holiday)
+2025-10-24: 4.338133063302365
+2025-10-23: 4.058606565369644
+2025-10-22: 3.971476027426718
+2025-10-21: 3.917125096041957
+2025-10-20: 3.352543868927569
+2025-10-19: N/A: Not a trading day (weekend or holiday)
+2025-10-18: N/A: Not a trading day (weekend or holiday)
+2025-10-17: 2.636933294845562
+2025-10-16: 2.6945604920950643
+2025-10-15: 3.2199066940431464
+
+
+MACD: Computes momentum via differences of EMAs. Usage: Look for crossovers and divergence as signals of trend changes. Tips: Confirm with other indicators in low-volatility or sideways markets.

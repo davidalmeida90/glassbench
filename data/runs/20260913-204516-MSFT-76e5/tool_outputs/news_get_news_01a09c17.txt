@@ -1,0 +1,82 @@
+## MSFT News, from 2026-08-25 to 2026-09-13:
+
+### Forget Chatbot Benchmarks. Google Just Found 1,000 Ways Into Microsoft’s Best Customers. (source: 24/7 Wall St.)
+Google just landed inside nearly every major Fortune 100 company, but having access and winning the deal are two very different things. The real fight is happening at a layer most investors never think about.
+Link: https://247wallst.com/investing/2026/09/13/forget-chatbot-benchmarks-google-just-found-1000-ways-into-microsofts-best-customers/
+
+### Goldman Sachs Says AI Is Driving Half of S&P 500 Earnings Growth. That Number Cuts Both Ways. (source: 24/7 Wall St.)
+Goldman Sachs says AI spending is propping up S&P 500 earnings growth, but that same statistic reveals a fragile dependency on a handful of buyers whose budgets could shift any quarter.
+Link: https://247wallst.com/investing/2026/09/13/goldman-sachs-says-ai-is-driving-half-of-sp-500-earnings-growth-that-number-cuts-both-ways/
+
+### Billionaire Bill Ackman Trimmed This Big Tech Position to Back These 2 AI Contenders (source: Motley Fool)
+The famed fund manager lowered his position in Amazon and was buying shares of Microsoft and Meta Platforms.
+Link: https://www.fool.com/investing/2026/09/13/ackman-trimmed-this-big-tech-position-to/
+
+### Anthropic Locks Down $517 Billion in Compute Ahead of IPO — and It’s Still Not Enough (source: 24/7 Wall St.)
+Anthropic just signed a compute bill so large it reshapes the math behind every NVIDIA forecast on Wall Street, and the number arriving ahead of the company's IPO raises a question Jensen Huang's own team has not fully answered yet.
+Link: https://247wallst.com/investing/2026/09/13/anthropic-locks-down-517-billion-in-compute-ahead-of-ipo-and-its-still-not-enough/
+
+### Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First. (source: Motley Fool)
+If you are an aggressive growth investor willing to get in early, it looks like NuScale Power may have the lead over Oklo and TMC.
+Link: https://www.fool.com/investing/2026/09/13/oklo-vs-nuscale-vs-tmc-3-speculative-bets-ranked-b/
+
+### Microsoft Stock: Is Now the Right Time to Buy or Should You Hold Off? (source: Motley Fool)
+The $678 billion backlog that Microsoft's cloud business is sitting on suggests that the good times will continue.
+Link: https://www.fool.com/investing/2026/09/13/microsoft-stock-is-now-the-right-time-to-buy-or-sh/
+
+### She Gave the Grandkids Cash for Their Down Payments and Left Them the Stock in Her Will. Done the Other Way Around, the IRS Would Have Collected $120,000 on the Same Two Gifts (source: 24/7 Wall St.)
+The order in which a grandmother gifted cash versus appreciated stock to her grandkids meant a six-figure difference in what the IRS collected, and most estate plans get this sequence completely backwards.
+Link: https://247wallst.com/personal-finance/2026/09/13/she-gave-the-grandkids-cash-for-their-down-payments-and-left-them-the-stock-in-her-will-done-the-other-way-around-the-irs-would-have-collected-120000-on-the-same-two-gifts/
+
+### Nvidia May Put $10 Billion Into Anthropic’s $2 Trillion IPO. Amazon Already Has Much More Riding on It (source: Insider Monkey)
+Anthropic is reportedly seeking NVIDIA Corporation (NASDAQ:NVDA) as an anchor investor in an IPO that could value the AI developer near $2 trillion, with NVIDIA considering as much as $10 billion. Amazon.com, Inc. (NASDAQ:AMZN) already has far greater exposure through capital, cloud capacity and contracted spending. Reuters reported the talks on September 11, saying Anthropic […]
+Link: https://finance.yahoo.com/technology/ai/articles/nvidia-may-put-10-billion-103618397.html
+
+### Xi pushes China’s open-source AI vision at BRICS summit (source: Investing.com)
+Investing.com -- Chinese President Xi Jinping used the BRICS summit in New Delhi to promote Beijing’s open-source approach to artificial intelligence, seeking greater international influence over AI development as competition with the U.S. intensifies, according to Bloomberg.
+Link: https://www.yahoo.com/news/world/articles/xi-pushes-china-open-source-102711002.html
+
+### 3 Unstoppable Dow Stocks Worth Buying Right Now (source: Motley Fool)
+These stocks are demonstrating incredible performance and have a long growth runway.
+Link: https://www.fool.com/investing/2026/09/13/3-unstoppable-dow-stocks-worth-buying-right-now/
+
+### Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call (source: Motley Fool)
+Elon Musk recently praised a specific GPU stock during SpaceX's earnings call.
+Link: https://www.fool.com/investing/2026/09/12/nvidia-vs-amd-elon-musk-picked-a-side-on-the-space/
+
+### Zscaler Conference: AI Agents, Agentic SOC Fuel Zero-Trust Growth Ambitions (source: MarketBeat)
+Zscaler (NASDAQ:ZS) executives outlined how the cybersecurity company is adapting its zero-trust architecture for AI agents, while also discussing new product launches, sales initiatives and the potential for continued growth in its core business. Speaking at a company session, Head of Product Adam
+Link: https://www.marketbeat.com/instant-alerts/event-zscaler-conference-ai-agents-agentic-soc-fuel-zero-trust-growth-ambitions-2026-09-12/?utm_source=yahoofinance&utm_medium=yahoofinance
+
+### Anthropic’s Prisoner’s Dilemma: Dario Amodei Hits the Brakes on AI While Begging Everyone Else to Do the Same (source: 24/7 Wall St.)
+Anthropic's CEO just called on the entire AI industry to slow down, while his own company's balance sheet depends on the biggest accelerators in the business. The conflict at the heart of that position may be impossible to resolve.
+Link: https://247wallst.com/investing/2026/09/12/anthropics-prisoners-dilemma-dario-amodei-hits-the-brakes-on-ai-while-begging-everyone-else-to-do-the-same/
+
+### $2.3 Billion in Daily Profits: Why Betting Against the Magnificent 7 Keeps Failing (source: 24/7 Wall St.)
+The Magnificent 7 label vanished from Wall Street chatter, yet the profit engines behind these seven companies kept compounding in ways that have made betting against them one of the most punishing trades in recent memory.
+Link: https://247wallst.com/investing/2026/09/12/2-3-billion-in-daily-profits-why-betting-against-the-magnificent-7-keeps-failing/
+
+### The $760 Billion AI Risk That Nobody Is Talking About. But Should. (source: Motley Fool)
+The demand for AI is real, but what if the industry is building too much capacity? Here's the overlooked risk investors should be watching.
+Link: https://www.fool.com/investing/2026/09/12/the-760-billion-ai-risk-that-nobody-is-talking-abo/
+
+### Jim Cramer Wondered Whether Microsoft Corporation (NASDAQ:MSFT) Isn’t “That” Dependent On AI (source: Insider Monkey)
+Microsoft Corporation (NASDAQ:MSFT) ‘s shares have marked a major turnaround in 2026. They are up by more than 20% since late-July following the firm’s second quarter earnings on July 29th. The fact that the firm has spent billions of dollars in investments in AI means that Microsoft Corporation (NASDAQ:MSFT)’s narrative is driven by the performance […]
+Link: https://finance.yahoo.com/technology/ai/articles/jim-cramer-wondered-whether-microsoft-105632101.html
+
+### Jim Cramer Discussed Taking The Long View For Chevron Corporation (NYSE:CVX) (source: Insider Monkey)
+Oil major Chevron Corporation (NYSE:CVX) is one of Cramer’s favorite stocks in the sector. Among the reasons that he likes the firm are its dividend, production projects, and its CEO, Mike Wirth. Naturally, in his morning appearance on the 3rd, the CNBC TV host discussed Chevron Corporation (NYSE:CVX) in the context of these reasons as […]
+Link: https://finance.yahoo.com/energy/articles/jim-cramer-discussed-taking-long-104953141.html
+
+### Microsoft Signs ‘Iron-Clad’ AI Safety Deal — Schools Can Seek Damages if Student Data Is Misused (source: Benzinga)
+Microsoft Corp, the American Federation of Teachers (AFT) and the United Federation of Teachers (UFT) have agreed on a new “National AI Safety & Privacy Standard” for schools. The agreement, which was announced in a joint press release on Wednesday,...
+Link: https://www.yahoo.com/news/us/articles/microsoft-signs-iron-clad-ai-023005073.html
+
+### Microsoft Stock Is Flat So Far in 2026. Is a Rally Coming to End the Year? (source: Motley Fool)
+The tech giant has rebounded from its recent slump, but there may not be much near-term upside left.
+Link: https://www.fool.com/investing/2026/09/11/microsoft-stock-is-flat-for-2026-is-a-rally-coming/
+
+### The Woman Fixing a Microsoft Mess With Brutal Honesty (source: The Wall Street Journal)
+REDMOND, Wash.— Asha Sharma  had zero experience in videogames when  Microsoft  put her in charge of cleaning up its Xbox business.  While videogames have never been more popular, Xbox isn’t growing.  Its GamePass subscription service has fallen far short of projections.
+Link: https://www.wsj.com/tech/xbox-microsoft-asha-sharma-videogame-03eb23ba?siteid=yhoof2&yptr=yahoo
+

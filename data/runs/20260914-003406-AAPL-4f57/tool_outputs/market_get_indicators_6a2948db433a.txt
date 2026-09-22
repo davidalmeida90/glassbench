@@ -1,0 +1,46 @@
+## close_10_ema values from 2025-08-03 to 2025-09-12:
+
+2025-09-12: 232.00108736646
+2025-09-11: 231.73276753426708
+2025-09-10: 232.2992912875417
+2025-09-09: 233.70905879045898
+2025-09-08: 233.75829339905926
+2025-09-07: N/A: Not a trading day (weekend or holiday)
+2025-09-06: N/A: Not a trading day (weekend or holiday)
+2025-09-05: 233.03691046516963
+2025-09-04: 231.75448033091044
+2025-09-03: 230.16714113469783
+2025-09-02: 228.51709556654038
+2025-09-01: N/A: Not a trading day (weekend or holiday)
+2025-08-31: N/A: Not a trading day (weekend or holiday)
+2025-08-30: N/A: Not a trading day (weekend or holiday)
+2025-08-29: 228.43766297325422
+2025-08-28: 227.80478496427253
+2025-08-27: 226.93827355550843
+2025-08-26: 226.3375068716631
+2025-08-25: 225.8645008574667
+2025-08-24: N/A: Not a trading day (weekend or holiday)
+2025-08-23: N/A: Not a trading day (weekend or holiday)
+2025-08-22: 225.76239557926485
+2025-08-21: 225.5047606125042
+2025-08-20: 225.82309283194957
+2025-08-19: 225.9664040971224
+2025-08-18: 225.13417027452113
+2025-08-17: N/A: Not a trading day (weekend or holiday)
+2025-08-16: N/A: Not a trading day (weekend or holiday)
+2025-08-15: 224.04393312957967
+2025-08-14: 222.5564392384533
+2025-08-13: 220.47491933397762
+2025-08-12: 217.8090675323268
+2025-08-11: 215.36557608334732
+2025-08-10: N/A: Not a trading day (weekend or holiday)
+2025-08-09: N/A: Not a trading day (weekend or holiday)
+2025-08-08: 212.9259513620686
+2025-08-07: 209.52130234291886
+2025-08-06: 207.42121509772548
+2025-08-05: 206.35386196406031
+2025-08-04: 207.33383462599556
+2025-08-03: N/A: Not a trading day (weekend or holiday)
+
+
+10 EMA: A responsive short-term average. Usage: Capture quick shifts in momentum and potential entry points. Tips: Prone to noise in choppy markets; use alongside longer averages for filtering false signals.

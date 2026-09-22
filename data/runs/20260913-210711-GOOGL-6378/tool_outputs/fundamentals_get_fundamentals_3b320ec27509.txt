@@ -1,0 +1,31 @@
+# Company Fundamentals for GOOGL
+# Data retrieved on: 2026-09-13 21:10:49
+
+Name: Alphabet Inc.
+Sector: Communication Services
+Industry: Internet Content & Information
+Market Cap: 4139833098240
+PE Ratio (TTM): 16.975927
+Forward PE: 22.758093
+PEG Ratio: 1.21
+Price to Book: 6.6508174
+EPS (TTM): 19.94
+Forward EPS: 14.87383
+Dividend Yield: 0.26
+Beta: 1.225
+52 Week High: 408.61
+52 Week Low: 235.84
+50 Day Average: 347.1792
+200 Day Average: 336.81055
+Revenue (TTM): 445865984000
+Gross Profit: 271517007872
+EBITDA: 173164003328
+Net Income: 244118994944
+Profit Margin: 0.54771
+Operating Margin: 0.34033
+Return on Equity: 0.48676
+Return on Assets: 0.12958999
+Debt to Equity: 18.859
+Current Ratio: 2.724
+Book Value: 50.896
+Free Cash Flow: 22665000960

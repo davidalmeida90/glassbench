@@ -1,0 +1,36 @@
+## close_10_ema values from 2026-08-14 to 2026-09-13:
+
+2026-09-13: N/A: Not a trading day (weekend or holiday)
+2026-09-12: N/A: Not a trading day (weekend or holiday)
+2026-09-11: 221.39265785424212
+2026-09-10: 222.08213886937753
+2026-09-09: 222.90928070471662
+2026-09-08: 222.79578793488804
+2026-09-07: N/A: Not a trading day (weekend or holiday)
+2026-09-06: N/A: Not a trading day (weekend or holiday)
+2026-09-05: N/A: Not a trading day (weekend or holiday)
+2026-09-04: 222.19980933144302
+2026-09-03: 220.44365055982794
+2026-09-02: 218.7212048237741
+2026-09-01: 217.5127659651683
+2026-08-31: 217.58294157787063
+2026-08-30: N/A: Not a trading day (weekend or holiday)
+2026-08-29: N/A: Not a trading day (weekend or holiday)
+2026-08-28: 216.92732111904675
+2026-08-27: 216.84298381455537
+2026-08-26: 214.42471933996873
+2026-08-25: 215.53562159780898
+2026-08-24: 216.14089875517797
+2026-08-23: N/A: Not a trading day (weekend or holiday)
+2026-08-22: N/A: Not a trading day (weekend or holiday)
+2026-08-21: 217.89510319860295
+2026-08-20: 218.65401257910847
+2026-08-19: 219.10876304156662
+2026-08-18: 219.5069696072273
+2026-08-17: 219.50976284785244
+2026-08-16: N/A: Not a trading day (weekend or holiday)
+2026-08-15: N/A: Not a trading day (weekend or holiday)
+2026-08-14: 218.34337700392902
+
+
+10 EMA: A responsive short-term average. Usage: Capture quick shifts in momentum and potential entry points. Tips: Prone to noise in choppy markets; use alongside longer averages for filtering false signals.

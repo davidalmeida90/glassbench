@@ -1,0 +1,82 @@
+## AMZN News, from 2026-09-06 to 2026-09-13:
+
+### Billionaire Bill Ackman Trimmed This Big Tech Position to Back These 2 AI Contenders (source: Motley Fool)
+The famed fund manager lowered his position in Amazon and was buying shares of Microsoft and Meta Platforms.
+Link: https://www.fool.com/investing/2026/09/13/ackman-trimmed-this-big-tech-position-to/
+
+### Anthropic Locks Down $517 Billion in Compute Ahead of IPO — and It’s Still Not Enough (source: 24/7 Wall St.)
+Anthropic just signed a compute bill so large it reshapes the math behind every NVIDIA forecast on Wall Street, and the number arriving ahead of the company's IPO raises a question Jensen Huang's own team has not fully answered yet.
+Link: https://247wallst.com/investing/2026/09/13/anthropic-locks-down-517-billion-in-compute-ahead-of-ipo-and-its-still-not-enough/
+
+### UPS Cut Amazon Volumes on Purpose. The Margin Data Says It Worked. (source: Motley Fool)
+Sometimes, the tough choice in the short run is the smart one in the long run.
+Link: https://www.fool.com/investing/2026/09/13/ups-cut-amazon-volumes-on-purpose-the-margin-data/
+
+### Alibaba and Amazon Face the Same AI Spending Question: How Quickly Does Capacity Become Cash? (source: Insider Monkey)
+September’s debate over Chinese and American AI spending puts Alibaba Group Holding Limited (NYSE:BABA) and Amazon.com, Inc. (NASDAQ:AMZN) on opposite sides of the same investment question. Both report strong demand for computing services. Shareholders still need that demand to justify the infrastructure bill. September 7 coverage of Jefferies’ analysis highlighted differences in spending intensity. The […]
+Link: https://finance.yahoo.com/technology/ai/articles/alibaba-amazon-face-same-ai-140837189.html
+
+### Oklo vs. NuScale vs. TMC: 3 Speculative Bets, Ranked By Which One Pays Off First. (source: Motley Fool)
+If you are an aggressive growth investor willing to get in early, it looks like NuScale Power may have the lead over Oklo and TMC.
+Link: https://www.fool.com/investing/2026/09/13/oklo-vs-nuscale-vs-tmc-3-speculative-bets-ranked-b/
+
+### Amazon’s Zoox Enters San Francisco’s Crowded Robotaxi Market, Taking Direct Aim at Waymo and Tesla (source: Insider Monkey)
+According to an August 29 report, Amazon.com Inc. (NASDAQ:AMZN)’s Zoox is expanding its robotaxi service in San Francisco, pitting the company more directly against Waymo while intensifying the broader robotaxi competition that also includes Tesla Inc. (NASDAQ:TSLA) in one of the country’s most closely watched autonomous-vehicle marketplaces. Zoox has received a federal exemption allowing it […]
+Link: https://finance.yahoo.com/technology/articles/amazon-zoox-enters-san-francisco-112558972.html
+
+### Nvidia May Put $10 Billion Into Anthropic’s $2 Trillion IPO. Amazon Already Has Much More Riding on It (source: Insider Monkey)
+Anthropic is reportedly seeking NVIDIA Corporation (NASDAQ:NVDA) as an anchor investor in an IPO that could value the AI developer near $2 trillion, with NVIDIA considering as much as $10 billion. Amazon.com, Inc. (NASDAQ:AMZN) already has far greater exposure through capital, cloud capacity and contracted spending. Reuters reported the talks on September 11, saying Anthropic […]
+Link: https://finance.yahoo.com/technology/ai/articles/nvidia-may-put-10-billion-103618397.html
+
+### Should You Buy Costco Stock Right Now With $2,000 and Hold for 5 Years? (source: Motley Fool)
+Over the past half-decade, this dominant retailer's share price has nearly doubled.
+Link: https://www.fool.com/investing/2026/09/13/buy-costco-stock-right-now-2000-and-hold-5-years/
+
+### 3 Unstoppable Dow Stocks Worth Buying Right Now (source: Motley Fool)
+These stocks are demonstrating incredible performance and have a long growth runway.
+Link: https://www.fool.com/investing/2026/09/13/3-unstoppable-dow-stocks-worth-buying-right-now/
+
+### Investing $20,000 in Apple Stock 10 Years Ago Paid Off More Than Investing the Same Amount in Amazon. Here's the Better Buy for the Next Decade. (source: Motley Fool)
+After examining both companies, one seems to have a higher growth opportunity.
+Link: https://www.fool.com/investing/2026/09/13/investing-20000-in-apple-stock-10-years-ago-paid-o/
+
+### Nvidia vs. AMD: Elon Musk Picked a Side on the SpaceX Earnings Call (source: Motley Fool)
+Elon Musk recently praised a specific GPU stock during SpaceX's earnings call.
+Link: https://www.fool.com/investing/2026/09/12/nvidia-vs-amd-elon-musk-picked-a-side-on-the-space/
+
+### Sirius XM CEO Highlights Cash Flow Growth, New Sports Plans and Ad Expansion at Conference (source: MarketBeat)
+Jennifer Witz, chief executive officer of Sirius XM (NASDAQ:SIRI), said the company’s strategy remains centered on strengthening its subscription business, expanding advertising and improving efficiency, with recent operating results providing what she described as evidence that the approach is work
+Link: https://www.marketbeat.com/instant-alerts/event-sirius-xm-ceo-highlights-cash-flow-growth-new-sports-plans-and-ad-expansion-at-conference-2026-09-12/?utm_source=yahoofinance&utm_medium=yahoofinance
+
+### Anthropic’s Prisoner’s Dilemma: Dario Amodei Hits the Brakes on AI While Begging Everyone Else to Do the Same (source: 24/7 Wall St.)
+Anthropic's CEO just called on the entire AI industry to slow down, while his own company's balance sheet depends on the biggest accelerators in the business. The conflict at the heart of that position may be impossible to resolve.
+Link: https://247wallst.com/investing/2026/09/12/anthropics-prisoners-dilemma-dario-amodei-hits-the-brakes-on-ai-while-begging-everyone-else-to-do-the-same/
+
+### Amazon Price Prediction: The Stock’s Path Toward $300 Looks Clearer (source: 24/7 Wall St.)
+AWS is growing at its fastest pace in nearly five years, the advertising unit prints billions every quarter, and yet Amazon shares have barely moved in 2026. Something has to give, and the math behind a $300 price tag is more straightforward than most investors realize.
+Link: https://247wallst.com/investing/2026/09/12/amazon-price-prediction-the-stocks-path-toward-300-looks-clearer/
+
+### $2.3 Billion in Daily Profits: Why Betting Against the Magnificent 7 Keeps Failing (source: 24/7 Wall St.)
+The Magnificent 7 label vanished from Wall Street chatter, yet the profit engines behind these seven companies kept compounding in ways that have made betting against them one of the most punishing trades in recent memory.
+Link: https://247wallst.com/investing/2026/09/12/2-3-billion-in-daily-profits-why-betting-against-the-magnificent-7-keeps-failing/
+
+### Qualcomm Lost Apple’s Modem Business. Amazon Just Offered a $60 Billion Escape Route. (source: 24/7 Wall St.)
+Qualcomm is watching Apple walk out the door with its modem business, but a surprise Amazon partnership promises a $60 billion lifeline built on unproven silicon in a market already owned by rivals. Whether that door holds the weight is the real question.
+Link: https://247wallst.com/investing/2026/09/12/qualcomm-lost-apples-modem-business-amazon-just-offered-a-60-billion-escape-route/
+
+### Goldman Sachs Is Bullish. Here Are 3 Reasons AFRM Stock Could Climb 69%. (source: Barchart)
+Goldman Sachs and many other analysts are growing more confident in Affirm’s long-term growth story.
+Link: https://www.barchart.com/story/news/4572918/goldman-sachs-is-bullish-here-are-3-reasons-afrm-stock-could-climb-69
+
+### Prediction: Owning 100 Shares of Amazon Stock Will Turn $25,000 Into $50,000 by 2030 (source: Motley Fool)
+Here's why Amazon shares could realistically double in four years.
+Link: https://www.fool.com/investing/2026/09/12/prediction-amazon-stock-25000-into-50000/
+
+### Want in on Anthropic Before the IPO? Buy These 8 Stocks (source: Benzinga)
+Anthropic is barreling toward what could be the largest IPO in history, with investors and bankers reportedly targeting a valuation near $2 trillion and a raise exceeding $86 billion when the offering launches as soon as mid-October — but retail...
+Link: https://finance.yahoo.com/technology/ai/articles/want-anthropic-ipo-buy-8-113034122.html
+
+### The $760 Billion AI Risk That Nobody Is Talking About. But Should. (source: Motley Fool)
+The demand for AI is real, but what if the industry is building too much capacity? Here's the overlooked risk investors should be watching.
+Link: https://www.fool.com/investing/2026/09/12/the-760-billion-ai-risk-that-nobody-is-talking-abo/
+

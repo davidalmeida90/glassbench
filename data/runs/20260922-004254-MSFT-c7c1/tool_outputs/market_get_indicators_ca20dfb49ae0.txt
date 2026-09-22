@@ -1,0 +1,51 @@
+## vwma values from 2026-08-08 to 2026-09-22:
+
+2026-09-22: N/A: Not a trading day (weekend or holiday)
+2026-09-21: 497.9881374403294
+2026-09-20: N/A: Not a trading day (weekend or holiday)
+2026-09-19: N/A: Not a trading day (weekend or holiday)
+2026-09-18: 498.9841199469166
+2026-09-17: 501.03304353374534
+2026-09-16: 501.2077455118554
+2026-09-15: 501.2473613407932
+2026-09-14: 500.5601469009895
+2026-09-13: N/A: Not a trading day (weekend or holiday)
+2026-09-12: N/A: Not a trading day (weekend or holiday)
+2026-09-11: 499.4665453735745
+2026-09-10: 498.35887797524754
+2026-09-09: 497.62386122711547
+2026-09-08: 496.92824661121466
+2026-09-07: N/A: Not a trading day (weekend or holiday)
+2026-09-06: N/A: Not a trading day (weekend or holiday)
+2026-09-05: N/A: Not a trading day (weekend or holiday)
+2026-09-04: 495.84738991246536
+2026-09-03: 494.2201314700333
+2026-09-02: 493.1534674591429
+2026-09-01: 493.1860205917166
+2026-08-31: 492.75835050691194
+2026-08-30: N/A: Not a trading day (weekend or holiday)
+2026-08-29: N/A: Not a trading day (weekend or holiday)
+2026-08-28: 492.0778192790301
+2026-08-27: 491.6571546986647
+2026-08-26: 491.6453108148933
+2026-08-25: 491.955593983314
+2026-08-24: 491.8640915814125
+2026-08-23: N/A: Not a trading day (weekend or holiday)
+2026-08-22: N/A: Not a trading day (weekend or holiday)
+2026-08-21: 491.79744411822776
+2026-08-20: 491.0438572262306
+2026-08-19: 487.37644944416513
+2026-08-18: 479.53427737131426
+2026-08-17: 472.5237953093037
+2026-08-16: N/A: Not a trading day (weekend or holiday)
+2026-08-15: N/A: Not a trading day (weekend or holiday)
+2026-08-14: 467.7002369408253
+2026-08-13: 463.3316458344048
+2026-08-12: 458.41490190853904
+2026-08-11: 452.92275651898944
+2026-08-10: 448.27366356423374
+2026-08-09: N/A: Not a trading day (weekend or holiday)
+2026-08-08: N/A: Not a trading day (weekend or holiday)
+
+
+VWMA: A moving average weighted by volume. Usage: Confirm trends by integrating price action with volume data. Tips: Watch for skewed results from volume spikes; use in combination with other volume analyses.

@@ -1,0 +1,13 @@
+## FRED: Real Gross Domestic Product (GDPC1)
+- Units: Bil. of Chn. 2017 $
+- Frequency: Quarterly (SAAR)
+- Window: 2025-08-09 to 2026-09-13
+
+**Latest:** 24269.613 (2026-04-01) | **Change over window:** +242.78 (+1.01%) from 24026.834 (2025-07-01)
+
+| Date | Value |
+| --- | --- |
+| 2025-07-01 | 24026.834 |
+| 2025-10-01 | 24055.749 |
+| 2026-01-01 | 24180.419 |
+| 2026-04-01 | 24269.613 |
