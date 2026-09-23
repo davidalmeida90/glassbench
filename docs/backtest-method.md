@@ -51,19 +51,19 @@ Backtest `bt-20260913-230450-9dec` (in the shipped database): AAPL and NVDA on 2
 | Time | 3.7 to 5.5 minutes per run, two in parallel |
 | Ratings | 8 of 8 Hold, the research manager and the trader also Hold on every date |
 
-Replay over 250 trading days from 2025-09-12 at 10 bps:
+Replayed on 23 September 2026 over 256 trading days from 2025-09-12, at 10 bps (the same numbers the results page shows at that cost setting):
 
 | Strategy | AAPL | NVDA | Equal weight |
 |---|---:|---:|---:|
-| Agents, trader levels | -2.8% (4 trades) | -7.8% (6 trades) | -5.3% |
+| Agents, trader levels | -6.0% (5 trades) | -7.4% (7 trades) | -6.7% |
 | Agents, rating only | 0.0% (no trades) | 0.0% | 0.0% |
-| Buy and hold | +40.6% | +24.5% | +32.5% |
-| 50/200-day MA rule | +28.4% | +24.4% | +26.4% |
+| Buy and hold | +43.5% | +29.6% | +36.6% |
+| 50/200-day MA rule | +31.0% | +29.6% | +30.3% |
 
-Every level-based entry was stopped out, mostly within days or weeks. Four decisions per stock is a method check, not evidence.
+Prices are dividend adjusted and refreshed daily, so a later replay can move these figures by a point or two; a replay on 14 September 2026 over 250 days gave -2.8% and -7.8% for the agents against +40.6% and +24.5% for buy and hold. Every level-based entry was stopped out, mostly within days or weeks. Four decisions per stock is a method check, not evidence.
 
 ## What the pilot taught
 
-- The Hold bias was the prompt, not missing data. Two variants on the same eight decisions: restoring the earlier, more decisive manager wording gave 4 Overweight, 2 Underweight and 2 Hold; adding SEC EDGAR statements gave 8 Hold. Upstream later dropped the over-cautious condition from the Hold rule (commit `62d3479`, 2026-09-14), and on 0.5.0 the same AAPL and NVDA dates come out Overweight.
+- Hold bias came from the prompt, not from missing data. Two variants on the same eight decisions: restoring the earlier, more decisive manager wording gave 4 Overweight, 2 Underweight and 2 Hold; adding SEC EDGAR statements gave 8 Hold. Upstream later dropped the over-cautious condition from the Hold rule (commit `62d3479`, 2026-09-14), and on 0.5.0 the same AAPL and NVDA dates come out Overweight.
 - Two runs on the same ticker and date can differ. Any claim about ratings needs reruns, which is what the noise-estimate stage is for.
 - The most careful public evaluation of this class of systems is FINSABER (arXiv 2505.07078); see [backtest-research.md](backtest-research.md) for what other projects did and what to avoid.

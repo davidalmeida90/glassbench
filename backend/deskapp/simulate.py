@@ -13,6 +13,10 @@ Rules (see BACKTEST_PLAN.md):
 
 from __future__ import annotations
 
+import threading
+
+import os
+
 import itertools
 import math
 import random
@@ -51,6 +55,15 @@ class Bars:
         return idx
 
 
+_PRICE_LOCKS: dict[str, "threading.Lock"] = {}
+_PRICE_LOCKS_GUARD = threading.Lock()
+
+
+def _price_lock(path) -> "threading.Lock":
+    with _PRICE_LOCKS_GUARD:
+        return _PRICE_LOCKS.setdefault(str(path), threading.Lock())
+
+
 def load_bars(ticker: str, start: str) -> Bars:
     """Daily OHLC from Yahoo, adjusted like the engine's own price tools, cached once per day."""
     import pandas as pd
@@ -60,15 +73,24 @@ def load_bars(ticker: str, start: str) -> Bars:
     safe = "".join(c for c in ticker if c.isalnum() or c in "-_.^=")
     today = date.today().isoformat()
     path = PRICES_DIR / f"{safe}_{start}_{today}.csv"
-    if path.exists():
-        df = pd.read_csv(path, index_col=0)
-    else:
-        tomorrow = (date.today() + timedelta(days=1)).isoformat()
-        df = yf.Ticker(ticker).history(start=start, end=tomorrow, auto_adjust=True)[["Open", "High", "Low", "Close"]]
-        if df.empty:
-            raise ValueError(f"No price data for {ticker} from {start}")
-        df.index = [d.date().isoformat() for d in df.index]
-        df.to_csv(path)
+    # One lock per cache file: the results page and the variant comparison ask for the same prices at the same
+    # moment, and two writers on one CSV interleave their rows. The write goes to a temp file and is renamed.
+    with _price_lock(path):
+        df = None
+        if path.exists():
+            try:
+                df = pd.read_csv(path, index_col=0)
+            except (ValueError, pd.errors.ParserError):
+                path.unlink(missing_ok=True)          # a damaged cache is refetched, never trusted
+        if df is None:
+            tomorrow = (date.today() + timedelta(days=1)).isoformat()
+            df = yf.Ticker(ticker).history(start=start, end=tomorrow, auto_adjust=True)[["Open", "High", "Low", "Close"]]
+            if df.empty:
+                raise ValueError(f"No price data for {ticker} from {start}")
+            df.index = [d.date().isoformat() for d in df.index]
+            tmp = path.with_suffix(f".{os.getpid()}.{threading.get_ident()}.tmp")
+            df.to_csv(tmp)
+            os.replace(tmp, path)
     df = df.dropna()
     return Bars(list(df.index.astype(str)), df["Open"].to_numpy(float), df["High"].to_numpy(float),
                 df["Low"].to_numpy(float), df["Close"].to_numpy(float))
