@@ -359,6 +359,7 @@ def main() -> int:
     if a.flatten:
         return flatten(tickers)
 
+    say("Paper account only. The committee's ratings are language model output, not investment advice.", DIM)
     section(1, "Account", "Interactive Brokers, paper")
     ib, account = connect()
     values = {v.tag: v.value for v in ib.accountSummary() if v.currency in ("USD", "")}

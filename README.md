@@ -30,7 +30,7 @@ Nothing here is a ready system to trade with. See [Honest limits](#honest-limits
   <img src="docs/img/committee-live.gif" alt="The committee board filling live during a run" width="900">
 </p>
 
-> **Disclaimer.** Glassbench is for research and education. It places orders only on paper accounts, it does not give investment advice, and nothing in the repository or its database is a recommendation to buy or sell anything. The agents are wrong often, and the runs shipped here show it.
+> **Not investment advice.** Glassbench is a research and education tool. Every rating, price level and report in this repository and its database is output from language models, published so the method can be judged. None of it is a recommendation to buy, sell or hold any security, by the author or anyone else. Orders go to paper accounts only.
 
 ---
 
@@ -231,6 +231,16 @@ Issues and pull requests are welcome, in particular a second framework adapter, 
 ## Credits and license
 
 Glassbench is by [David Arias, CFA](https://davidariasfinance.com), released under the [Apache License 2.0](LICENSE). It runs on top of [TradingAgents](https://github.com/TauricResearch/TradingAgents) by Tauric Research (Apache 2.0), which is not bundled here; see the [paper](https://arxiv.org/abs/2412.20138) by Yijia Xiao, Edward Sun, Di Luo and Wei Wang. The video that walks through all of this: [Open Source AI Trading Agents on DeepSeek: Setup to a Broker Order](https://youtu.be/Bvucb9BpJ1U).
+
+## Disclaimer
+
+Glassbench is software for research and education. It is not investment advice, a recommendation, or an offer to buy or sell any security, and it is not a trading system.
+
+- Ratings, price levels, reports and debates in the published runs are output from language models. They are wrong often, two runs on the same stock and date can disagree, and they are published so the method can be examined, never so they can be followed.
+- Backtests and paper trades describe the past on a handful of decisions. They say nothing reliable about future returns.
+- The software connects to paper broker accounts only. Anyone who adapts it to trade real money does so at their own risk and under their own responsibility.
+- Views expressed here are the author's own and do not represent any employer or client. Glassbench is independent of Tauric Research and of the TradingAgents project.
+- The software is provided "as is", without warranty of any kind, under the Apache License 2.0.
 
 ## Citation
 

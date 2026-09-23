@@ -83,6 +83,7 @@ button { font: inherit; color: inherit; }
 .nav a.active { background: var(--surface); color: var(--ink); font-weight: 600; box-shadow: 0 0 0 1px var(--line); }
 .nav span { color: var(--muted); cursor: default; }
 .nav span small { font-size: 10px; font-family: var(--font-mono); color: var(--muted); opacity: 0.8; }
+.advice-note { margin: 4px 0 0; font-size: 11px; line-height: 1.45; color: var(--muted); }
 .sidebar-foot { margin-top: auto; display: flex; flex-direction: column; gap: 7px; padding: 12px; border-top: 1px solid var(--line); }
 .keyrow { display: flex; align-items: center; gap: 8px; font-size: 12.5px; }
 .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }

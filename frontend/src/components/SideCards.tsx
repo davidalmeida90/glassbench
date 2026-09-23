@@ -55,6 +55,7 @@ export function DecisionCard({ run }: { run: RunView }) {
       )}
       {pm?.executive_summary && <p style={{ margin: 0, fontSize: 12.5, lineHeight: 1.55, color: "var(--ink-2)" }}>{pm.executive_summary}</p>}
       {run.error && <p className="error" style={{ margin: 0 }}>{run.error}</p>}
+      {finalRating && <p className="advice-note">Model output from a research tool, not a recommendation to buy, sell or hold. Not investment advice.</p>}
     </div>
   );
 }

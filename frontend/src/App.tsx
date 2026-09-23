@@ -53,11 +53,12 @@ export default function App() {
             Broker
             <span className="muted" style={{ marginLeft: "auto", fontSize: 11.5 }}>{brokerLabel || "…"}</span>
           </NavLink>
+          <p className="advice-note">Research tool. Ratings and levels are language model output, not investment advice. Paper accounts only.</p>
         </div>
       </aside>
       <main className="main">
         {!meta ? (
-          <div className="empty">{error ? "Glassbench's backend is not reachable. Start it with desk.ps1." : "Loading…"}</div>
+          <div className="empty">{error ? "Glassbench's backend is not reachable. Start it with glassbench.ps1." : "Loading…"}</div>
         ) : (
           <Routes>
             <Route path="/" element={<Navigate to="/runs" replace />} />
