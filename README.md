@@ -1,11 +1,9 @@
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark-dark.png">
-    <img src="assets/wordmark.png" alt="Glassbench" width="640">
-  </picture>
+  <a href="https://davidariasfinance.com/glassbench/"><img src="assets/banner.png" alt="Glassbench: watch AI trading agents think. 12 agents per run, 68 runs with full logs, $0.06 per run on DeepSeek, 13 LLM providers" width="100%"></a>
 </p>
 
 <p align="center">
+  <a href="https://davidariasfinance.com/glassbench/"><img src="https://img.shields.io/badge/Website-davidariasfinance.com%2Fglassbench-0b2545" alt="Website"></a>
   <a href="https://youtu.be/Bvucb9BpJ1U"><img src="https://img.shields.io/badge/Watch_the_video-13_min-FF0000?logo=youtube&logoColor=white" alt="Watch the video"></a>
   <a href="https://github.com/TauricResearch/TradingAgents"><img src="https://img.shields.io/badge/Engine-TradingAgents_0.5.0-1a1d1b?logo=github" alt="TradingAgents 0.5.0"></a>
   <a href="https://arxiv.org/abs/2412.20138"><img src="https://img.shields.io/badge/Paper-arXiv_2412.20138-b31b1b?logo=arxiv&logoColor=white" alt="Paper"></a>
@@ -14,24 +12,9 @@
   <img src="https://img.shields.io/badge/React-19-20232a?logo=react&logoColor=61DAFB" alt="React 19">
 </p>
 
-<h3 align="center">A UI for TradingAgents and other LLM trading frameworks</h3>
-
-<p align="center">
-  <b>Watch AI trading agents think.</b><br>
-  Run open-source multi-agent trading frameworks on a real stock, follow every agent live, keep every run in a database, and send the decision to a paper broker account.
-</p>
-
-<p align="center">
-  <img src="docs/img/committee-live.gif" alt="The committee board filling live during a run" width="900">
-</p>
-
-> **Disclaimer.** Glassbench is for research and education. It places orders only on paper accounts, it does not give investment advice, and nothing in the repository or its database is a recommendation to buy or sell anything. The agents are wrong often, and the runs shipped here show it.
-
----
-
 ## What it is
 
-Glassbench is a local workbench on top of open-source AI trading frameworks. Today it runs the official [TradingAgents](https://github.com/TauricResearch/TradingAgents) engine (v0.5.0, unmodified) and records what its twelve agents read, argued and decided, so you can judge the method yourself instead of trusting a rating.
+Glassbench is a UI and local workbench for TradingAgents and other LLM trading frameworks. Today it runs the official [TradingAgents](https://github.com/TauricResearch/TradingAgents) engine (v0.5.0, unmodified) and records what its twelve agents read, argued and decided, so you can judge the method yourself instead of trusting a rating.
 
 For people curious about AI trading agents but unconvinced: every run is recorded, every flag is shown, every cost is counted.
 
@@ -42,6 +25,14 @@ For people curious about AI trading agents but unconvinced: every run is recorde
 - **A trade at the broker.** `trade.py` turns a finished run into one bracket order on an Interactive Brokers paper account, with the trader's stop and the portfolio manager's target attached, and links the order back to the run that produced it.
 
 Nothing here is a ready system to trade with. See [Honest limits](#honest-limits).
+
+<p align="center">
+  <img src="docs/img/committee-live.gif" alt="The committee board filling live during a run" width="900">
+</p>
+
+> **Disclaimer.** Glassbench is for research and education. It places orders only on paper accounts, it does not give investment advice, and nothing in the repository or its database is a recommendation to buy or sell anything. The agents are wrong often, and the runs shipped here show it.
+
+---
 
 ## Highlights
 
@@ -71,9 +62,9 @@ Nothing here is a ready system to trade with. See [Honest limits](#honest-limits
 |---|---|
 | ![New run dialog](docs/img/new-run.png) | ![Agent detail](docs/img/agent-detail.png) |
 
-| Backtest results, agents against buy-and-hold |
+| A paper trade: the committee's decision becomes a bracket order at Interactive Brokers, target and stop attached |
 |---|
-| ![Backtest results](docs/img/backtest.png) |
+| ![Terminal and Interactive Brokers TWS during a paper trade](docs/img/trade-ibkr.gif) |
 
 ## Frameworks
 
