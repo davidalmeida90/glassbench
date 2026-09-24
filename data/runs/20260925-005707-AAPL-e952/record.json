@@ -1,0 +1,403 @@
+{
+  "schema_version": 2,
+  "fund": "glassbench",
+  "as_of": "2026-09-10",
+  "spec": {
+    "schema_version": 2,
+    "name": "glassbench",
+    "strategies": [
+      {
+        "name": "deep-value",
+        "display_name": "Deep Value",
+        "weight": 1.0,
+        "models": [
+          {
+            "name": "graham",
+            "weight": 2.0,
+            "params": {}
+          },
+          {
+            "name": "buffett",
+            "weight": 1.0,
+            "params": {}
+          },
+          {
+            "name": "munger",
+            "weight": 1.0,
+            "params": {}
+          }
+        ],
+        "blend": {
+          "method": "conviction_weighted",
+          "gross_target": 1.0,
+          "mode": "long_only"
+        }
+      }
+    ],
+    "risk": {
+      "max_position_pct": 0.25,
+      "max_gross_exposure": 1.0
+    },
+    "capital": 100000.0,
+    "rebalance": "weekly",
+    "benchmark": "SPY"
+  },
+  "universe": [
+    "AAPL"
+  ],
+  "marks": {},
+  "skipped": [],
+  "strategies": [
+    {
+      "name": "deep-value",
+      "slice": 1.0,
+      "signals": [
+        {
+          "model_name": "graham",
+          "ticker": "AAPL",
+          "date": "2026-09-10",
+          "value": -0.85,
+          "reasoning": "The business is plainly profitable and stable\u2014earnings positive across the record, net margin near 28%, and EPS advancing\u2014but the price asks us to pay about 35 times earnings and roughly 42 times book value, far beyond the 15\u201320 times earnings and modest book multiple a defensive investor may countenance. The balance sheet offers no offset: the latest current ratio is 1.00, below the 1.5 minimum, with debt/equity at 0.89, so liquidity is not comfortable. When a high multiple is combined with a thin current ratio, the market is capitalizing hope rather than demonstrated value; I find no margin of safety.",
+          "components": {},
+          "metadata": {
+            "signal": "bearish",
+            "confidence": 85.0,
+            "model": "deepseek-flash",
+            "prompt_key": "d31f0dac034a53500fc73c94",
+            "snapshot_hash": "7e63054e6c48556cdae7ac82",
+            "cached": false,
+            "abstained": false
+          }
+        },
+        {
+          "model_name": "buffett",
+          "ticker": "AAPL",
+          "date": "2026-09-10",
+          "value": 0.66,
+          "reasoning": "This is a business I can understand \u2014 a consumer franchise with a widening ecosystem, consistently earning extraordinary returns on equity above 120%, net margins near 28%, and free cash flow per share climbing from $6.68 to $9.37 while debt falls and revenue growth accelerates from 6% to 14%. Management is clearly compounding book value per share and returning cash, with sensible and now-lighter leverage. My only hesitation is price: at roughly 35 times earnings and a $4.5 trillion price tag, the margin of safety is thin, so I would buy this wonderful company only patiently and on weakness rather than chase it here.",
+          "components": {},
+          "metadata": {
+            "signal": "bullish",
+            "confidence": 66.0,
+            "model": "deepseek-flash",
+            "prompt_key": "dcfa269f5e4918946db579f4",
+            "snapshot_hash": "7e63054e6c48556cdae7ac82",
+            "cached": false,
+            "abstained": false
+          }
+        },
+        {
+          "model_name": "munger",
+          "ticker": "AAPL",
+          "date": "2026-09-10",
+          "value": 0.0,
+          "reasoning": "This is a genuinely excellent business: gross margin near 49% and improving, net margin 27\u201328%, return on equity above 100%, free cash flow per share of $9.37 exceeding EPS, and debt/equity cut from 1.51 to 0.89. The numbers show real compounding, not accounting fiction. But at roughly 35 times earnings and a $4.5 trillion price tag, you are paying a full price for continued brilliance; I see no margin of safety. Great quality at a price I won't pay belongs in the too-hard pile, not the buy list.",
+          "components": {},
+          "metadata": {
+            "signal": "neutral",
+            "confidence": 72.0,
+            "model": "deepseek-flash",
+            "prompt_key": "18dfadbffc64580c766ec349",
+            "snapshot_hash": "7e63054e6c48556cdae7ac82",
+            "cached": false,
+            "abstained": false
+          }
+        }
+      ],
+      "convictions": {
+        "AAPL": -0.26
+      },
+      "weights": {
+        "AAPL": 0.0
+      },
+      "eligible_scores": {
+        "AAPL": 0.0
+      },
+      "flat_reason": "no_eligible_positions",
+      "final_contribution": {
+        "AAPL": 0.0
+      }
+    }
+  ],
+  "target_weights": {
+    "AAPL": 0.0
+  },
+  "clamps": [],
+  "final_weights": {
+    "AAPL": 0.0
+  },
+  "equity_before": 100000.0,
+  "cash_before": 100000.0,
+  "orders": [],
+  "fills": [],
+  "positions": {},
+  "cash": 100000.0,
+  "nav": 100000.0,
+  "risk_scale_factor": null,
+  "original_assessment": {
+    "schema_version": 2,
+    "fund": "glassbench",
+    "as_of": "2026-09-10",
+    "spec": {
+      "schema_version": 2,
+      "name": "glassbench",
+      "strategies": [
+        {
+          "name": "deep-value",
+          "display_name": "Deep Value",
+          "weight": 1.0,
+          "models": [
+            {
+              "name": "graham",
+              "weight": 2.0,
+              "params": {}
+            },
+            {
+              "name": "buffett",
+              "weight": 1.0,
+              "params": {}
+            },
+            {
+              "name": "munger",
+              "weight": 1.0,
+              "params": {}
+            }
+          ],
+          "blend": {
+            "method": "conviction_weighted",
+            "gross_target": 1.0,
+            "mode": "long_only"
+          }
+        }
+      ],
+      "risk": {
+        "max_position_pct": 0.25,
+        "max_gross_exposure": 1.0
+      },
+      "capital": 100000.0,
+      "rebalance": "weekly",
+      "benchmark": "SPY"
+    },
+    "universe": [
+      "AAPL"
+    ],
+    "marks": {
+      "AAPL": 326.57
+    },
+    "skipped": [],
+    "strategies": [
+      {
+        "name": "deep-value",
+        "slice": 1.0,
+        "signals": [
+          {
+            "model_name": "graham",
+            "ticker": "AAPL",
+            "date": "2026-09-10",
+            "value": -0.85,
+            "reasoning": "The business is plainly profitable and stable\u2014earnings positive across the record, net margin near 28%, and EPS advancing\u2014but the price asks us to pay about 35 times earnings and roughly 42 times book value, far beyond the 15\u201320 times earnings and modest book multiple a defensive investor may countenance. The balance sheet offers no offset: the latest current ratio is 1.00, below the 1.5 minimum, with debt/equity at 0.89, so liquidity is not comfortable. When a high multiple is combined with a thin current ratio, the market is capitalizing hope rather than demonstrated value; I find no margin of safety.",
+            "components": {},
+            "metadata": {
+              "signal": "bearish",
+              "confidence": 85.0,
+              "model": "deepseek-flash",
+              "prompt_key": "d31f0dac034a53500fc73c94",
+              "snapshot_hash": "7e63054e6c48556cdae7ac82",
+              "cached": false,
+              "abstained": false
+            }
+          },
+          {
+            "model_name": "buffett",
+            "ticker": "AAPL",
+            "date": "2026-09-10",
+            "value": 0.66,
+            "reasoning": "This is a business I can understand \u2014 a consumer franchise with a widening ecosystem, consistently earning extraordinary returns on equity above 120%, net margins near 28%, and free cash flow per share climbing from $6.68 to $9.37 while debt falls and revenue growth accelerates from 6% to 14%. Management is clearly compounding book value per share and returning cash, with sensible and now-lighter leverage. My only hesitation is price: at roughly 35 times earnings and a $4.5 trillion price tag, the margin of safety is thin, so I would buy this wonderful company only patiently and on weakness rather than chase it here.",
+            "components": {},
+            "metadata": {
+              "signal": "bullish",
+              "confidence": 66.0,
+              "model": "deepseek-flash",
+              "prompt_key": "dcfa269f5e4918946db579f4",
+              "snapshot_hash": "7e63054e6c48556cdae7ac82",
+              "cached": false,
+              "abstained": false
+            }
+          },
+          {
+            "model_name": "munger",
+            "ticker": "AAPL",
+            "date": "2026-09-10",
+            "value": 0.0,
+            "reasoning": "This is a genuinely excellent business: gross margin near 49% and improving, net margin 27\u201328%, return on equity above 100%, free cash flow per share of $9.37 exceeding EPS, and debt/equity cut from 1.51 to 0.89. The numbers show real compounding, not accounting fiction. But at roughly 35 times earnings and a $4.5 trillion price tag, you are paying a full price for continued brilliance; I see no margin of safety. Great quality at a price I won't pay belongs in the too-hard pile, not the buy list.",
+            "components": {},
+            "metadata": {
+              "signal": "neutral",
+              "confidence": 72.0,
+              "model": "deepseek-flash",
+              "prompt_key": "18dfadbffc64580c766ec349",
+              "snapshot_hash": "7e63054e6c48556cdae7ac82",
+              "cached": false,
+              "abstained": false
+            }
+          }
+        ],
+        "convictions": {
+          "AAPL": -0.26
+        },
+        "weights": {
+          "AAPL": 0.0
+        },
+        "eligible_scores": {
+          "AAPL": 0.0
+        },
+        "flat_reason": "no_eligible_positions",
+        "final_contribution": {
+          "AAPL": 0.0
+        }
+      }
+    ],
+    "target_weights": {
+      "AAPL": 0.0
+    },
+    "clamps": [],
+    "final_weights": {
+      "AAPL": 0.0
+    },
+    "risk_scale_factor": null
+  },
+  "refreshed_assessment": {
+    "schema_version": 2,
+    "fund": "glassbench",
+    "as_of": "2026-09-10",
+    "spec": {
+      "schema_version": 2,
+      "name": "glassbench",
+      "strategies": [
+        {
+          "name": "deep-value",
+          "display_name": "Deep Value",
+          "weight": 1.0,
+          "models": [
+            {
+              "name": "graham",
+              "weight": 2.0,
+              "params": {}
+            },
+            {
+              "name": "buffett",
+              "weight": 1.0,
+              "params": {}
+            },
+            {
+              "name": "munger",
+              "weight": 1.0,
+              "params": {}
+            }
+          ],
+          "blend": {
+            "method": "conviction_weighted",
+            "gross_target": 1.0,
+            "mode": "long_only"
+          }
+        }
+      ],
+      "risk": {
+        "max_position_pct": 0.25,
+        "max_gross_exposure": 1.0
+      },
+      "capital": 100000.0,
+      "rebalance": "weekly",
+      "benchmark": "SPY"
+    },
+    "universe": [
+      "AAPL"
+    ],
+    "marks": {
+      "AAPL": 326.57
+    },
+    "skipped": [],
+    "strategies": [
+      {
+        "name": "deep-value",
+        "slice": 1.0,
+        "signals": [
+          {
+            "model_name": "graham",
+            "ticker": "AAPL",
+            "date": "2026-09-10",
+            "value": -0.85,
+            "reasoning": "The business is plainly profitable and stable\u2014earnings positive across the record, net margin near 28%, and EPS advancing\u2014but the price asks us to pay about 35 times earnings and roughly 42 times book value, far beyond the 15\u201320 times earnings and modest book multiple a defensive investor may countenance. The balance sheet offers no offset: the latest current ratio is 1.00, below the 1.5 minimum, with debt/equity at 0.89, so liquidity is not comfortable. When a high multiple is combined with a thin current ratio, the market is capitalizing hope rather than demonstrated value; I find no margin of safety.",
+            "components": {},
+            "metadata": {
+              "signal": "bearish",
+              "confidence": 85.0,
+              "model": "deepseek-flash",
+              "prompt_key": "d31f0dac034a53500fc73c94",
+              "snapshot_hash": "7e63054e6c48556cdae7ac82",
+              "cached": false,
+              "abstained": false
+            }
+          },
+          {
+            "model_name": "buffett",
+            "ticker": "AAPL",
+            "date": "2026-09-10",
+            "value": 0.66,
+            "reasoning": "This is a business I can understand \u2014 a consumer franchise with a widening ecosystem, consistently earning extraordinary returns on equity above 120%, net margins near 28%, and free cash flow per share climbing from $6.68 to $9.37 while debt falls and revenue growth accelerates from 6% to 14%. Management is clearly compounding book value per share and returning cash, with sensible and now-lighter leverage. My only hesitation is price: at roughly 35 times earnings and a $4.5 trillion price tag, the margin of safety is thin, so I would buy this wonderful company only patiently and on weakness rather than chase it here.",
+            "components": {},
+            "metadata": {
+              "signal": "bullish",
+              "confidence": 66.0,
+              "model": "deepseek-flash",
+              "prompt_key": "dcfa269f5e4918946db579f4",
+              "snapshot_hash": "7e63054e6c48556cdae7ac82",
+              "cached": false,
+              "abstained": false
+            }
+          },
+          {
+            "model_name": "munger",
+            "ticker": "AAPL",
+            "date": "2026-09-10",
+            "value": 0.0,
+            "reasoning": "This is a genuinely excellent business: gross margin near 49% and improving, net margin 27\u201328%, return on equity above 100%, free cash flow per share of $9.37 exceeding EPS, and debt/equity cut from 1.51 to 0.89. The numbers show real compounding, not accounting fiction. But at roughly 35 times earnings and a $4.5 trillion price tag, you are paying a full price for continued brilliance; I see no margin of safety. Great quality at a price I won't pay belongs in the too-hard pile, not the buy list.",
+            "components": {},
+            "metadata": {
+              "signal": "neutral",
+              "confidence": 72.0,
+              "model": "deepseek-flash",
+              "prompt_key": "18dfadbffc64580c766ec349",
+              "snapshot_hash": "7e63054e6c48556cdae7ac82",
+              "cached": false,
+              "abstained": false
+            }
+          }
+        ],
+        "convictions": {
+          "AAPL": -0.26
+        },
+        "weights": {
+          "AAPL": 0.0
+        },
+        "eligible_scores": {
+          "AAPL": 0.0
+        },
+        "flat_reason": "no_eligible_positions",
+        "final_contribution": {
+          "AAPL": 0.0
+        }
+      }
+    ],
+    "target_weights": {
+      "AAPL": 0.0
+    },
+    "clamps": [],
+    "final_weights": {
+      "AAPL": 0.0
+    },
+    "risk_scale_factor": null
+  },
+  "execution_as_of": "2026-09-11",
+  "execution_policy": "next_close"
+}

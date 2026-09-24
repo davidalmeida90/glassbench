@@ -79,7 +79,10 @@ def ensure_available(variant: str) -> None:
 
 
 def engine_serves_valuation() -> bool:
-    from tradingagents.dataflows import interface
+    try:
+        from tradingagents.dataflows import router as interface  # 0.5.1 renamed interface to router
+    except ImportError:
+        from tradingagents.dataflows import interface
 
     return "sec_edgar" in interface.VENDOR_METHODS["get_fundamentals"]
 
@@ -103,7 +106,10 @@ def install_variants() -> None:
     if _installed:
         return
     from langchain_core.runnables.config import var_child_runnable_config
-    from tradingagents.dataflows import interface
+    try:
+        from tradingagents.dataflows import router as interface  # 0.5.1 renamed interface to router
+    except ImportError:
+        from tradingagents.dataflows import interface
     from tradingagents.llm_clients.openai_client import DeepSeekChatOpenAI
 
     _prompt_check = check_prompt_texts()

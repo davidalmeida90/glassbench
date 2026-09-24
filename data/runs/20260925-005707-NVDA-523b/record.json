@@ -1,0 +1,376 @@
+{
+  "schema_version": 2,
+  "fund": "glassbench",
+  "as_of": "2026-09-02",
+  "spec": {
+    "schema_version": 2,
+    "name": "glassbench",
+    "strategies": [
+      {
+        "name": "inflections",
+        "display_name": "Inflections",
+        "weight": 1.0,
+        "models": [
+          {
+            "name": "druckenmiller",
+            "weight": 1.0,
+            "params": {}
+          },
+          {
+            "name": "lynch",
+            "weight": 1.0,
+            "params": {}
+          }
+        ],
+        "blend": {
+          "method": "conviction_weighted",
+          "gross_target": 1.0,
+          "mode": "long_short"
+        }
+      }
+    ],
+    "risk": {
+      "max_position_pct": 0.25,
+      "max_gross_exposure": 1.0
+    },
+    "capital": 100000.0,
+    "rebalance": "weekly",
+    "benchmark": "SPY"
+  },
+  "universe": [
+    "NVDA"
+  ],
+  "marks": {
+    "NVDA": 228.45
+  },
+  "skipped": [],
+  "strategies": [
+    {
+      "name": "inflections",
+      "slice": 1.0,
+      "signals": [
+        {
+          "model_name": "druckenmiller",
+          "ticker": "NVDA",
+          "date": "2026-09-02",
+          "value": 0.88,
+          "reasoning": "The inflection is unmistakable and it's accelerating: revenue growth went 65% \u2192 65% \u2192 71% \u2192 83%, net margin climbed from 53% to 64%, and EPS ripped from 4.08 to 4.94 to 6.60 to 8.00 across the last four periods. Meanwhile the P/E compressed from 45.6 to 28.2 \u2014 the market is paying less for a business that's compounding faster, which is exactly the mispricing I want to lean into. Balance sheet is clean at 0.15 D/E and FCF/share is expanding right alongside earnings, so I can press this hard without worrying about blowing up. When the numbers inflect up and the multiple inflects down, you swing.",
+          "components": {},
+          "metadata": {
+            "signal": "bullish",
+            "confidence": 88.0,
+            "model": "deepseek-flash",
+            "prompt_key": "fd5eeeba2d432bd12da0d0ac",
+            "snapshot_hash": "97f2770e4192441f69d18975",
+            "cached": false,
+            "abstained": false
+          }
+        },
+        {
+          "model_name": "lynch",
+          "ticker": "NVDA",
+          "date": "2026-09-02",
+          "value": 0.92,
+          "reasoning": "This is a fast grower, and the numbers all point the same way: revenue growth is 83%, EPS has marched from 4.08 to 8.00 over the last four filings, and gross and net margins are still improving. I'm paying about 28 times earnings for that kind of visible growth, so the PEG is well under 1 and the story is not just priced in\u2014it's cheap. Debt is tiny and the balance sheet is fortress-like, which lets this growth story survive a bad year.",
+          "components": {},
+          "metadata": {
+            "signal": "bullish",
+            "confidence": 92.0,
+            "model": "deepseek-flash",
+            "prompt_key": "71fdf3ad34efd641232f62a7",
+            "snapshot_hash": "97f2770e4192441f69d18975",
+            "cached": false,
+            "abstained": false
+          }
+        }
+      ],
+      "convictions": {
+        "NVDA": 0.9
+      },
+      "weights": {
+        "NVDA": 1.0
+      },
+      "eligible_scores": {
+        "NVDA": 0.9
+      },
+      "flat_reason": null,
+      "final_contribution": {
+        "NVDA": 0.25
+      }
+    }
+  ],
+  "target_weights": {
+    "NVDA": 1.0
+  },
+  "clamps": [
+    {
+      "limit": "max_position_pct",
+      "ticker": "NVDA",
+      "before": 1.0,
+      "after": 0.25
+    }
+  ],
+  "final_weights": {
+    "NVDA": 0.25
+  },
+  "equity_before": 100000.0,
+  "cash_before": 100000.0,
+  "orders": [
+    {
+      "ticker": "NVDA",
+      "side": "buy",
+      "quantity": 109,
+      "price": 228.45
+    }
+  ],
+  "fills": [
+    {
+      "ticker": "NVDA",
+      "side": "buy",
+      "quantity": 109,
+      "price": 228.45
+    }
+  ],
+  "positions": {
+    "NVDA": 109
+  },
+  "cash": 75098.95,
+  "nav": 100000.0,
+  "risk_scale_factor": null,
+  "original_assessment": {
+    "schema_version": 2,
+    "fund": "glassbench",
+    "as_of": "2026-09-02",
+    "spec": {
+      "schema_version": 2,
+      "name": "glassbench",
+      "strategies": [
+        {
+          "name": "inflections",
+          "display_name": "Inflections",
+          "weight": 1.0,
+          "models": [
+            {
+              "name": "druckenmiller",
+              "weight": 1.0,
+              "params": {}
+            },
+            {
+              "name": "lynch",
+              "weight": 1.0,
+              "params": {}
+            }
+          ],
+          "blend": {
+            "method": "conviction_weighted",
+            "gross_target": 1.0,
+            "mode": "long_short"
+          }
+        }
+      ],
+      "risk": {
+        "max_position_pct": 0.25,
+        "max_gross_exposure": 1.0
+      },
+      "capital": 100000.0,
+      "rebalance": "weekly",
+      "benchmark": "SPY"
+    },
+    "universe": [
+      "NVDA"
+    ],
+    "marks": {
+      "NVDA": 224.41
+    },
+    "skipped": [],
+    "strategies": [
+      {
+        "name": "inflections",
+        "slice": 1.0,
+        "signals": [
+          {
+            "model_name": "druckenmiller",
+            "ticker": "NVDA",
+            "date": "2026-09-02",
+            "value": 0.88,
+            "reasoning": "The inflection is unmistakable and it's accelerating: revenue growth went 65% \u2192 65% \u2192 71% \u2192 83%, net margin climbed from 53% to 64%, and EPS ripped from 4.08 to 4.94 to 6.60 to 8.00 across the last four periods. Meanwhile the P/E compressed from 45.6 to 28.2 \u2014 the market is paying less for a business that's compounding faster, which is exactly the mispricing I want to lean into. Balance sheet is clean at 0.15 D/E and FCF/share is expanding right alongside earnings, so I can press this hard without worrying about blowing up. When the numbers inflect up and the multiple inflects down, you swing.",
+            "components": {},
+            "metadata": {
+              "signal": "bullish",
+              "confidence": 88.0,
+              "model": "deepseek-flash",
+              "prompt_key": "fd5eeeba2d432bd12da0d0ac",
+              "snapshot_hash": "97f2770e4192441f69d18975",
+              "cached": false,
+              "abstained": false
+            }
+          },
+          {
+            "model_name": "lynch",
+            "ticker": "NVDA",
+            "date": "2026-09-02",
+            "value": 0.92,
+            "reasoning": "This is a fast grower, and the numbers all point the same way: revenue growth is 83%, EPS has marched from 4.08 to 8.00 over the last four filings, and gross and net margins are still improving. I'm paying about 28 times earnings for that kind of visible growth, so the PEG is well under 1 and the story is not just priced in\u2014it's cheap. Debt is tiny and the balance sheet is fortress-like, which lets this growth story survive a bad year.",
+            "components": {},
+            "metadata": {
+              "signal": "bullish",
+              "confidence": 92.0,
+              "model": "deepseek-flash",
+              "prompt_key": "71fdf3ad34efd641232f62a7",
+              "snapshot_hash": "97f2770e4192441f69d18975",
+              "cached": false,
+              "abstained": false
+            }
+          }
+        ],
+        "convictions": {
+          "NVDA": 0.9
+        },
+        "weights": {
+          "NVDA": 1.0
+        },
+        "eligible_scores": {
+          "NVDA": 0.9
+        },
+        "flat_reason": null,
+        "final_contribution": {
+          "NVDA": 0.25
+        }
+      }
+    ],
+    "target_weights": {
+      "NVDA": 1.0
+    },
+    "clamps": [
+      {
+        "limit": "max_position_pct",
+        "ticker": "NVDA",
+        "before": 1.0,
+        "after": 0.25
+      }
+    ],
+    "final_weights": {
+      "NVDA": 0.25
+    },
+    "risk_scale_factor": null
+  },
+  "refreshed_assessment": {
+    "schema_version": 2,
+    "fund": "glassbench",
+    "as_of": "2026-09-02",
+    "spec": {
+      "schema_version": 2,
+      "name": "glassbench",
+      "strategies": [
+        {
+          "name": "inflections",
+          "display_name": "Inflections",
+          "weight": 1.0,
+          "models": [
+            {
+              "name": "druckenmiller",
+              "weight": 1.0,
+              "params": {}
+            },
+            {
+              "name": "lynch",
+              "weight": 1.0,
+              "params": {}
+            }
+          ],
+          "blend": {
+            "method": "conviction_weighted",
+            "gross_target": 1.0,
+            "mode": "long_short"
+          }
+        }
+      ],
+      "risk": {
+        "max_position_pct": 0.25,
+        "max_gross_exposure": 1.0
+      },
+      "capital": 100000.0,
+      "rebalance": "weekly",
+      "benchmark": "SPY"
+    },
+    "universe": [
+      "NVDA"
+    ],
+    "marks": {
+      "NVDA": 224.41
+    },
+    "skipped": [],
+    "strategies": [
+      {
+        "name": "inflections",
+        "slice": 1.0,
+        "signals": [
+          {
+            "model_name": "druckenmiller",
+            "ticker": "NVDA",
+            "date": "2026-09-02",
+            "value": 0.88,
+            "reasoning": "The inflection is unmistakable and it's accelerating: revenue growth went 65% \u2192 65% \u2192 71% \u2192 83%, net margin climbed from 53% to 64%, and EPS ripped from 4.08 to 4.94 to 6.60 to 8.00 across the last four periods. Meanwhile the P/E compressed from 45.6 to 28.2 \u2014 the market is paying less for a business that's compounding faster, which is exactly the mispricing I want to lean into. Balance sheet is clean at 0.15 D/E and FCF/share is expanding right alongside earnings, so I can press this hard without worrying about blowing up. When the numbers inflect up and the multiple inflects down, you swing.",
+            "components": {},
+            "metadata": {
+              "signal": "bullish",
+              "confidence": 88.0,
+              "model": "deepseek-flash",
+              "prompt_key": "fd5eeeba2d432bd12da0d0ac",
+              "snapshot_hash": "97f2770e4192441f69d18975",
+              "cached": false,
+              "abstained": false
+            }
+          },
+          {
+            "model_name": "lynch",
+            "ticker": "NVDA",
+            "date": "2026-09-02",
+            "value": 0.92,
+            "reasoning": "This is a fast grower, and the numbers all point the same way: revenue growth is 83%, EPS has marched from 4.08 to 8.00 over the last four filings, and gross and net margins are still improving. I'm paying about 28 times earnings for that kind of visible growth, so the PEG is well under 1 and the story is not just priced in\u2014it's cheap. Debt is tiny and the balance sheet is fortress-like, which lets this growth story survive a bad year.",
+            "components": {},
+            "metadata": {
+              "signal": "bullish",
+              "confidence": 92.0,
+              "model": "deepseek-flash",
+              "prompt_key": "71fdf3ad34efd641232f62a7",
+              "snapshot_hash": "97f2770e4192441f69d18975",
+              "cached": false,
+              "abstained": false
+            }
+          }
+        ],
+        "convictions": {
+          "NVDA": 0.9
+        },
+        "weights": {
+          "NVDA": 1.0
+        },
+        "eligible_scores": {
+          "NVDA": 0.9
+        },
+        "flat_reason": null,
+        "final_contribution": {
+          "NVDA": 0.25
+        }
+      }
+    ],
+    "target_weights": {
+      "NVDA": 1.0
+    },
+    "clamps": [
+      {
+        "limit": "max_position_pct",
+        "ticker": "NVDA",
+        "before": 1.0,
+        "after": 0.25
+      }
+    ],
+    "final_weights": {
+      "NVDA": 0.25
+    },
+    "risk_scale_factor": null
+  },
+  "execution_as_of": "2026-09-03",
+  "execution_policy": "next_close"
+}

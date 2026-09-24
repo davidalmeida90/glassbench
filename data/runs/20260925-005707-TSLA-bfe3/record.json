@@ -1,0 +1,247 @@
+{
+  "schema_version": 2,
+  "fund": "glassbench",
+  "as_of": "2026-08-26",
+  "spec": {
+    "schema_version": 2,
+    "name": "glassbench",
+    "strategies": [
+      {
+        "name": "earnings-drift",
+        "display_name": "Earnings Drift",
+        "weight": 1.0,
+        "models": [
+          {
+            "name": "pead",
+            "weight": 1.0,
+            "params": {}
+          }
+        ],
+        "blend": {
+          "method": "conviction_weighted",
+          "gross_target": 1.0,
+          "mode": "long_short"
+        }
+      }
+    ],
+    "risk": {
+      "max_position_pct": 0.25,
+      "max_gross_exposure": 1.0
+    },
+    "capital": 100000.0,
+    "rebalance": "weekly",
+    "benchmark": "SPY"
+  },
+  "universe": [
+    "TSLA"
+  ],
+  "marks": {},
+  "skipped": [],
+  "strategies": [
+    {
+      "name": "earnings-drift",
+      "slice": 1.0,
+      "signals": [
+        {
+          "model_name": "pead",
+          "ticker": "TSLA",
+          "date": "2026-08-26",
+          "value": 0.0,
+          "reasoning": null,
+          "components": {},
+          "metadata": {}
+        }
+      ],
+      "convictions": {
+        "TSLA": 0.0
+      },
+      "weights": {
+        "TSLA": 0.0
+      },
+      "eligible_scores": {
+        "TSLA": 0.0
+      },
+      "flat_reason": "no_eligible_positions",
+      "final_contribution": {
+        "TSLA": 0.0
+      }
+    }
+  ],
+  "target_weights": {
+    "TSLA": 0.0
+  },
+  "clamps": [],
+  "final_weights": {
+    "TSLA": 0.0
+  },
+  "equity_before": 100000.0,
+  "cash_before": 100000.0,
+  "orders": [],
+  "fills": [],
+  "positions": {},
+  "cash": 100000.0,
+  "nav": 100000.0,
+  "risk_scale_factor": null,
+  "original_assessment": {
+    "schema_version": 2,
+    "fund": "glassbench",
+    "as_of": "2026-08-26",
+    "spec": {
+      "schema_version": 2,
+      "name": "glassbench",
+      "strategies": [
+        {
+          "name": "earnings-drift",
+          "display_name": "Earnings Drift",
+          "weight": 1.0,
+          "models": [
+            {
+              "name": "pead",
+              "weight": 1.0,
+              "params": {}
+            }
+          ],
+          "blend": {
+            "method": "conviction_weighted",
+            "gross_target": 1.0,
+            "mode": "long_short"
+          }
+        }
+      ],
+      "risk": {
+        "max_position_pct": 0.25,
+        "max_gross_exposure": 1.0
+      },
+      "capital": 100000.0,
+      "rebalance": "weekly",
+      "benchmark": "SPY"
+    },
+    "universe": [
+      "TSLA"
+    ],
+    "marks": {
+      "TSLA": 345.82
+    },
+    "skipped": [],
+    "strategies": [
+      {
+        "name": "earnings-drift",
+        "slice": 1.0,
+        "signals": [
+          {
+            "model_name": "pead",
+            "ticker": "TSLA",
+            "date": "2026-08-26",
+            "value": 0.0,
+            "reasoning": null,
+            "components": {},
+            "metadata": {}
+          }
+        ],
+        "convictions": {
+          "TSLA": 0.0
+        },
+        "weights": {
+          "TSLA": 0.0
+        },
+        "eligible_scores": {
+          "TSLA": 0.0
+        },
+        "flat_reason": "no_eligible_positions",
+        "final_contribution": {
+          "TSLA": 0.0
+        }
+      }
+    ],
+    "target_weights": {
+      "TSLA": 0.0
+    },
+    "clamps": [],
+    "final_weights": {
+      "TSLA": 0.0
+    },
+    "risk_scale_factor": null
+  },
+  "refreshed_assessment": {
+    "schema_version": 2,
+    "fund": "glassbench",
+    "as_of": "2026-08-26",
+    "spec": {
+      "schema_version": 2,
+      "name": "glassbench",
+      "strategies": [
+        {
+          "name": "earnings-drift",
+          "display_name": "Earnings Drift",
+          "weight": 1.0,
+          "models": [
+            {
+              "name": "pead",
+              "weight": 1.0,
+              "params": {}
+            }
+          ],
+          "blend": {
+            "method": "conviction_weighted",
+            "gross_target": 1.0,
+            "mode": "long_short"
+          }
+        }
+      ],
+      "risk": {
+        "max_position_pct": 0.25,
+        "max_gross_exposure": 1.0
+      },
+      "capital": 100000.0,
+      "rebalance": "weekly",
+      "benchmark": "SPY"
+    },
+    "universe": [
+      "TSLA"
+    ],
+    "marks": {
+      "TSLA": 345.82
+    },
+    "skipped": [],
+    "strategies": [
+      {
+        "name": "earnings-drift",
+        "slice": 1.0,
+        "signals": [
+          {
+            "model_name": "pead",
+            "ticker": "TSLA",
+            "date": "2026-08-26",
+            "value": 0.0,
+            "reasoning": null,
+            "components": {},
+            "metadata": {}
+          }
+        ],
+        "convictions": {
+          "TSLA": 0.0
+        },
+        "weights": {
+          "TSLA": 0.0
+        },
+        "eligible_scores": {
+          "TSLA": 0.0
+        },
+        "flat_reason": "no_eligible_positions",
+        "final_contribution": {
+          "TSLA": 0.0
+        }
+      }
+    ],
+    "target_weights": {
+      "TSLA": 0.0
+    },
+    "clamps": [],
+    "final_weights": {
+      "TSLA": 0.0
+    },
+    "risk_scale_factor": null
+  },
+  "execution_as_of": "2026-08-27",
+  "execution_policy": "next_close"
+}

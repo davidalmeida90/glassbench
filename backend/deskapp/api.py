@@ -6,6 +6,7 @@ import os
 
 import asyncio
 import csv
+import threading
 import io
 from datetime import datetime
 import json
@@ -18,7 +19,7 @@ from fastapi.responses import FileResponse, HTMLResponse, StreamingResponse
 from fastapi.staticfiles import StaticFiles
 from pydantic import BaseModel, Field, field_validator
 
-from . import __version__, adapter, brokers
+from . import __version__, adapter, aihf, brokers
 from .events import TERMINAL_EVENTS, EventBus
 from .keys import key_status, load_keys
 from . import simulate as sim
@@ -26,7 +27,7 @@ from .backtest import BacktestManager, sample_evenly, weekly_dates
 from .runner import RunManager
 from .frameworks import frameworks as framework_sheets
 from .variants import VARIANTS
-from .settings import ANALYST_KEYS, DB_PATH, FRONTEND_DIST, MODELS, PRICING, PROVIDERS, RUNS_DIR, default_trade_date, engine_build, engine_version
+from .settings import AIHF_DEFAULT_MODEL, AIHF_ENGINE, AIHF_PRIVATE_DIR, ANALYST_KEYS, DB_PATH, FRONTEND_DIST, MODELS, PRICING, PROVIDERS, RUNS_DIR, default_trade_date, engine_build, engine_version
 from .store import TERMINAL_STATUSES, Store
 
 store = Store(DB_PATH)
@@ -44,6 +45,7 @@ async def lifespan(_: FastAPI):
     store.pause_interrupted_backtests()
     manager = RunManager(store, bus)
     backtests = BacktestManager(store, manager)
+    threading.Thread(target=aihf.describe, name="aihf-describe", daemon=True).start()  # warm the cache for /api/meta
     yield
     manager.pool.shutdown(wait=False, cancel_futures=True)
 
@@ -59,6 +61,11 @@ class RunRequest(BaseModel):
     deep_model: str = "deepseek-v4-pro"
     quick_model: str = "deepseek-v4-flash"
     provider: str = "deepseek"
+    # AI Hedge Fund runs: engine="ai_hedge_fund", then a library strategy or a custom set of analysts, and one model.
+    engine: str = "tradingagents"
+    strategy: str | None = None
+    aihf_analysts: list[str] | None = None
+    aihf_model: str = AIHF_DEFAULT_MODEL
 
     @field_validator("tickers")
     @classmethod
@@ -98,6 +105,7 @@ def meta():
         "engine_builds": {v: engine_build(v) for v in {engine_version(), *store.engine_versions()}},
         "variants": VARIANTS,
         "keys": key_status(),
+        "engines": {AIHF_ENGINE: aihf.meta_for_ui()},
     }
 
 
@@ -113,6 +121,10 @@ def list_frameworks():
 # --- runs -------------------------------------------------------------------
 @app.post("/api/runs")
 def create_runs(req: RunRequest):
+    if req.engine == AIHF_ENGINE:
+        return _create_aihf_runs(req)
+    if req.engine != "tradingagents":
+        raise HTTPException(400, f"Unknown framework {req.engine!r}. Choose tradingagents or {AIHF_ENGINE}.")
     provider = PROVIDERS.get(req.provider)
     if provider is None:
         raise HTTPException(400, f"Unknown provider {req.provider!r}. Choose one of: {', '.join(PROVIDERS)}.")
@@ -122,6 +134,24 @@ def create_runs(req: RunRequest):
         raise HTTPException(400, "Both model ids are required: the quick model reads and debates, the deep model decides.")
     ids = [manager.submit(t, req.trade_date, req.analysts, req.depth, req.deep_model.strip(), req.quick_model.strip(), provider=req.provider)
            for t in req.tickers]
+    return {"run_ids": ids}
+
+
+def _create_aihf_runs(req: RunRequest) -> dict:
+    info = aihf.describe()
+    if not info.get("installed"):
+        raise HTTPException(400, f"AI Hedge Fund is not available: {info.get('error')}")
+    if not os.environ.get("FINANCIAL_DATASETS_API_KEY"):
+        raise HTTPException(400, "FINANCIAL_DATASETS_API_KEY is missing. AI Hedge Fund reads all its data from financialdatasets.ai "
+                                 "(the key is free, the data needs prepaid credits, about 2 cents a request): put it in .env at the repository root, then restart Glassbench.")
+    model = req.aihf_model.strip()
+    key = aihf.model_key(model)
+    if key and not os.environ.get(key):
+        raise HTTPException(400, f"{key} is missing for model {model}. Put it in .env at the repository root, then restart Glassbench.")
+    try:
+        ids = [manager.submit_aihf(t, req.trade_date, req.strategy, req.aihf_analysts, model) for t in req.tickers]
+    except ValueError as exc:
+        raise HTTPException(400, str(exc)) from exc
     return {"run_ids": ids}
 
 
@@ -465,6 +495,8 @@ LABELS = {
     "reports/complete_report.md": "Complete report",
     "state.json": "Final state (JSON)",
     "events.jsonl": "Event log (JSONL)",
+    "record.json": "Cycle record (JSON)",
+    "aihf.log": "AI Hedge Fund log",
 }
 
 
@@ -476,8 +508,15 @@ def list_files(run_id: str):
         for path in sorted(base.rglob("*")):
             if path.is_file():
                 rel = path.relative_to(base).as_posix()
-                files.append({"path": rel, "label": LABELS.get(rel), "bytes": path.stat().st_size,
-                              "group": "tool_outputs" if rel.startswith("tool_outputs/") else "artifacts"})
+                group = "tool_outputs" if rel.startswith("tool_outputs/") else "prompts" if rel.startswith("prompts/") else "artifacts"
+                files.append({"path": rel, "label": LABELS.get(rel), "bytes": path.stat().st_size, "group": group})
+    private = AIHF_PRIVATE_DIR / run_id  # AI Hedge Fund's raw vendor data: shown locally, never published
+    if private.exists():
+        for path in sorted(private.rglob("*")):
+            if path.is_file():
+                rel = path.relative_to(private).as_posix()
+                group = "tool_outputs" if rel.startswith("tool_outputs/") else "prompts" if rel.startswith("prompts/") else "artifacts"
+                files.append({"path": "private/" + rel, "label": None, "bytes": path.stat().st_size, "group": group})
     order = list(LABELS)
     files.sort(key=lambda f: (f["group"] != "artifacts", order.index(f["path"]) if f["path"] in order else len(order), f["path"]))
     return {"files": files}
@@ -486,6 +525,8 @@ def list_files(run_id: str):
 @app.get("/api/runs/{run_id}/files/{file_path:path}")
 def get_file(run_id: str, file_path: str, download: bool = False):
     base = _run_dir(run_id).resolve()
+    if file_path.startswith("private/"):
+        base, file_path = (AIHF_PRIVATE_DIR / run_id).resolve(), file_path.removeprefix("private/")
     target = (base / file_path).resolve()
     if base not in target.parents or not target.is_file():
         raise HTTPException(404, "File not found")
@@ -503,6 +544,11 @@ def bundle(run_id: str):
         for path in base.rglob("*"):
             if path.is_file():
                 zf.write(path, path.relative_to(base).as_posix())
+        private = AIHF_PRIVATE_DIR / run_id
+        if private.exists():
+            for path in private.rglob("*"):
+                if path.is_file():
+                    zf.write(path, "private/" + path.relative_to(private).as_posix())
         zf.writestr("run.json", json.dumps(run, indent=2))
     buffer.seek(0)
     name = f"{run['ticker']}_{run['trade_date']}_{run_id[-4:]}.zip"

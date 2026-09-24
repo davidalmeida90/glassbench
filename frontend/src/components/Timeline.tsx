@@ -39,7 +39,7 @@ export function Timeline({
   const live = run.status === "running" || run.status === "queued";
   const t0 = run.startedAt ?? run.queuedAt ?? now;
   const tEnd = run.finishedAt ?? now;
-  const span = Math.max(60, (tEnd - t0) * 1.04);
+  const span = Math.max(20, (tEnd - t0) * 1.04); // short runs (AI Hedge Fund: under a minute) still fill the width
   const x = (t: number) => ((t - t0) / span) * width;
   const step = TICK_STEPS.find((s) => span / s <= 9) ?? 3600;
   const firstTick = Math.ceil(t0 / step) * step;
@@ -60,6 +60,14 @@ export function Timeline({
   });
   const lanesHeight = y;
 
+  // Legend from what this run actually did: its models, rule steps computed in code, loose data calls.
+  const everyone = Object.values(run.agents);
+  const models = [...new Set(everyone.flatMap((a) => a.llm.map((c) => c.model)))];
+  const hasBatches = everyone.some((a) => a.batches.length > 0);
+  const hasLooseCalls = everyone.some((a) => a.batches.length === 0 && a.tools.length > 0);
+  const hasRuleSteps = everyone.some((a) => a.role === "rule" && a.llm.length === 0 && a.visits.length > 0);
+  const shortModel = (m: string) => m.replace("deepseek-v4-", "").replace("deepseek-", "");
+
   const show = (evt: React.MouseEvent, title: string, lines: string[]) => {
     const box = plotRef.current!.getBoundingClientRect();
     setTip({ x: evt.clientX - box.left, y: evt.clientY - box.top, title, lines });
@@ -70,10 +78,13 @@ export function Timeline({
       <div className="panel-head">
         <span className="panel-title">Timeline</span>
         <div className="legend">
-          <span><i style={{ background: "var(--bar-flash)" }} />LLM call · flash</span>
-          <span><i style={{ background: "var(--bar-pro)" }} />LLM call · pro</span>
+          {(models.length ? models : ["flash", "pro"]).map((m) => (
+            <span key={m}><i style={{ background: m.includes("pro") ? "var(--bar-pro)" : "var(--bar-flash)" }} />LLM call · {shortModel(m)}</span>
+          ))}
           <span><i className="hatch" />Data fetch · waiting</span>
-          <span><i style={{ width: 1.5, height: 12, background: "var(--accent)", verticalAlign: -2 }} />Tool batch</span>
+          {(hasBatches || !hasLooseCalls) && <span><i style={{ width: 1.5, height: 12, background: "var(--accent)", verticalAlign: -2 }} />Tool batch</span>}
+          {hasLooseCalls && <span><i style={{ width: 1.5, height: 12, background: "var(--accent)", verticalAlign: -2 }} />Data call</span>}
+          {hasRuleSteps && <span><i style={{ width: 7, height: 7, background: "var(--ink-2)", transform: "rotate(45deg)", verticalAlign: 0 }} />Step in code, no LLM</span>}
         </div>
       </div>
       <div className="tl-grid">
@@ -158,6 +169,21 @@ export function Timeline({
                     />
                   );
                 })}
+                {agent.batches.length === 0 &&
+                  agent.tools.map((t) => (
+                    <g key={`t-${t.id}`} onMouseMove={(e) => show(e, `${agent.name} · ${t.tool}`, [`${fmtClock(t.start)}${t.end ? ` · ${fmtDuration(t.end - t.start)}` : ""}`, t.chars != null ? `${t.chars.toLocaleString()} chars returned` : ""])}>
+                      <rect x={x(t.start) - 0.75} y={top + 3} width={1.5} height={16} fill="var(--accent)" />
+                      <rect x={x(t.start) - 4} y={top} width={8} height={LANE} fill="transparent" />
+                    </g>
+                  ))}
+                {agent.role === "rule" &&
+                  agent.llm.length === 0 &&
+                  agent.visits.map((visit, vi) => (
+                    <g key={`r-${vi}`} onMouseMove={(e) => show(e, agent.name, [`${fmtClock(visit.start)} · computed in code, no LLM`])}>
+                      <rect x={x(visit.start) - 4} y={top + LANE / 2 - 4} width={8} height={8} fill="var(--ink-2)" transform={`rotate(45 ${x(visit.start)} ${top + LANE / 2})`} />
+                      <rect x={x(visit.start) - 6} y={top} width={12} height={LANE} fill="transparent" />
+                    </g>
+                  ))}
                 {agent.batches.map((batch, bi) => {
                   const bx = x(batch.start);
                   const bw = Math.max(1.5, x(batch.end ?? now) - bx);

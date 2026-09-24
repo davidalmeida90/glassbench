@@ -4,11 +4,23 @@ export type AgentMeta = {
   label: string;
   name: string;
   stage: string;
-  role: "quick" | "deep";
+  role: "quick" | "deep" | "rule";
   reads: string[];
   analyst_key: string | null;
 };
 export type EngineBuild = { version: string; commit: string; adjusted: boolean; changes: string[] };
+
+export type AihfMeta = {
+  installed: boolean;
+  error?: string;
+  version?: string;
+  analysts?: { name: string; label: string; kind: "llm" | "quant"; approach: string; what: string }[];
+  strategies?: { name: string; display_name: string; mode: string; models: { name: string; weight: number }[] }[];
+  models?: { model_name: string; display_name: string; provider: string; key: string | null; present: boolean }[];
+  default_model?: string;
+  data_key?: { name: string; present: boolean };
+  rating_rule?: string;
+};
 
 export type Meta = {
   version: string;
@@ -23,12 +35,26 @@ export type Meta = {
   engine_builds?: Record<string, EngineBuild>;
   keys: { name: string; present: boolean; length: number }[];
   variants?: Record<string, { label: string; detail: string }>;
+  engines?: { ai_hedge_fund?: AihfMeta };
 };
 
 export type Decision = {
   research?: { recommendation?: string | null; rationale?: string | null; strategic_actions?: string | null };
   trader?: { action?: string | null; reasoning?: string | null; entry_price?: number | null; stop_loss?: number | null; position_sizing?: string | null };
   portfolio?: { rating?: string | null; executive_summary?: string | null; investment_thesis?: string | null; price_target?: number | null; time_horizon?: string | null } | null;
+  // AI Hedge Fund runs
+  engine?: string;
+  status?: "executed" | "pending";
+  as_of?: string;
+  conviction?: number;
+  stance?: "Long" | "Flat" | "Short";
+  target_weight?: number;
+  final_weight?: number;
+  rating_rule?: string;
+  clamps?: { limit: string; ticker: string | null; before: number; after: number }[];
+  signals?: { analyst: string; strategy: string; signal: string | null; confidence: number | null; conviction: number; abstained: boolean }[];
+  strategies?: { name: string; slice: number; conviction: number | null; weight: number; flat_reason: string | null }[];
+  execution?: { as_of?: string; fills?: { ticker: string; side: string; quantity: number; price: number }[]; nav?: number; executed_weight?: number; refreshed_as_of?: string; pending?: string; scheduled?: string | null };
 };
 
 export type Run = {
@@ -80,7 +106,7 @@ export type BrokerCheck = { ok: boolean; summary: string; details: string[] };
 export type SearchSnippet = { agent: string | null; type: string; seq: number; snippet: string };
 export type SearchResult = { query: string; total_hits: number; runs: { run_id: string; hits: number; snippets: SearchSnippet[] }[] };
 
-export type RunFile = { path: string; label: string | null; bytes: number; group: "artifacts" | "tool_outputs" };
+export type RunFile = { path: string; label: string | null; bytes: number; group: "artifacts" | "tool_outputs" | "prompts" };
 
 export type BacktestItem = {
   ticker: string;
@@ -218,7 +244,7 @@ export const api = {
   run: (id: string) => fetch(`/api/runs/${id}`).then((r) => json<Run>(r)),
   files: (id: string) => fetch(`/api/runs/${id}/files`).then((r) => json<{ files: RunFile[] }>(r)).then((d) => d.files),
   cancel: (id: string) => fetch(`/api/runs/${id}/cancel`, { method: "POST" }).then((r) => json<unknown>(r)),
-  start: (body: { tickers: string[]; trade_date: string; analysts: string[]; depth: number; deep_model: string; quick_model: string; provider: string }) =>
+  start: (body: { tickers: string[]; trade_date: string; analysts: string[]; depth: number; deep_model: string; quick_model: string; provider: string; engine?: string; strategy?: string | null; aihf_analysts?: string[] | null; aihf_model?: string }) =>
     fetch("/api/runs", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body) }).then((r) =>
       json<{ run_ids: string[] }>(r),
     ),

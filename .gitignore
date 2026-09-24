@@ -17,3 +17,9 @@ data/desk.db-shm
 data/runs/*/events.jsonl
 .playwright-mcp/
 *.log
+
+# AI Hedge Fund: its clone, and Financial Datasets responses. The data licence allows sharing derived outputs
+# (signals, reasoning, weights), not the underlying data, so raw responses and the prompts that quote them stay local.
+ai-hedge-fund/
+data/aihf_private/
+data/aihf_data_cache/

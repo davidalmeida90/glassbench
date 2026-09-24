@@ -23,9 +23,11 @@ AGENTS = [
     {"id": "market", "label": "Market", "name": "Market analyst", "stage": "analysts", "role": "quick",
      "analyst_key": "market", "node": "Market Analyst", "tool_node": "tools_market", "clear_node": "Msg Clear Market",
      "text": ["market_report"], "reads": ["Price history (yfinance)", "Technical indicators", "Verified market snapshot"]},
+    # Since 0.5.1 the sentiment analyst fetches its sources before calling the model, so it has no tool node.
     {"id": "sentiment", "label": "Sentiment", "name": "Sentiment analyst", "stage": "analysts", "role": "quick",
-     "analyst_key": "social", "node": "Sentiment Analyst", "tool_node": "tools_social", "clear_node": "Msg Clear Sentiment",
-     "text": ["sentiment_report"], "reads": ["Yahoo news, last 7 days", "StockTwits, last 30 messages", "Reddit: wallstreetbets, stocks, investing"]},
+     "analyst_key": "social", "node": "Sentiment Analyst", "tool_node": None, "clear_node": "Msg Clear Sentiment",
+     "text": ["sentiment_report"], "reads": ["Yahoo news, last 7 days", "StockTwits, last 30 messages", "Reddit: wallstreetbets, stocks, investing",
+                                             "Jev screening of the posts when a TypeSafe key is set"]},
     {"id": "news", "label": "News", "name": "News analyst", "stage": "analysts", "role": "quick",
      "analyst_key": "news", "node": "News Analyst", "tool_node": "tools_news", "clear_node": "Msg Clear News",
      "text": ["news_report"], "reads": ["Ticker and global news", "FRED macro series", "Polymarket probabilities"]},
@@ -136,7 +138,10 @@ def parse_trader_plan(text: str) -> dict:
 
 
 def parse_pm_decision(text: str) -> dict:
-    from tradingagents.agents.utils.rating import extract_rating
+    try:
+        from tradingagents.agents.rating import extract_rating  # 0.5.1
+    except ImportError:
+        from tradingagents.agents.utils.rating import extract_rating
 
     return {
         "rating": extract_rating(text or "") or "REVIEW",

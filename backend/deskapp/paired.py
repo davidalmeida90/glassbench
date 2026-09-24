@@ -53,7 +53,10 @@ STAGES = {"fundamentals": "Fundamentals analyst", "bull": "Bull", "bear": "Bear"
 
 def truth_for(ticker: str, day: str) -> dict[str, float]:
     """The multiples that were true on the run date, from the engine's vendor."""
-    from tradingagents.dataflows import sec_edgar
+    try:
+        from tradingagents.dataflows.vendors import sec_edgar  # 0.5.1 moved vendors into a subpackage
+    except ImportError:
+        from tradingagents.dataflows import sec_edgar
 
     from .keys import load_keys
 

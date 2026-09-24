@@ -7,7 +7,39 @@ const TOOL_WORDS: Record<string, string> = {
   get_fundamentals: "company profile", get_balance_sheet: "balance sheet", get_income_statement: "income statement",
   get_cashflow: "cash flow", get_news: "news", get_global_news: "global news", get_fred_series: "FRED data",
   get_polymarket: "Polymarket odds", get_stocktwits: "StockTwits", get_reddit: "Reddit",
+  get_financial_metrics: "financial metrics", get_company_facts: "company facts", get_earnings_history: "earnings history",
+  get_prices: "prices",
 };
+
+const pct = (w: number) => `${w > 0 ? "+" : ""}${(w * 100).toFixed(1)}%`;
+const signed = (v: number) => `${v > 0 ? "+" : ""}${v.toFixed(2)}`;
+
+/** AI Hedge Fund lanes: a signal per analyst, then blend, risk and execution. Empty when the lane is not one of those. */
+function aihfConclusion(a: AgentView): string {
+  const s = a.structured ?? {};
+  if (a.id === "blend" && s.convictions) {
+    const [conv] = Object.values(s.convictions as Record<string, number>);
+    const [w] = Object.values((s.weights ?? {}) as Record<string, number>);
+    return `blended ${signed(conv ?? 0)} · ${w ? `sleeve ${pct(w)}` : `flat${s.flat_reason ? ` (${String(s.flat_reason).replace(/_/g, " ")})` : ""}`}`;
+  }
+  if (a.id === "risk" && s.final_weights) {
+    const [w] = Object.values(s.final_weights as Record<string, number>);
+    const n = (s.clamps ?? []).length;
+    return `final weight ${pct(w ?? 0)}${n ? ` · ${n} clamp${n === 1 ? "" : "s"}` : " · within limits"}`;
+  }
+  if (a.id === "execution" && s.status) {
+    if (s.status === "pending") return `pending: ${s.reason ?? "no later session yet"}`;
+    const fills = (s.fills ?? []) as { side: string; quantity: number; ticker: string; price: number }[];
+    return fills.length ? fills.map((f) => `${f.side} ${f.quantity} ${f.ticker} at ${f.price}`).join("; ") : `no trade at the ${s.execution_as_of} close`;
+  }
+  if (a.stage === "analysts" && "conviction" in s) {
+    if (s.abstained) return `abstained: ${s.abstain_reason ?? "no view"}`;
+    const head = s.signal ? `${String(s.signal)[0].toUpperCase()}${String(s.signal).slice(1)} ${Math.round(s.confidence ?? 0)}% · conviction ${signed(s.conviction)}` : `conviction ${signed(s.conviction)}`;
+    const body = s.reasoning ? firstGood(sentences(String(s.reasoning)), 130) : "";
+    return [head, body].filter(Boolean).join(" · ");
+  }
+  return "";
+}
 
 export function phaseFor(a: AgentView): Phase {
   if (a.state === "failed") return "failed";
@@ -89,6 +121,8 @@ export function readsLabel(key: string): string {
 /** One line that states what the agent concluded, from its structured output when it has one, else from its text. */
 export function conclusionFor(a: AgentView): string {
   const s = a.structured ?? {};
+  const fund = aihfConclusion(a);
+  if (fund) return fund;
   if (a.id === "portfolio_manager" && (s.rating || a.report)) {
     const head = s.rating ? `${s.rating}` : "";
     const body = firstGood(sentences(s.executive_summary || s.investment_thesis || a.report), 150);

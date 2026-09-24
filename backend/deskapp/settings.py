@@ -3,10 +3,9 @@
 from __future__ import annotations
 
 import copy
+import os
 from datetime import date
 from pathlib import Path
-
-import os
 
 BACKEND_DIR = Path(__file__).resolve().parents[1]
 DESK_DIR = BACKEND_DIR.parent          # the repository root
@@ -49,7 +48,8 @@ PROVIDERS = {
     "openrouter": {"label": "OpenRouter",     "key": "OPENROUTER_API_KEY", "quick": [], "deep": []},
     "ollama":     {"label": "Ollama (local)", "key": None,                 "quick": [], "deep": []},
 }
-KEY_ALLOWLIST = ("DEEPSEEK_API_KEY", "FRED_API_KEY", "ALPACA_API_KEY", "ALPACA_SECRET_KEY", "SEC_EDGAR_EMAIL", "OLLAMA_BASE_URL") + tuple(
+KEY_ALLOWLIST = ("DEEPSEEK_API_KEY", "FRED_API_KEY", "ALPACA_API_KEY", "ALPACA_SECRET_KEY", "SEC_EDGAR_EMAIL", "OLLAMA_BASE_URL",
+                 "FINANCIAL_DATASETS_API_KEY", "TYPESAFE_API_KEY") + tuple(
     p["key"] for p in PROVIDERS.values() if p["key"] and p["key"] != "DEEPSEEK_API_KEY")
 
 # Engine cache and the decision memory log (shared with a CLI install of TradingAgents if you point both here).
@@ -68,6 +68,8 @@ MODELS = {
 PRICING = {
     "deepseek-v4-flash": (0.14, 0.28),
     "deepseek-v4-pro": (0.435, 0.87),
+    "deepseek-flash": (0.14, 0.28),  # the id AI Hedge Fund sends, and the name DeepSeek serves for v4 flash
+    "jev-1.13.0": (0.042, 0.0),  # TypeSafe bills input tokens only
 }
 
 ANALYST_KEYS = ("market", "social", "news", "fundamentals")
@@ -169,3 +171,44 @@ def engine_config(depth: int, deep_model: str, quick_model: str, memory_log_path
             tools["get_fundamentals"] = "sec_edgar,yfinance"
         cfg["tool_vendors"] = tools
     return cfg
+
+
+# ---------------------------------------------------------------------------
+# AI Hedge Fund (virattt/ai-hedge-fund): its own clone and virtual environment, driven as a subprocess,
+# because it pins other LangChain versions than TradingAgents.
+AIHF_ENGINE = "ai_hedge_fund"
+# The clone: GLASSBENCH_AIHF_DIR, else ./ai-hedge-fund inside the repo, else a sibling clone (same rule as the engine).
+AIHF_DIR = Path(os.environ["GLASSBENCH_AIHF_DIR"]).resolve() if os.environ.get("GLASSBENCH_AIHF_DIR") else _first_existing(REPO_DIR / "ai-hedge-fund", REPO_DIR.parent / "ai-hedge-fund")
+AIHF_PYTHON = AIHF_DIR / ".venv" / ("Scripts/python.exe" if os.name == "nt" else "bin/python")
+AIHF_DRIVER = BACKEND_DIR / "drivers" / "aihf_driver.py"
+AIHF_DEFAULT_MODEL = "deepseek-flash"
+# Financial Datasets bills per request; its responses are cached here and reused, so nothing is fetched twice.
+AIHF_DATA_CACHE = DATA_DIR / "aihf_data_cache"
+# Raw vendor responses and the prompts that quote them, one folder per run. Never published: the data licence
+# allows sharing derived outputs (signals, reasoning, weights), not the underlying data.
+AIHF_PRIVATE_DIR = DATA_DIR / "aihf_private"
+
+_AIHF_VERSION: str | None = None
+
+
+def aihf_version() -> str:
+    """Package version plus the clone's commit, e.g. 2.4.0+e4079a6, read from the clone without importing it."""
+    global _AIHF_VERSION
+    if _AIHF_VERSION is None:
+        import re
+        import subprocess
+
+        pkg = "unknown"
+        try:
+            m = re.search(r'^version\s*=\s*"([^"]+)"', (AIHF_DIR / "pyproject.toml").read_text(encoding="utf-8"), re.M)
+            pkg = m.group(1) if m else pkg
+        except OSError:
+            pass
+        sha = ""
+        try:
+            sha = subprocess.run(["git", "-C", str(AIHF_DIR), "rev-parse", "--short", "HEAD"],
+                                 capture_output=True, text=True, timeout=5).stdout.strip()
+        except (OSError, subprocess.SubprocessError):
+            pass
+        _AIHF_VERSION = f"{pkg}+{sha}" if sha else pkg
+    return _AIHF_VERSION

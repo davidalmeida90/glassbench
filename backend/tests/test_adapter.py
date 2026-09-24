@@ -16,7 +16,7 @@ class AdapterMatchesEngine(unittest.TestCase):
         specs = ANALYST_NODE_SPECS.values()
         engine = (
             set(DEBATE_PATH_MAP) | set(RISK_ANALYSIS_PATH_MAP) | {"Trader"}
-            | {s.agent_node for s in specs} | {s.tool_node for s in specs} | {s.clear_node for s in specs}
+            | {s.agent_node for s in specs} | {s.tool_node for s in specs if s.tool_node} | {s.clear_node for s in specs}
         )
         self.assertEqual(engine, set(adapter.NODE_MAP), "Engine node names changed: update adapter.AGENTS")
 

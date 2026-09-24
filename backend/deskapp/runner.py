@@ -10,13 +10,13 @@ import traceback
 import uuid
 from concurrent.futures import ThreadPoolExecutor
 
-from . import adapter
+from . import adapter, aihf
 from .capture import CURRENT_CAPTURE, EngineLogCapture, RunCapture, _text_of
 from .events import EventBus
 from .reasoning import install_reasoning_tap
 from .runconfig import CURRENT_CONFIG, install_run_config
 from .variants import ensure_available, install_variants
-from .settings import BACKTESTS_DIR, MAX_CONCURRENT_RUNS, RUNS_DIR, engine_config, engine_version
+from .settings import AIHF_ENGINE, BACKTESTS_DIR, MAX_CONCURRENT_RUNS, RUNS_DIR, engine_config, engine_version
 from .store import Store
 
 log = logging.getLogger("deskapp.runner")
@@ -32,6 +32,7 @@ class RunManager:
         self.bus = bus
         self.pool = ThreadPoolExecutor(max_workers=workers, thread_name_prefix="desk-run")
         self._cancel: dict[str, threading.Event] = {}
+        self.aihf_fixture = False  # tests only: canned data and answers for AI Hedge Fund runs
         self._log_capture = EngineLogCapture()
         logging.getLogger("tradingagents").addHandler(self._log_capture)
         install_reasoning_tap()
@@ -55,6 +56,26 @@ class RunManager:
         self.pool.submit(self._execute, run_id)
         return run_id
 
+    def submit_aihf(self, ticker: str, trade_date: str, strategy: str | None, analysts: list[str] | None, model: str,
+                    purpose: str = "live") -> str:
+        """Queue one AI Hedge Fund cycle: a library strategy or a custom set of analysts, on one model."""
+        staff, variant = aihf.plan(strategy, analysts)
+        run_id = time.strftime("%Y%m%d-%H%M%S") + "-" + ticker.replace("/", "_").upper() + "-" + uuid.uuid4().hex[:4]
+        self.store.create_run({
+            "id": run_id, "ticker": ticker.upper(), "trade_date": trade_date, "analysts": staff, "depth": 0,
+            "deep_model": model, "quick_model": model, "status": "queued", "created_at": time.time(),
+            "engine": AIHF_ENGINE, "engine_version": aihf.version(), "provider": (aihf.model_key(model) or "").split("_")[0].lower(),
+            "purpose": purpose, "backtest_id": None, "memory": "off", "variant": variant,
+        })
+        self._cancel[run_id] = threading.Event()
+        meta = aihf.agent_meta(staff)
+        self.bus.emit(run_id, "run.queued", None, ticker=ticker.upper(), trade_date=trade_date, analysts=staff, depth=0,
+                      deep_model=model, quick_model=model, purpose=purpose, backtest_id=None, memory="off", variant=variant,
+                      provider=(aihf.model_key(model) or "").split("_")[0].lower(), engine=AIHF_ENGINE,
+                      agents=[a["id"] for a in meta], agent_meta=meta, stages=aihf.STAGES)
+        self.pool.submit(self._execute, run_id)
+        return run_id
+
     def cancel(self, run_id: str) -> bool:
         flag = self._cancel.get(run_id)
         if flag is None:
@@ -74,6 +95,10 @@ class RunManager:
         cancel = self._cancel.setdefault(run_id, threading.Event())
         if cancel.is_set():
             self._finish_cancelled(run_id, None)
+            return
+
+        if run.get("engine") == AIHF_ENGINE:
+            self._execute_aihf(run_id, run, cancel)
             return
 
         run_dir = RUNS_DIR / run_id
@@ -100,24 +125,37 @@ class RunManager:
             install_run_config()
             config_token = CURRENT_CONFIG.set(config)
             graph = TradingAgentsGraph(selected_analysts=run["analysts"], debug=False, config=config)
-            graph.ticker = ticker
 
-            past_context = ""
-            if shared_memory:
-                # Memory: score earlier decisions for this ticker, then load lessons (what the CLI skips).
+            if hasattr(graph, "create_run_state"):
+                # 0.5.1: the engine settles this ticker's pending decisions, loads the lessons known by the date and
+                # resolves the instrument itself. With memory off the log is the isolated one, so nothing carries over.
                 try:
-                    graph._resolve_pending_entries(ticker)
-                except Exception as exc:  # scoring needs prices; never block the run on it
+                    state = graph.create_run_state(ticker, trade_date, "stock")
+                except Exception as exc:  # settling needs prices; never block the run on it
                     capture.add_flag(None, "Memory scoring skipped", str(exc))
-                past_context = graph.memory_log.get_past_context(ticker, as_of=graph._memory_as_of(trade_date))
+                    state = graph.propagator.create_initial_state(
+                        ticker, trade_date, asset_type="stock",
+                        instrument_context=graph.resolve_instrument_context(ticker, "stock", trade_date),
+                    )
+                past_context = state.get("past_context") or "" if shared_memory else ""
+                instrument_context = state.get("instrument_context")
+            else:
+                # 0.5.0: the same steps by hand (what the CLI skipped).
+                graph.ticker = ticker
+                past_context = ""
+                if shared_memory:
+                    try:
+                        graph._resolve_pending_entries(ticker)
+                    except Exception as exc:  # scoring needs prices; never block the run on it
+                        capture.add_flag(None, "Memory scoring skipped", str(exc))
+                    past_context = graph.memory_log.get_past_context(ticker, as_of=graph._memory_as_of(trade_date))
+                instrument_context = graph.resolve_instrument_context(ticker, "stock")
+                state = graph.propagator.create_initial_state(
+                    ticker, trade_date, asset_type="stock", past_context=past_context, instrument_context=instrument_context,
+                )
             if past_context:
                 self.bus.emit(run_id, "memory.context", "portfolio_manager", chars=len(past_context), preview=past_context[:1200])
-
-            instrument_context = graph.resolve_instrument_context(ticker, "stock")
             self.bus.emit(run_id, "instrument.resolved", None, context=instrument_context)
-            state = graph.propagator.create_initial_state(
-                ticker, trade_date, asset_type="stock", past_context=past_context, instrument_context=instrument_context,
-            )
             args = graph.propagator.get_graph_args(callbacks=[capture])
             args["stream_mode"] = ["updates", "messages"]
 
@@ -153,15 +191,17 @@ class RunManager:
             capture.flush()
 
             rating = graph.process_signal(final_state.get("final_trade_decision", ""))
-            graph.curr_state = final_state
             try:
                 graph._log_state(trade_date, final_state)
             except Exception as exc:
                 log.warning("engine state log failed: %s", exc)
             if shared_memory:
-                graph.memory_log.store_decision(
-                    ticker=ticker, trade_date=trade_date, final_trade_decision=final_state.get("final_trade_decision", ""),
-                )
+                if hasattr(graph, "record_decision"):  # 0.5.1
+                    graph.record_decision(ticker, trade_date, final_state)
+                else:
+                    graph.memory_log.store_decision(
+                        ticker=ticker, trade_date=trade_date, final_trade_decision=final_state.get("final_trade_decision", ""),
+                    )
 
             write_report_tree(final_state, ticker, run_dir / "reports")
             (run_dir / "state.json").write_text(json.dumps(adapter.state_snapshot(final_state), indent=2, ensure_ascii=False), encoding="utf-8")
@@ -183,6 +223,21 @@ class RunManager:
             CURRENT_CAPTURE.reset(token)
             if config_token is not None:
                 CURRENT_CONFIG.reset(config_token)
+            self._cancel.pop(run_id, None)
+
+    def _execute_aihf(self, run_id: str, run: dict, cancel: threading.Event) -> None:
+        self.store.update_run(run_id, status="running", started_at=time.time())
+        self.bus.emit(run_id, "run.started", None, ticker=run["ticker"], trade_date=run["trade_date"])
+        try:
+            aihf.execute(self, run_id, run, cancel, fixture=self.aihf_fixture)
+        except RunCancelled:
+            self._finish_cancelled(run_id, None)
+        except Exception as exc:
+            tb = traceback.format_exc(limit=6)
+            log.error("run %s failed: %s", run_id, tb)
+            self.store.update_run(run_id, status="failed", finished_at=time.time(), error=f"{type(exc).__name__}: {exc}"[:1000])
+            self.bus.emit(run_id, "run.failed", None, error=f"{type(exc).__name__}: {exc}"[:1000], traceback=tb[-3000:])
+        finally:
             self._cancel.pop(run_id, None)
 
     def _sync_totals(self, run_id: str, capture: RunCapture) -> None:

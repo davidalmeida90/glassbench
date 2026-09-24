@@ -6,7 +6,8 @@ Static content, checked against each project's repository. Run counts are joined
 from __future__ import annotations
 
 from . import adapter
-from .settings import engine_version
+from .aihf import installed as aihf_installed
+from .settings import aihf_version, engine_version
 
 # Written explanations for TradingAgents agents; structure (stage, role, reads) comes from the adapter.
 TA_AGENT_NOTES = {
@@ -142,12 +143,12 @@ AI_HEDGE_FUND = {
     "status": "planned",
     "tagline": "A fund of pluggable analysts: LLM agents in the voice of famous investors and quant models, blended into positions.",
     "summary": (
-        "AI Hedge Fund is being rebuilt as a persistent fund rather than a one-shot script. A mandate names strategies, each strategy "
-        "bundles analysts (alpha models) with a blending policy, an allocator splits capital across strategies, portfolio construction "
-        "turns convictions into target positions, a risk model applies hard limits, and execution goes through a simulated or real "
-        "broker. Every cycle is written to a ledger. Analysts come in two kinds that share one interface: LLM investor agents "
-        "(Buffett, Munger, Graham, Lynch, Druckenmiller) and quant models (post-earnings drift). Each returns a conviction in [-1, +1] "
-        "and a written thesis. Data comes from the Financial Datasets API, which needs its own key."
+        "AI Hedge Fund runs a fund rather than a single call. A mandate names strategies; each strategy staffs analysts "
+        "and a blending policy; the fund nets the sleeves by capital slice, a risk model applies hard limits, and a "
+        "simulated broker executes at the next completed close. Analysts come in two kinds behind one interface: LLM "
+        "agents in the voice of famous investors (Buffett, Munger, Graham, Lynch, Druckenmiller) and a quant model for "
+        "post-earnings drift. Each returns a conviction from -1 to +1 and a thesis. Data comes from the Financial "
+        "Datasets API, which needs its own key."
     ),
     "links": [
         {"label": "GitHub", "url": "https://github.com/virattt/ai-hedge-fund"},
@@ -159,8 +160,9 @@ AI_HEDGE_FUND = {
         {"label": "Licence", "value": "MIT"},
         {"label": "Language", "value": "Python"},
         {"label": "Paper", "value": "none", "note": "educational project"},
-        {"label": "Data", "value": "Financial Datasets API", "note": "paid key required"},
-        {"label": "LLM providers", "value": "Anthropic, OpenAI, DeepSeek, Google, xAI, Kimi"},
+        {"label": "Data", "value": "Financial Datasets API", "note": "prepaid credits, about $0.02 a request; no free tier"},
+        {"label": "LLM calls per run", "value": "one per LLM analyst", "note": "a second pass only when execution waits past the next day"},
+        {"label": "LLM providers", "value": "Anthropic, OpenAI, DeepSeek, Google, xAI, Kimi, TypeSafe (Jev)"},
     ],
     "flow": {
         "stages": [
@@ -198,7 +200,8 @@ AI_HEDGE_FUND = {
         "notes": [
             "No debate: each analyst scores independently and a policy blends the convictions (deep-value strategy: Graham at double weight, plus Buffett and Munger).",
             "Strategies are YAML files; the same pipeline runs a backtest, paper trading or live trading by swapping the clock and the broker.",
-            "Desk adapter not built yet: it would map each analyst to a lane and each cycle to a run.",
+            "Glassbench runs one cycle per stock and date: each analyst is a lane, then blend, risk and execution. Each run keeps its own prompt cache, so reruns are independent and every prompt and answer stays in the run folder.",
+            "AI Hedge Fund returns weights, not ratings. Glassbench maps the blended conviction to its five tiers so both frameworks share one table: 0.50 or more Buy, 0.15 Overweight, above -0.15 Hold, above -0.50 Underweight, else Sell.",
         ],
     },
     "agents": [
@@ -213,7 +216,7 @@ AI_HEDGE_FUND = {
         {"id": "limits", "name": "Risk limits", "stage": "risk", "role": "rule", "reads": ["target positions"], "what": "Hard limits the analysts cannot override.", "tools": None},
     ],
     "data": [
-        {"source": "Financial Datasets API", "used_for": "prices, fundamentals, earnings", "point_in_time": "to be checked in the adapter"},
+        {"source": "Financial Datasets API", "used_for": "prices, fundamentals, earnings", "point_in_time": "the engine builds its snapshot by filing date; not yet verified by Glassbench on real data"},
     ],
     "evidence": [
         {"claim": "No published evaluation; the project states it is educational and does not trade", "source": "README", "note": ""},
@@ -229,5 +232,8 @@ def frameworks(run_counts: dict[str, int]) -> list[dict]:
         item = {**fw, "runs": run_counts.get(fw["id"], 0)}
         if fw["id"] == "tradingagents":
             item["version"] = engine_version()
+        elif fw["id"] == "ai_hedge_fund":
+            item["version"] = aihf_version()
+            item["status"] = "connected" if aihf_installed() else "planned"
         out.append(item)
     return out

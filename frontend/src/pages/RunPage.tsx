@@ -8,7 +8,7 @@ import { StageStrip } from "../components/StageStrip";
 import { Timeline } from "../components/Timeline";
 import { fmtClockDuration, fmtTokens, fmtUsd } from "../format";
 import { useNow, useRunStream } from "../hooks";
-import { currentAgent, TERMINAL } from "../runState";
+import { currentAgent, TERMINAL, viewMeta } from "../runState";
 
 export default function RunPage({ meta }: { meta: Meta }) {
   const { runId = "" } = useParams();
@@ -52,6 +52,8 @@ export default function RunPage({ meta }: { meta: Meta }) {
   const done = run.order.filter((id) => run.agents[id]?.state === "done").length;
   const agent = selected ? run.agents[selected] : undefined;
   const analysts = run.order.filter((id) => run.agents[id]?.stage === "analysts").length;
+  const vm = viewMeta(meta, run);
+  const aihfRun = run.engine === "ai_hedge_fund";
   const statusPill =
     run.status === "running" ? (
       <span className="pill pill-live"><span className="dot live" style={{ background: "var(--accent)" }} />Running{active ? ` · ${run.agents[active]?.label}` : ""}</span>
@@ -71,7 +73,9 @@ export default function RunPage({ meta }: { meta: Meta }) {
           <div className="titlerow">
             <h1>{run.ticker}</h1>
             <span className="subtitle">
-              {analysts} analyst{analysts === 1 ? "" : "s"} · {run.depth} debate round{run.depth === 1 ? "" : "s"} · {run.quickModel.replace("deepseek-", "")} / {run.deepModel.replace("deepseek-", "")}
+              {aihfRun
+                ? `AI Hedge Fund · ${run.variant === "custom" || !run.variant ? "custom strategy" : run.variant} · ${analysts} analyst${analysts === 1 ? "" : "s"} · ${run.quickModel.replace("deepseek-", "")}`
+                : `${analysts} analyst${analysts === 1 ? "" : "s"} · ${run.depth} debate round${run.depth === 1 ? "" : "s"} · ${run.quickModel.replace("deepseek-", "")} / ${run.deepModel.replace("deepseek-", "")}`}
             </span>
             {statusPill}
           </div>
@@ -104,7 +108,7 @@ export default function RunPage({ meta }: { meta: Meta }) {
       {board && (
         <CommitteeBoard
           run={run}
-          meta={meta}
+          meta={vm}
           now={now}
           selected={selected}
           onSelect={(id) => {
@@ -113,10 +117,10 @@ export default function RunPage({ meta }: { meta: Meta }) {
           }}
         />
       )}
-      <StageStrip run={run} meta={meta} now={now} />
+      <StageStrip run={run} meta={vm} now={now} />
       <Timeline
         run={run}
-        meta={meta}
+        meta={vm}
         now={now}
         selected={selected}
         onSelect={(id) => {

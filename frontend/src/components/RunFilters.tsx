@@ -39,15 +39,20 @@ export function versionLabel(engineVersion: string | undefined): string {
 }
 
 /** Tooltip: the commit, and for the fork what sets it apart from the release. */
-export function versionTitle(engineVersion: string | undefined): string {
+export function versionTitle(engineVersion: string | undefined, engine?: string): string {
   const build = engineVersion ? ENGINE_BUILDS[engineVersion] : undefined;
   const commit = (engineVersion || "").replace(/.*\+/, "") || "unknown";
+  if (engine && engine !== "tradingagents") return `commit ${commit} · ${engineName({ engine })} as cloned`;
   if (!build?.adjusted) return `commit ${commit} · TradingAgents as released`;
   return `commit ${commit} · release ${build.version} plus Glassbench's changes: ${build.changes.join("; ") || "see the fork"}`;
 }
 
+export function engineName(r: Pick<Run, "engine">): string {
+  return r.engine === "tradingagents" ? "TradingAgents" : r.engine === "ai_hedge_fund" ? "AI Hedge Fund" : r.engine || "unknown";
+}
+
 export function engineLabel(r: Pick<Run, "engine" | "engine_version">): string {
-  const name = r.engine === "tradingagents" ? "TradingAgents" : r.engine || "unknown";
+  const name = engineName(r);
   return r.engine_version ? `${name} ${versionLabel(r.engine_version)}` : name;
 }
 

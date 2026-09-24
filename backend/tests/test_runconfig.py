@@ -9,7 +9,10 @@ from deskapp.settings import engine_config
 
 class RunConfigIsolation(unittest.TestCase):
     def test_concurrent_runs_each_see_their_own_vendors(self):
-        from tradingagents.dataflows import interface
+        try:
+            from tradingagents.dataflows import router as interface  # 0.5.1 renamed interface to router
+        except ImportError:
+            from tradingagents.dataflows import interface
         from tradingagents.dataflows.config import set_config
 
         install_run_config()
@@ -29,7 +32,10 @@ class RunConfigIsolation(unittest.TestCase):
         self.assertEqual(seen["edgar_statements"], "yfinance")
 
     def test_a_stock_run_after_a_variant_run_is_stock_again(self):
-        from tradingagents.dataflows import interface
+        try:
+            from tradingagents.dataflows import router as interface  # 0.5.1 renamed interface to router
+        except ImportError:
+            from tradingagents.dataflows import interface
         from tradingagents.dataflows.config import set_config
 
         install_run_config()

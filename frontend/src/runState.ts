@@ -1,4 +1,4 @@
-import type { AgentMeta, Decision, DeskEvent, Meta } from "./api";
+import type { AgentMeta, Decision, DeskEvent, Meta, Stage } from "./api";
 
 export type AgentState = "waiting" | "running" | "done" | "failed";
 
@@ -48,6 +48,11 @@ export type AgentView = AgentMeta & {
 
 export type RunView = {
   status: "queued" | "running" | "finished" | "failed" | "cancelled";
+  engine: string;
+  variant?: string;
+  /** Agents and stages the run declared for itself (AI Hedge Fund); TradingAgents runs use the app's meta. */
+  agentMeta?: AgentMeta[];
+  stages?: Stage[];
   ticker: string;
   tradeDate: string;
   depth: number;
@@ -71,6 +76,7 @@ export type RunView = {
 export function emptyRun(meta: Meta): RunView {
   return {
     status: "queued",
+    engine: "tradingagents",
     ticker: "",
     tradeDate: "",
     depth: 1,
@@ -87,7 +93,7 @@ export function emptyRun(meta: Meta): RunView {
 function agentFor(run: RunView, meta: Meta, id: string | null): AgentView | undefined {
   if (!id) return undefined;
   if (!run.agents[id]) {
-    const m = meta.agents.find((a) => a.id === id);
+    const m = run.agentMeta?.find((a) => a.id === id) ?? meta.agents.find((a) => a.id === id);
     if (!m) return undefined;
     run.agents[id] = { ...m, state: "waiting", visits: [], llm: [], tools: [], batches: [], report: "", live: "", reasoning: "" };
     if (!run.order.includes(id)) run.order.push(id);
@@ -109,6 +115,12 @@ function apply(run: RunView, meta: Meta, e: DeskEvent) {
       run.deepModel = p.deep_model;
       run.quickModel = p.quick_model;
       run.queuedAt = e.ts;
+      run.engine = p.engine ?? "tradingagents";
+      run.variant = p.variant || undefined;
+      if (p.agent_meta) {
+        run.agentMeta = p.agent_meta;
+        run.stages = p.stages;
+      }
       run.order = p.agents;
       for (const id of p.agents as string[]) agentFor(run, meta, id);
       break;
@@ -244,6 +256,11 @@ export function agentSpan(a: AgentView): { start?: number; end?: number } {
 export function agentDuration(a: AgentView, now: number): number | undefined {
   if (!a.visits.length) return undefined;
   return a.visits.reduce((sum, v) => sum + ((v.end ?? now) - v.start), 0);
+}
+
+/** The meta a run is drawn with: its own agents and stages when it declared them. */
+export function viewMeta(meta: Meta, run?: RunView): Meta {
+  return run?.agentMeta ? { ...meta, agents: run.agentMeta, stages: run.stages ?? meta.stages } : meta;
 }
 
 export const TERMINAL = new Set(["finished", "failed", "cancelled"]);
